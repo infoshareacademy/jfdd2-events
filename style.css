@@ -1,0 +1,17 @@
+ul li{
+    display: inline;
+
+}
+ul{
+    margin: 0;
+}
+#menu{
+    background-color: brown;
+    text-align: center;
+
+}
+a{
+    padding: 0 20px 0 20px;
+    background-color: #ffb415;
+    font-size:20px;
+}
