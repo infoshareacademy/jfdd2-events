@@ -1,0 +1,17 @@
+.sekcja-zajawka {
+    width: 1000px;
+    height: 400px;
+    background-color: #ff0121;
+    background-image: url('../images/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: inherit;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+
+
+}
+
+
