@@ -28,55 +28,26 @@
 }
 ul li{
     display: inline-block;
-    /*padding: 5px 10px 5px;*/
-    background-color: #ffb415;
-}
-ul li:hover{
-    /*border:outset #ffb415 1px;*/
-    border-radius: 5px;
-    cursor: pointer;
-
 
 }
 
 ul{
     margin: 0;
 }
-
 #menu{
-    background-color: brown;
+    background-color: #ff0121;
     text-align: center;
-    border:dashed #080601 1px;
-    height: 35px;
-}
 
-
-.menu-el-zewnetrzene-prawy{
-    padding: 5px 0 5px 5px;
 }
-.menu-el-zewnetrzene-lewy{
-    padding: 5px 5px 5px 0;
-}
-
-.menu-el-zewnetrzene-srodek{
-    padding: 5px 0 5px 0;
-}
-
-#menu a {
-    padding: 0 20px 0 20px;
-    font-size: 20px;
-}
-
 a {
     padding: 0 20px 0 20px;
+    background-color: #ffb415;
+    /*background-color: red;*/
     font-size: 20px;
 }
-
 .sekcja-zajawka {
-    width: 1000px;
-    height: 400px;
     background-color: brown;
-    /*background-image: url('../images/images.jpeg');*/
+    background-image: url('./images/images.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -84,9 +55,13 @@ a {
     font-size: 40px;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
     height: 25%;
 
+}
+.button-na-zajawce {
+    border-radius: 10px;
+    background-color: #ffb415
 
 }
-
