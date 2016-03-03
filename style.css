@@ -1,7 +1,36 @@
+.kalendarz {
+    background-color: silver;
+    width: 100%;
+    border: solid;
+}
+
+.bilety {
+    background-color: silver;
+    width: 100%;
+    border: solid;
+}
+
+.profil {
+    background-color: silver;
+    width: 100%;
+    border: solid;
+}
+
+.mapa {
+    background-color: silver;
+    width: 100%;
+    border: solid;
+}
+
+.funkcje {
+    background-color: black;
+    width: 40%;
+}
 ul li{
     display: inline;
 
 }
+
 ul{
     margin: 0;
 }
@@ -10,8 +39,8 @@ ul{
     text-align: center;
 
 }
-a{
+a {
     padding: 0 20px 0 20px;
     background-color: #ffb415;
-    font-size:20px;
+    font-size: 20px;
 }
