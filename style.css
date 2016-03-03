@@ -27,7 +27,7 @@
     width: 40%;
 }
 ul li{
-    display: inline;
+    display: inline-block;
 
 }
 
@@ -42,13 +42,14 @@ ul{
 a {
     padding: 0 20px 0 20px;
     background-color: #ffb415;
+    /*background-color: red;*/
     font-size: 20px;
 }
 .sekcja-zajawka {
     width: 1000px;
     height: 400px;
     background-color: #ff0121;
-    background-image: url('../images/images.jpeg');
+    /*background-image: url('../images/images.jpeg');*/
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -60,10 +61,3 @@ a {
 
 }
 
-
-sekcja-zajawka.a {
-    padding: 20px 40px;
-    background-color: #8b868c;
-    font-size: 20px;
-
-}
