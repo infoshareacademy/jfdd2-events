@@ -119,7 +119,7 @@ a {
     font-size: 40px;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     width: 100%;
     height: 25%;
 
@@ -128,7 +128,15 @@ a {
 
 .button-na-zajawce {
     border-radius: 10px;
-    background-color: #ffb415
+    background-color: #ffb415;
+
+
+}
+
+footer {
+    background-color:  #ffb415;
+    font-family:  inherit;
+    text-align: center;
 
 }
 .clear{
