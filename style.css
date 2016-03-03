@@ -1,34 +1,46 @@
-.kalendarz {
-    background-color: brown;
-    width: 100%;
-    border: solid;
+.funkcje h1 {
+    color: #ffb415;
+    font-family: Arial sans-serif;
+    font-size: 35px;
 }
 
-.bilety {
+.funkcje .funkcja {
     background-color: brown;
-    width: 100%;
-    border: solid;
-}
-
-.profil {
-    background-color: brown;
-    width: 100%;
-    border: solid;
-}
-
-.mapa {
-    background-color: brown;
-    width: 100%;
-    border: solid;
-}
-
-.funkcje {
-    background-color: black;
     width: 40%;
+    border: solid;
+    position: relative;
+    border-radius: 10px;
 }
-ul li{
-    display: inline-block;
 
+.funkcje .funkcja:hover {
+    transform: scale(1.1);
+}
+
+.funkcje .funkcja-kalendarz {
+    left: 100px;
+    top: 25px;
+}
+
+.funkcje .funkcja-bilety {
+    top:25px;
+    left: 50px;
+}
+
+.funkcje .funkcja-profil {
+    left: 100px;
+    top: 25px;
+}
+
+.funkcje .funkcja-mapa {
+    top: 25px;
+    left: 50px;
+}
+
+
+
+
+ul li {
+    display: inline-block;
 }
 
 ul{
