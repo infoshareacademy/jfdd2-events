@@ -52,6 +52,7 @@ ul li:hover{
     /*border:outset #ffb415 1px;*/
     border-radius: 8px;
     cursor: pointer;
+    transform: scale(1.1);
 
 
 }
