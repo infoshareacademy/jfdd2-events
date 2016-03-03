@@ -8,32 +8,33 @@
     background-color: brown;
     width: 40%;
     border: solid;
+    border-width: 1px;
     position: relative;
     border-radius: 10px;
 }
 
 .funkcje .funkcja:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .funkcje .funkcja-kalendarz {
-    left: 100px;
+    left: 125px;
     top: 25px;
 }
 
 .funkcje .funkcja-bilety {
     top:25px;
-    left: 50px;
+    left: 75px;
 }
 
 .funkcje .funkcja-profil {
-    left: 100px;
+    left: 125px;
     top: 25px;
 }
 
 .funkcje .funkcja-mapa {
     top: 25px;
-    left: 50px;
+    left: 75px;
 }
 
 
