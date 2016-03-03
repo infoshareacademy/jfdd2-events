@@ -3,6 +3,9 @@
     font-family: Arial sans-serif;
     font-size: 35px;
 }
+.funkcje{
+    background-color: bisque;
+}
 
 .funkcje .funkcja {
     background-color: brown;
@@ -84,6 +87,23 @@ ul{
     background-color: #ffb415;
     font-size: 20px;
 }
+
+.formularz-i-sm{
+    float: right;
+    background-color: aqua;
+    width: 400px;
+}
+
+.formularz{
+    padding: 50px;
+}
+.formularz span{
+    display: inline-block;
+    width: 100px;
+
+}
+
+
 a {
     padding: 0 20px 0 20px;
     background-color: #ffb415;
@@ -110,4 +130,7 @@ a {
     border-radius: 10px;
     background-color: #ffb415
 
+}
+.clear{
+    clear: both;
 }
