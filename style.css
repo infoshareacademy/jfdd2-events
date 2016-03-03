@@ -12,7 +12,6 @@
     border-radius: 10px;
 }
 
-
 .funkcje .funkcja:hover {
     transform: scale(1.1);
 }
@@ -93,10 +92,8 @@ a {
     font-size: 20px;
 }
 .sekcja-zajawka {
-    width: 1000px;
-    height: 400px;
     background-color: brown;
-    /*background-image: url('../images/images.jpeg');*/
+    background-image: url('./images/images.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -104,9 +101,14 @@ a {
     font-size: 40px;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
     height: 25%;
 
 
 }
 
+.button-na-zajawce {
+    border-radius: 10px;
+    background-color: #ffb415
+}
