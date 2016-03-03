@@ -36,15 +36,20 @@
     left: 50px;
 }
 
+
 ul li{
     display: inline-block;
     /*padding: 5px 10px 5px;*/
     background-color: #ffb415;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 ul li:hover{
     /*border:outset #ffb415 1px;*/
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transform: scale(1.1);
 
 
 }
@@ -56,33 +61,34 @@ ul{
 #menu{
     background-color: brown;
     text-align: center;
-    border:dashed #080601 1px;
-    height: 35px;
+    height: 50px;
 }
 
 
 .menu-el-zewnetrzene-prawy{
-    padding: 5px 0 5px 5px;
+    padding: 8px 0 8px 8px;
+    margin-left: 5px;
 }
 .menu-el-zewnetrzene-lewy{
-    padding: 5px 5px 5px 0;
+    padding: 8px 8px 8px 0;
+    margin-right: 5px;
 }
 
 .menu-el-zewnetrzene-srodek{
-    padding: 5px 0 5px 0;
+    padding: 8px 0 8px 0;
+    margin: 0 5px 0 5px;
 }
 
 #menu a {
     padding: 0 20px 0 20px;
+    background-color: #ffb415;
     font-size: 20px;
 }
-
 a {
     padding: 0 20px 0 20px;
     background-color: #ffb415;
     font-size: 20px;
 }
-
 .sekcja-zajawka {
     background-color: brown;
     background-image: url('./images/images.jpeg');
