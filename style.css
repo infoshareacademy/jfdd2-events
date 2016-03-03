@@ -1,3 +1,7 @@
+.funkcja .lewo {
+    width: 150px
+}
+
 .funkcje h1 {
     color: #ffb415;
     font-family: Arial sans-serif;
@@ -6,6 +10,7 @@
 
 .funkcje .funkcja {
     background-color: brown;
+    height: 160px;
     width: 40%;
     border: solid;
     border-width: 1px;
@@ -18,21 +23,30 @@
 }
 
 .funkcje .funkcja-kalendarz {
+    background: url("../jfdd2-events/images/Calendar.png") no-repeat center;
+    background-size: contain;
     left: 125px;
     top: 25px;
 }
 
 .funkcje .funkcja-bilety {
+    background: url("../jfdd2-events/images/Tickets-in-hand.jpg") no-repeat center;
+    background-size: contain;
     top:25px;
     left: 75px;
 }
 
 .funkcje .funkcja-profil {
+    background: url("../jfdd2-events/images/photo.png") no-repeat center;
+    background-size: contain;
     left: 125px;
     top: 25px;
 }
 
 .funkcje .funkcja-mapa {
+    background: url("../jfdd2-events/images/OpenMaps.jpg") no-repeat center;
+    background-size: contain;
+    opacity: 0.8;
     top: 25px;
     left: 75px;
 }
