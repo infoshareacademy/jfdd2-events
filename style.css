@@ -1,6 +1,7 @@
 body{
-    /*background-image: url('./images/tlo.jpg');
-    background-size:cover;*/
+    background-image: url('./images/tlo.jpg');
+    -webkit-filter: contrast(10%);
+    background-size:cover;
 
 }
 .funkcja .lewo {
@@ -18,7 +19,8 @@ body{
     font-family: Arial sans-serif;
     font-size: 40px;
 }
-.funkcje {
+.funkcje{
+    background-color: bisque;
     height: 1000px;
 }
 
@@ -104,7 +106,6 @@ ul li{
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
     border-radius: 5px;
-    line-height: 40px;
 }
 ul li:hover{
     border-radius: 8px;
@@ -115,7 +116,9 @@ ul li:hover{
 }
 
 #menu{
+    background-color: none;
     text-align: center;
+    line-height: 40px;
     color:white;
     position: absolute;
     bottom:0;
@@ -182,21 +185,29 @@ a {
     position:relative;
 }
 
-/*}*/
-
-/*.button-na-zajawce {*/
-    /*border-radius: 10px;*/
-    /*background-color: #ffb415;*/
-
-
-/*}*/
 
 footer {
-    background-color:  #ffb415;
+    background-color: rgba (193, 193, 193, 0.96);
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-family:  inherit;
     text-align: center;
 
+
 }
+
+.menu-footer span {
+    font-size: 25px;
+    margin: 35px;
+}
+
+
+.copy-right  {
+    font-size: 25px;
+    Padding: 20px;;
+
+}
+
 .clear{
     clear: both;
 }
