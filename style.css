@@ -7,7 +7,7 @@ body {
     clear: both;
 }
 
-a {
+.top-menu-a {
     padding: 0 20px 0 20px;
     font-size: 20px;
     color: #7188FF;
@@ -197,7 +197,7 @@ footer {
 
 }
 
-.menu-footer span {
+.menu-footer  {
     font-size: 25px;
     margin: 35px;
 }
