@@ -13,13 +13,13 @@
     font-family: Arial sans-serif;
     font-size: 40px;
 }
+
 .funkcje {
     background-color: bisque;
     height: 1000px;
 }
 
 .funkcje .funkcja {
-    background-color: brown;
     height: 140px;
     width: 40%;
     border: solid;
