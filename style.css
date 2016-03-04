@@ -131,6 +131,7 @@ a {
     background-color: #ffb415;
     font-size: 20px;
 }
+
 .sekcja-zajawka {
     background-color: brown;
     background-image: url('./images/images.jpeg');
@@ -166,10 +167,14 @@ footer {
 
 .copy-right  {
     font-size: 25px;
-    Padding: 20px;;
+    Padding: 20px;
 
 }
 
+
+.dodatkowe-funkcjonalności {
+    scale
+}
 .clear{
     clear: both;
 }
