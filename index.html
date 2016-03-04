@@ -43,9 +43,12 @@
             <section class="formularz">
                 <form>
 
-                    <span>Imię:</span><input type="text" name="imię" ><br>
-                    <span>Adres e-mail:</span><input type="text" name="nazwisko " ><br>
-                    <span>Telefon:</span><input type="text" name="nazwisko " ><br>
+                    <span>Imię:</span><input type="text" name="imię"
+                                             placeholder="Jan"><br>
+                    <span>Adres e-mail:</span><input type="email" name="nazwisko "
+                                                     placeholder="np. info@infoshare.pl" required><br>
+                    <span>Telefon:</span><input type="tel" name="telefon"
+                                                placeholder="np. 601102203" pattern="[0-9]{9}" ><br>
                     <input type="submit" value="Wyślij">
 
                 </form>
