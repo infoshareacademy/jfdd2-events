@@ -1,3 +1,8 @@
+body{
+    /*background-image: url('./images/tlo.jpg');
+    background-size:cover;*/
+
+}
 .funkcja .lewo {
     text-align: center;
     position: relative;
@@ -13,13 +18,12 @@
     font-family: Arial sans-serif;
     font-size: 40px;
 }
-
 .funkcje {
-    background-color: bisque;
     height: 1000px;
 }
 
 .funkcje .funkcja {
+    background-color: brown;
     height: 140px;
     width: 40%;
     border: solid;
@@ -65,6 +69,34 @@
     left: 75px;
 }
 
+.funkcje .funkcja-social-media {
+    float: right;
+
+}
+
+.funkcje h2 {
+    width: 100px;
+    height: 100px;
+    background: none;
+    transition: margin-left 2s;
+}
+
+.funkcje h2:hover {
+    margin-left: -350px;
+}
+
+.funkcje .funkcja-social-media .skala {
+    width: 100px;
+    height: 100px;
+}
+
+.funkcje .funkcja-social-media .paski-informacyjne {
+    background: fixed;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 25px;
+
+}
 
 ul li{
     display: inline-block;
@@ -72,6 +104,7 @@ ul li{
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
     border-radius: 5px;
+    line-height: 40px;
 }
 ul li:hover{
     border-radius: 8px;
@@ -82,9 +115,7 @@ ul li:hover{
 }
 
 #menu{
-    background-color: none;
     text-align: center;
-    line-height: 40px;
     color:white;
     position: absolute;
     bottom:0;
