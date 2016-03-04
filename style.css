@@ -150,7 +150,8 @@ a {
 
 footer {
     background-color: rgba (193, 193, 193, 0.96);
-    padding: 60px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-family:  inherit;
     text-align: center;
 
@@ -165,7 +166,7 @@ footer {
 
 .copy-right  {
     font-size: 25px;
-    text-transform: lowercase;
+    Padding: 20px;;
 
 }
 
