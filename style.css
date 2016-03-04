@@ -1,18 +1,12 @@
-body{
-    background-image: url('./images/tlo.jpg');
-    -webkit-filter: contrast(10%);
-    background-size:cover;
-
-}
 .funkcja .lewo {
     text-align: center;
-    position: relative;
-    top: -10px;
+    position: absolute;
+    top: 30px;
     width: 150px;
 }
 
 .funkcje h1 {
-    position: relative;
+    position: absolute;
     top: 50px;
     left: 260px;
     color: #ffb415;
@@ -20,8 +14,6 @@ body{
     font-size: 40px;
 }
 .funkcje{
-    /*background-color: bisque;*/
-.funkcje {
     background-color: bisque;
     height: 1000px;
 }
@@ -44,7 +36,6 @@ body{
 .funkcje .funkcja-kalendarz {
     background: url("../jfdd2-events/images/Calendar.png") no-repeat right;
     background-size: contain;
-    position: relative;
     left: 125px;
     top: 25px;
 }
@@ -52,7 +43,6 @@ body{
 .funkcje .funkcja-bilety {
     background: url("../jfdd2-events/images/movie6.png") no-repeat right;
     background-size: contain;
-    position: relative;
     top: 31px;
     left: 75px;
 }
@@ -60,7 +50,6 @@ body{
 .funkcje .funkcja-profil {
     background: url("../jfdd2-events/images/photo.png") no-repeat right;
     background-size: contain;
-    position: relative;
     left: 125px;
     top: 37px;
 }
@@ -68,7 +57,6 @@ body{
 .funkcje .funkcja-mapa {
     background: url("../jfdd2-events/images/map1.png") no-repeat right;
     background-size: contain;
-    position: relative;
     top: 43px;
     left: 75px;
 }
@@ -80,7 +68,6 @@ ul li{
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
     border-radius: 5px;
-    line-height: 40px;
 }
 ul li:hover{
     border-radius: 8px;
@@ -93,6 +80,7 @@ ul li:hover{
 #menu{
     background-color: none;
     text-align: center;
+    line-height: 40px;
     color:white;
     position: absolute;
     bottom:0;
@@ -161,10 +149,11 @@ a {
 
 
 footer {
-    background-color: #c1c1c1;
+    background-color: rgba (193, 193, 193, 0.96);
     padding: 60px;
     font-family:  inherit;
     text-align: center;
+
 
 }
 
