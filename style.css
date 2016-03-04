@@ -72,6 +72,34 @@ body{
     left: 75px;
 }
 
+.funkcje .funkcja-social-media {
+    float: right;
+
+}
+
+.funkcje h2 {
+    width: 100px;
+    height: 100px;
+    background: none;
+    transition: margin-left 2s;
+}
+
+.funkcje h2:hover {
+    margin-left: -350px;
+}
+
+.funkcje .funkcja-social-media .skala {
+    width: 100px;
+    height: 100px;
+}
+
+.funkcje .funkcja-social-media .paski-informacyjne {
+    background: fixed;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 25px;
+
+}
 
 ul li{
     display: inline-block;
@@ -79,7 +107,6 @@ ul li{
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
     border-radius: 5px;
-    line-height: 40px;
 }
 ul li:hover{
     border-radius: 8px;
@@ -92,6 +119,7 @@ ul li:hover{
 #menu{
     background-color: none;
     text-align: center;
+    line-height: 40px;
     color:white;
     position: absolute;
     bottom:0;
@@ -166,8 +194,9 @@ a {
 
 
 footer {
-    background-color: #c1c1c1;
-    padding: 60px;
+    background-color: rgba (193, 193, 193, 0.96);
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-family:  inherit;
     text-align: center;
 
@@ -181,7 +210,7 @@ footer {
 
 .copy-right  {
     font-size: 25px;
-    text-transform: lowercase;
+    Padding: 20px;;
 
 }
 
