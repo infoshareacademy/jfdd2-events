@@ -104,8 +104,6 @@ body{
 ul li{
     display: inline-block;
     background-color: #ffb415;
-    /*margin-top: 5px;*/
-    /*margin-bottom: 5px;*/
     border-radius: 5px;
 }
 ul li:hover{
@@ -130,16 +128,13 @@ ul li:hover{
 
 
 .menu-el-zewnetrzene-prawy{
-    /*padding: 8px 0 8px 8px;*/
     margin-left: 5px;
     }
 .menu-el-zewnetrzene-lewy{
-    /*padding: 8px 8px 8px 0;*/
     margin-right: 5px;
 }
 
 .menu-el-zewnetrzene-srodek{
-    /*padding: 8px 0 8px 0;*/
     margin: 0 5px 0 5px;
 }
 
@@ -147,13 +142,6 @@ ul li:hover{
     padding: 0 20px 0 20px;
     background-color: #ffb415;
     font-size: 24px;
-    }
-
-.formularz-i-sm{
-    position: relative;
-    /*float: right;*/
-    /*background-color: aqua;*/
-    width: 400px;
 }
 
 .formularz{
@@ -187,8 +175,6 @@ a {
     font-size: 40px;
     text-align: center;
     padding-top: 40px;
-    /*padding-bottom: 20px;*/
-    /*width: 100%;*/
     height: 200px;
     position:relative;
 }
