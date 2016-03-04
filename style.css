@@ -9,8 +9,9 @@ body {
 
 a {
     padding: 0 20px 0 20px;
-    background-color: #ffb415;
     font-size: 20px;
+    color: #7188FF;
+
 }
 
 .funkcja .lewo {
@@ -32,7 +33,8 @@ a {
 .funkcje {
     background-color: rgba(255, 255, 255, 0.9);
     height: 1000px;
-    }
+    position: relative;
+}
 
 .funkcje .funkcja {
     background-color: brown;
@@ -109,6 +111,7 @@ a {
     margin-top: 25px;
 
 }
+
 ul {
     margin-right: 50px;
 }
@@ -118,22 +121,14 @@ ul li {
 }
 
 ul li:hover {
-    border-radius: 8px;
     cursor: pointer;
     transform: scale(1.1);
-
 }
 
 .menu {
     background-color: rgba(255, 255, 255, 0.9);
     text-align: right;
     line-height: 100px;
-    /*float: right;*/
-    /*position: absolute;*/
-
-    /*right: 0;*/
-    /*left: 0;*/
-
 }
 
 .menu-el-zewnetrzene-prawy {
@@ -149,24 +144,31 @@ ul li:hover {
 }
 
 .menu a {
-    padding: 0 20px 0 20px;
     background-color: transparent;
     font-size: 24px;
-    color: #7188FF;
+    color: #142B7F;
 }
 
 .formularz {
-    background-color: aliceblue;
+    background-color: #7188FF;
     position: absolute;
-    width: 300px;
-    height: 300px;
     bottom: 0;
-
+    right: 0;
+    padding: 50px;
 }
 
+.formularz input{
+    height: 23px;
+    width: 200px;
+    padding: 0 5px 0;
+
+}
 .formularz span {
     display: inline-block;
     width: 100px;
+    color: #142B7F;;
+    font-size: 16px;
+    font-weight: bold;
 
 }
 
@@ -183,6 +185,7 @@ ul li:hover {
     padding-top: 40px;
     height: 200px;
     position: relative;
+    text-shadow: 2px -2px 1px #142B7F;
 }
 
 footer {
