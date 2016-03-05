@@ -197,6 +197,7 @@ ul li:hover {
     border-color: #142B7F;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.9);
+    float: none;
 
 }
 
@@ -214,23 +215,14 @@ footer {
 .menu-footer  {
     font-size: 20px;
     background-color: rgba(193, 193, 193, 0.96);
+    margin-left: 30px;
+    margin-right:30px;
 }
 
-#footer-reklama-lewy{
-    margin-left: 15px;
-}
-#footer-srodek{
-    margin-inside: 15px;
-}
 
-#footer-srodek-praca{
-    margin-inside: 15px;
-}
-#footer-logowanie-prawy{
-    margin-right:15px;
 }
 .copy-right {
-    font-size: 15px;
+    font-size: 18px;
     Padding: 20px;
 
 }
