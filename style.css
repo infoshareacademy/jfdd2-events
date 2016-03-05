@@ -1,6 +1,7 @@
 body {
     background-image: url('./images/tlo.jpg');
     background-size: cover;
+
 }
 
 .clear {
@@ -10,7 +11,7 @@ body {
 .top-menu-a {
     padding: 0 20px 0 20px;
     font-size: 20px;
-    color: #7188FF;
+    color: #142B7F;
 
 }
 
@@ -182,11 +183,26 @@ ul li:hover {
     font-family: inherit;
     font-size: 40px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
     height: 200px;
     position: relative;
     text-shadow: 2px -2px 1px #142B7F;
 }
+
+.dodatkowe-funkcjonalnosci {
+
+    border: solid;
+    border-width: 2px;
+    position:  center;
+    border-color: #142B7F;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+#zadawane-pytania{
+    background-color: #6a8efd;
+    }
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
@@ -197,7 +213,8 @@ footer {
 
 .menu-footer  {
     font-size: 20px;
-    }
+    background-color: rgba(193, 193, 193, 0.96);
+}
 
 #footer-reklama-lewy{
     margin-left: 15px;
@@ -210,21 +227,10 @@ footer {
     margin-inside: 15px;
 }
 #footer-logowanie-prawy{
-    margin-right: 15px;
+    margin-right:15px;
 }
 .copy-right {
     font-size: 15px;
     Padding: 20px;
-
-}
-
-.dodatkowe-funkcjonalnosci {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: solid;
-    border-width: 1px;
-    position:  center;
-    border-color: #142B7F;
-    cursor: pointer;
-
 
 }
