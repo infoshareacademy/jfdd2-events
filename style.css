@@ -167,7 +167,7 @@ ul li:hover {
 .formularz span {
     display: inline-block;
     width: 100px;
-    color: #142B7F;;
+    color: #142B7F;
     font-size: 16px;
     font-weight: bold;
 
@@ -189,6 +189,7 @@ ul li:hover {
     text-shadow: 2px -2px 1px #142B7F;
 }
 
+
 .dodatkowe-funkcjonalnosci {
 
     border: solid;
@@ -199,17 +200,24 @@ ul li:hover {
     background-color: rgba(255, 255, 255, 0.9);
     float: none;
 
+
 }
 
-#zadawane-pytania{
-    background-color: #6a8efd;
-    }
+.marin-dodatkowe-funkcjonalnosci{
+    margin-left: 90px;
+    margin-right:90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
+    color:  #142B7F;
 }
 
 .menu-footer  {
@@ -220,7 +228,7 @@ footer {
 }
 
 
-}
+
 .copy-right {
     font-size: 18px;
     Padding: 20px;
