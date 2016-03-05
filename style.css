@@ -190,24 +190,41 @@ ul li:hover {
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
-    padding-top: 40px;
-    padding-bottom: 10px;
-    font-family: inherit;
+    padding-top: 25px;
+    padding-bottom: 5px;
     text-align: center;
-
 }
 
 .menu-footer  {
-    font-size: 25px;
-    margin: 35px;
+    font-size: 20px;
+    }
+
+#footer-reklama-lewy{
+    margin-left: 15px;
+}
+#footer-srodek{
+    margin-inside: 15px;
 }
 
+#footer-srodek-praca{
+    margin-inside: 15px;
+}
+#footer-logowanie-prawy{
+    margin-right: 15px;
+}
 .copy-right {
-    font-size: 25px;
+    font-size: 15px;
     Padding: 20px;
 
 }
 
-.dodatkowe-funkcjonalności {
+.dodatkowe-funkcjonalnosci {
     background-color: rgba(255, 255, 255, 0.9);
+    border: solid;
+    border-width: 1px;
+    position:  center;
+    border-color: #142B7F;
+    cursor: pointer;
+
+
 }
