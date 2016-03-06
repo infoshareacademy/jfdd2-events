@@ -1,16 +1,17 @@
 body {
     background-image: url('./images/tlo.jpg');
     background-size: cover;
+
 }
 
 .clear {
     clear: both;
 }
 
-a {
+.top-menu-a {
     padding: 0 20px 0 20px;
     font-size: 20px;
-    color: #7188FF;
+    color: #142B7F;
 
 }
 
@@ -179,7 +180,7 @@ ul li:hover {
 .formularz span {
     display: inline-block;
     width: 100px;
-    color: #142B7F;;
+    color: #142B7F;
     font-size: 16px;
     font-weight: bold;
 
@@ -195,32 +196,54 @@ ul li:hover {
     font-family: inherit;
     font-size: 40px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
     height: 200px;
     position: relative;
     text-shadow: 2px -2px 1px #142B7F;
 }
 
+
+.dodatkowe-funkcjonalnosci {
+
+    border: solid;
+    border-width: 2px;
+    position:  center;
+    border-color: #142B7F;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    float: none;
+
+
+}
+
+.marin-dodatkowe-funkcjonalnosci{
+    margin-left: 90px;
+    margin-right:90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
 footer {
     background-color: rgba(193, 193, 193, 0.96);
-    padding-top: 40px;
-    padding-bottom: 10px;
-    font-family: inherit;
+    padding-top: 25px;
+    padding-bottom: 5px;
     text-align: center;
-
+    color:  #142B7F;
 }
 
-.menu-footer span {
-    font-size: 25px;
-    margin: 35px;
+.menu-footer  {
+    font-size: 20px;
+    background-color: rgba(193, 193, 193, 0.96);
+    margin-left: 30px;
+    margin-right:30px;
 }
+
+
 
 .copy-right {
-    font-size: 25px;
+    font-size: 18px;
     Padding: 20px;
 
-}
-
-.dodatkowe-funkcjonalności {
-    background-color: rgba(255, 255, 255, 0.9);
 }
