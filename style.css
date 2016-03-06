@@ -44,7 +44,7 @@ body{
     background: url("../jfdd2-events/images/Calendar.png") no-repeat right;
     background-size: contain;
     position: relative;
-    left: 125px;
+    left: 300px;
     top: 25px;
 }
 
@@ -53,14 +53,14 @@ body{
     background-size: contain;
     position: relative;
     top: 31px;
-    left: 75px;
+    left: 250px;
 }
 
 .funkcje .funkcja-profil {
     background: url("../jfdd2-events/images/photo.png") no-repeat right;
     background-size: contain;
     position: relative;
-    left: 125px;
+    left: 300px;
     top: 37px;
 }
 
@@ -69,11 +69,14 @@ body{
     background-size: contain;
     position: relative;
     top: 43px;
-    left: 75px;
+    left: 250px;
 }
 
 .funkcje .funkcja-social-media {
     float: right;
+    position: relative;
+    overflow: hidden;
+    bottom: 550px;
 
 }
 
@@ -82,19 +85,21 @@ body{
     height: 100px;
     background: none;
     transition: margin-left 2s;
+    padding-left: 350px;
 }
 
 .funkcje h2:hover {
+    position: relative;
     margin-left: -350px;
 }
 
 .funkcje .funkcja-social-media .skala {
+    position relative;
     width: 100px;
     height: 100px;
 }
 
 .funkcje .funkcja-social-media .paski-informacyjne {
-    background: fixed;
     position: absolute;
     font-size: 35px;
     margin-top: 25px;
