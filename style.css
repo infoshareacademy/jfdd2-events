@@ -1,8 +1,19 @@
-body{
+body {
     background-image: url('./images/tlo.jpg');
-    background-size:cover;
+    background-size: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    color: #7188FF;
 
 }
+
 .funkcja .lewo {
     text-align: center;
     position: relative;
@@ -20,7 +31,7 @@ body{
 }
 
 .funkcje {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     height: 1000px;
     position: relative;
 }
@@ -106,73 +117,70 @@ body{
 
 }
 
-ul li{
-    display: inline-block;
-    background-color: #ffb415;
-    border-radius: 5px;
+ul {
+    margin-right: 50px;
 }
-ul li:hover{
-    border-radius: 8px;
+
+ul li {
+    display: inline-block;
+}
+
+ul li:hover {
     cursor: pointer;
     transform: scale(1.1);
-
-
 }
 
-#menu{
-    background-color: transparent;
-    text-align: center;
-    line-height: 40px;
-    color:white;
-    position: absolute;
-    bottom:0;
-    right: 0;
-    left: 0;
-
+.menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: right;
+    line-height: 100px;
 }
 
-
-.menu-el-zewnetrzene-prawy{
+.menu-el-zewnetrzene-prawy {
     margin-left: 5px;
-    }
-.menu-el-zewnetrzene-lewy{
+}
+
+.menu-el-zewnetrzene-lewy {
     margin-right: 5px;
 }
 
-.menu-el-zewnetrzene-srodek{
+.menu-el-zewnetrzene-srodek {
     margin: 0 5px 0 5px;
 }
 
-#menu a {
-    padding: 0 20px 0 20px;
-    background-color: #ffb415;
+.menu a {
+    background-color: transparent;
     font-size: 24px;
+    color: #142B7F;
 }
 
-.formularz{
-    background-color: aliceblue;
+.formularz {
+    background-color: #7188FF;
     position: absolute;
-    width:300px;
-    height: 300px;
-    bottom:0;
+    bottom: 0;
+    right: 0;
+    padding: 50px;
+}
+
+.formularz input{
+    height: 23px;
+    width: 200px;
+    padding: 0 5px 0;
 
 }
-.formularz span{
+.formularz span {
     display: inline-block;
     width: 100px;
+    color: #142B7F;;
+    font-size: 16px;
+    font-weight: bold;
 
-}
-
-
-a {
-    padding: 0 20px 0 20px;
-    background-color: #ffb415;
-    font-size: 20px;
 }
 
 .sekcja-zajawka {
     background-color: brown;
-    background-image: url('./images/images.jpeg');
+    /*background-image: url('./images/images.jpeg');*/
+    background-image: url('./images/zajawka.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -181,17 +189,16 @@ a {
     text-align: center;
     padding-top: 40px;
     height: 200px;
-    position:relative;
+    position: relative;
+    text-shadow: 2px -2px 1px #142B7F;
 }
-
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
     padding-top: 40px;
     padding-bottom: 10px;
-    font-family:  inherit;
+    font-family: inherit;
     text-align: center;
-
 
 }
 
@@ -200,17 +207,12 @@ footer {
     margin: 35px;
 }
 
-
-.copy-right  {
+.copy-right {
     font-size: 25px;
     Padding: 20px;
 
 }
 
-
 .dodatkowe-funkcjonalności {
-    background-color: rgba(255,255,255,0.9);
-}
-.clear{
-    clear: both;
+    background-color: rgba(255, 255, 255, 0.9);
 }
