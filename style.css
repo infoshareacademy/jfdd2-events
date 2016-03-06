@@ -86,36 +86,44 @@ a {
 .funkcje .funkcja-social-media {
     float: right;
     position: relative;
-    overflow: hidden;
     bottom: 550px;
-
+    overflow: hidden;
+    padding-left: 350px;
 }
 
-.funkcje h2 {
+.rozmiar-ikon {
+    width: 100px;
+    height: 100px;
+}
+
+.funkcje .skala {
     width: 100px;
     height: 100px;
     background: none;
     transition: margin-left 2s;
-    padding-left: 350px;
 }
 
-.funkcje h2:hover {
+.funkcje .skala:hover {
     position: relative;
     margin-left: -350px;
 }
 
 .funkcje .funkcja-social-media .skala {
-    position relative;
+    position: relative;
     width: 100px;
     height: 100px;
 }
 
-.funkcje .funkcja-social-media .paski-informacyjne {
+a.linki-zewnętrzne {
     position: absolute;
     font-size: 35px;
-    margin-top: 25px;
-
+    border: solid;
+    border-color: transparent;
+    border-width: 35px;
+    margin-left: -35px;
+    margin-top: -3px;
 }
+
 
 ul {
     margin-right: 50px;
