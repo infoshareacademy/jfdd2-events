@@ -273,20 +273,18 @@ footer {
     padding-bottom: 5px;
     text-align: center;
     color:  #142B7F;
+    cursor: pointer;
 
 
 
 }
 
 .menu-footer  {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 30px;
     margin-right:30px;
     display: inline;
 }
-
-
-
 
 
 .copy-right {
@@ -295,3 +293,4 @@ footer {
     padding: 20px;
 
 }
+
