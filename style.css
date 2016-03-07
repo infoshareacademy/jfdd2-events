@@ -237,7 +237,7 @@ input:focus {
     border: solid;
     border-left: none;
     border-right: none;
-    border-width: 2px;
+    border-width: 1px;
     position: center;
     border-color: #142B7F;
     cursor: pointer;
@@ -245,20 +245,27 @@ input:focus {
     float: none;
     text-align: center;
 
+}
 
-
-
+.margines{
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .marin-dodatkowe-funkcjonalnosci{
     margin-left: 20px;
     margin-right:20px;
-    padding-top: 15px;
+    margin-top: 15px;
     padding-bottom: 15px;
     display: inline;
+
 }
 
+.marin-dodatkowe-funkcjonalnosci :hover{
+    cursor: pointer;
+    transform: scale(1.3);
 
+}
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
@@ -277,6 +284,8 @@ footer {
     margin-right:30px;
     display: inline;
 }
+
+
 
 
 
