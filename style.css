@@ -17,17 +17,15 @@ a {
 .funkcja .lewo {
     text-align: center;
     position: relative;
-    top: -10px;
-    width: 150px;
+    top: 370px;
 }
 
 .funkcje h1 {
     position: relative;
-    top: 50px;
-    left: 260px;
     color: #ffb415;
     font-family: Arial sans-serif;
-    font-size: 40px;
+    font-size: 45px;
+    text-align: center;
 }
 
 .funkcje {
@@ -39,7 +37,7 @@ a {
     height: 140px;
     width: 40%;
     border: solid;
-    border-width: 1px;
+    border-width: 2px;
     position: relative;
     border-radius: 10px;
     cursor: pointer;
@@ -50,8 +48,8 @@ a {
 }
 
 .funkcje .funkcja-kalendarz {
-    background: url("../jfdd2-events/images/Calendar.png") no-repeat right;
-    background-size: contain;
+    background: url("../jfdd2-events/images/Calendar.png") no-repeat center;
+    background-size: 350px;
     left: 3%;
     top: 25px;
     height: 450px;
@@ -60,17 +58,17 @@ a {
 }
 
 .funkcje .funkcja-bilety {
-    background: url("../jfdd2-events/images/movie6.png") no-repeat right;
-    background-size: contain;
+    background: url("../jfdd2-events/images/movie6.png") no-repeat center;
+    background-size: 350px;
     left: 30%;
-    top: -425px;
+    top: -428px;
     height: 450px;
     width: 450px;
 }
 
 .funkcje .funkcja-profil {
-    background: url("../jfdd2-events/images/photo.png") no-repeat right;
-    background-size: contain;
+    background: url("../jfdd2-events/images/photo.png") no-repeat center;
+    background-size: 350px;
     position: relative;
     left: 3%;
     top: -400px;
@@ -79,10 +77,10 @@ a {
 }
 
 .funkcje .funkcja-mapa {
-    background: url("../jfdd2-events/images/map1.png") no-repeat right;
-    background-size: contain;
+    background: url("../jfdd2-events/images/map1.png") no-repeat center;
+    background-size: 350px;
     position: relative;
-    top: -850px;
+    top: -852px;
     left: 30%;
     height: 450px;
     width: 450px;
