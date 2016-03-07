@@ -12,11 +12,11 @@
 <div class="menu">
     <nav>
         <ul>
-            <li class="menu-el-zewnetrzene-lewy"><a class="top-menu-a">Aktualności</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a class="top-menu-a">Kalendarz</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a class="top-menu-a">Mapa Gdańska</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a class="top-menu-a">Partnerzy</a></li>
-            <li class="menu-el-zewnetrzene-prawy"><a class="top-menu-a">Kontakt</a></li>
+            <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
+            <li class="menu-el-zewnetrzene-srodek"><a>Kalendarz</a></li>
+            <li class="menu-el-zewnetrzene-srodek"><a>Mapa Gdańska</a></li>
+            <li class="menu-el-zewnetrzene-srodek"><a>Partnerzy</a></li>
+            <li class="menu-el-zewnetrzene-prawy"><a>Kontakt</a></li>
         </ul>
     </nav>
 </div>
@@ -35,17 +35,17 @@
 
 
 <main>
-
     <section class="funkcje">
         <section class="formularz">
-            <form>
+            <form action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post" >
 
                 <span>Imię:</span><input type="text" name="imię"
                                          placeholder="Jan"><br><br>
                 <span>Adres e-mail:</span><input type="email" name="nazwisko "
                                                  placeholder="np. info@infoshare.pl" required><br><br>
-                <span>Telefon:</span><input type="tel" name="telefon"
+                <span>Telefon:</span><input type="text" name="telefon"
                                             placeholder="np. 601102203" pattern="[0-9]{9}"><br><br>
+                <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
                 <input type="submit" value="Wyślij">
 
             </form>
@@ -72,19 +72,19 @@
             <p class="lewo">Interaktywna mapa stworzy dla Ciebie plan podróży z każdego miejsca w Polsce i Europie.</p>
         </div>
 
-        <div class="funkcja-social-media">
-            <h2>
+        <section class="funkcja-social-media">
+            <div>
                 <p class="skala">
-                    <img class="rozmiar-ikon" src="images/social_facebook_box_blue.png"><span class="paski-informacyjne"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">facebook.com/EGA</a></span>
+                    <img class="rozmiar-ikon" src="images/social_facebook_box_blue.png"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">facebook.com/EGA</a>
                 </p>
                 <p class="skala">
-                    <img class="rozmiar-ikon" src="images/Twitter-icon.png"><span class="paski-informacyjne"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">twitter.com/EGA</a></span>
+                    <img class="rozmiar-ikon" src="images/Graphics-Vibe-Simple-Rounded-Social-Twitter.png"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">twitter.com/EGA</a>
                 </p>
                 <p class="skala">
-                    <img class="rozmiar-ikon" src="images/Google-plus-icon.png"><span class="paski-informacyjne"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">plus.google.com/EGA</a></span>
+                    <img class="rozmiar-ikon" src="images/googleplus.png"><a class="linki-zewnętrzne" href="http://www.infoshareacademy.com">plus.google.com/EGA</a>
                 </p>
-            </h2>
-        </div>
+            </div>
+        </section>
 
     </section>
 

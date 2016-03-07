@@ -1,14 +1,12 @@
 body {
     background-image: url('./images/tlo.jpg');
     background-size: cover;
-
 }
-
 .clear {
     clear: both;
 }
 
-.top-menu-a {
+a {
     padding: 0 20px 0 20px;
     font-size: 20px;
     color: #142B7F;
@@ -33,12 +31,10 @@ body {
 
 .funkcje {
     background-color: rgba(255, 255, 255, 0.9);
-    height: 1000px;
     position: relative;
 }
 
 .funkcje .funkcja {
-    background-color: brown;
     height: 140px;
     width: 40%;
     border: solid;
@@ -55,41 +51,48 @@ body {
 .funkcje .funkcja-kalendarz {
     background: url("../jfdd2-events/images/Calendar.png") no-repeat right;
     background-size: contain;
-    position: relative;
-    left: 300px;
+    left: 3%;
     top: 25px;
+    height: 450px;
+    width: 450px;
+
 }
 
 .funkcje .funkcja-bilety {
     background: url("../jfdd2-events/images/movie6.png") no-repeat right;
     background-size: contain;
-    position: relative;
-    top: 31px;
-    left: 250px;
+    left: 30%;
+    top: -425px;
+    height: 450px;
+    width: 450px;
 }
 
 .funkcje .funkcja-profil {
     background: url("../jfdd2-events/images/photo.png") no-repeat right;
     background-size: contain;
     position: relative;
-    left: 300px;
-    top: 37px;
+    left: 3%;
+    top: -400px;
+    height: 450px;
+    width: 450px;
 }
 
 .funkcje .funkcja-mapa {
     background: url("../jfdd2-events/images/map1.png") no-repeat right;
     background-size: contain;
     position: relative;
-    top: 43px;
-    left: 250px;
+    top: -850px;
+    left: 30%;
+    height: 450px;
+    width: 450px;
 }
 
 .funkcje .funkcja-social-media {
     float: right;
     position: relative;
-    bottom: 550px;
     overflow: hidden;
     padding-left: 350px;
+    margin-top: -1800px;
 }
 
 .rozmiar-ikon {
@@ -121,69 +124,94 @@ a.linki-zewnętrzne {
     border: solid;
     border-color: transparent;
     border-width: 35px;
-    margin-left: -35px;
+    margin-left: -94px;
     margin-top: -3px;
     border-right-width: 75px;
+    border-left-width: 110px;
+    text-decoration: none;
+    color: black;
 }
 
-
 ul {
-    margin-right: 50px;
+margin-right: 50px;
 }
 
 ul li {
-    display: inline-block;
+display: inline-block;
+
 }
 
 ul li:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+cursor: pointer;
+transform: scale(1.1);
+background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 .menu {
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: right;
-    line-height: 100px;
+background-color: rgba(255, 255, 255, 0.9);
+text-align: right;
+line-height: 100px;
 }
 
 .menu-el-zewnetrzene-prawy {
-    margin-left: 5px;
+margin-left: 5px;
 }
 
 .menu-el-zewnetrzene-lewy {
-    margin-right: 5px;
+margin-right: 5px;
 }
 
 .menu-el-zewnetrzene-srodek {
-    margin: 0 5px 0 5px;
+margin: 0 5px 0 5px;
 }
 
 .menu a {
-    background-color: transparent;
-    font-size: 24px;
-    color: #142B7F;
+background-color: transparent;
+font-size: 24px;
+color: #142B7F;
 }
 
 .formularz {
-    background-color: #7188FF;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 50px;
+position: absolute;
+bottom: 0;
+right: 0;
+padding: 50px;
+}
+
+.formularz input[type=text],
+.formularz input[type=email]{
+background-color: rgba(255, 255, 255, 0.9);
+color: #142B7F;
+border-radius: 6px;
+}
+
+.formularz input[type=submit] {
+background-color: rgba(255, 255, 255, 0.9);
+color: #142B7F;
+font-size: 20px;
+border-radius: 6px;
+width: 100px;
+
 }
 
 .formularz input{
-    height: 23px;
-    width: 200px;
-    padding: 0 5px 0;
-
+height: 33px;
+width: 210px;
+font-size: 18px;
+padding: 0 5px 0;
 }
+
+input:focus{
+    outline:0;
+}
+
 .formularz span {
-    display: inline-block;
-    width: 100px;
-    color: #142B7F;
-    font-size: 16px;
-    font-weight: bold;
+display: inline-block;
+width: 130px;
+color: #142B7F;
+font-size: 20px;
+font-weight: bold;
 
 }
 
@@ -244,7 +272,8 @@ footer {
 
 
 .copy-right {
+    display:block;
     font-size: 18px;
-    Padding: 20px;
+    padding: 20px;
 
 }
