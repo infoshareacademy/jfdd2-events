@@ -126,83 +126,86 @@ a.linki-zewnętrzne {
     color: black;
 }
 
-
 ul {
-    margin-right: 50px;
+margin-right: 50px;
 }
 
 ul li {
-    display: inline-block;
+display: inline-block;
 
 }
 
 ul li:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.3);
+cursor: pointer;
+transform: scale(1.1);
+background-color: rgba(255, 255, 255, 0.3);
 
 }
 
 .menu {
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: right;
-    line-height: 100px;
+background-color: rgba(255, 255, 255, 0.9);
+text-align: right;
+line-height: 100px;
 }
 
 .menu-el-zewnetrzene-prawy {
-    margin-left: 5px;
+margin-left: 5px;
 }
 
 .menu-el-zewnetrzene-lewy {
-    margin-right: 5px;
+margin-right: 5px;
 }
 
 .menu-el-zewnetrzene-srodek {
-    margin: 0 5px 0 5px;
+margin: 0 5px 0 5px;
 }
 
 .menu a {
-    background-color: transparent;
-    font-size: 24px;
-    color: #142B7F;
+background-color: transparent;
+font-size: 24px;
+color: #142B7F;
 }
 
 .formularz {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 50px;
+position: absolute;
+bottom: 0;
+right: 0;
+padding: 50px;
 }
 
 .formularz input[type=text],
 .formularz input[type=email]{
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #142B7F;
-    border-radius: 6px;
+background-color: rgba(255, 255, 255, 0.9);
+color: #142B7F;
+border-radius: 6px;
 }
 
 .formularz input[type=submit] {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #142B7F;
-    font-size: 20px;
-    border-radius: 6px;
-    width: 100px;
+background-color: rgba(255, 255, 255, 0.9);
+color: #142B7F;
+font-size: 20px;
+border-radius: 6px;
+width: 100px;
 
 }
 
 .formularz input{
-    height: 33px;
-    width: 210px;
-    font-size: 18px;
-    padding: 0 5px 0;
-
+height: 33px;
+width: 210px;
+font-size: 18px;
+padding: 0 5px 0;
 }
+
+input:focus{
+    outline:0;
+}
+
 .formularz span {
-    display: inline-block;
-    width: 130px;
-    color: #142B7F;
-    font-size: 20px;
-    font-weight: bold;
+display: inline-block;
+width: 130px;
+color: #142B7F;
+font-size: 20px;
+font-weight: bold;
 
 }
 
@@ -263,7 +266,8 @@ footer {
 
 
 .copy-right {
+    display:block;
     font-size: 18px;
-    Padding: 20px;
+    padding: 20px;
 
 }
