@@ -35,17 +35,17 @@
 
 
 <main>
-
     <section class="funkcje">
         <section class="formularz">
-            <form>
+            <form action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post" >
 
                 <span>Imię:</span><input type="text" name="imię"
                                          placeholder="Jan"><br><br>
                 <span>Adres e-mail:</span><input type="email" name="nazwisko "
                                                  placeholder="np. info@infoshare.pl" required><br><br>
-                <span>Telefon:</span><input type="tel" name="telefon"
+                <span>Telefon:</span><input type="text" name="telefon"
                                             placeholder="np. 601102203" pattern="[0-9]{9}"><br><br>
+                <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
                 <input type="submit" value="Wyślij">
 
             </form>
