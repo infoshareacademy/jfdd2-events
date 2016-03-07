@@ -124,6 +124,8 @@ a.linki-zewnętrzne {
     margin-left: -35px;
     margin-top: -3px;
     border-right-width: 75px;
+    text-decoration: none;
+    color: black;
 }
 
 
