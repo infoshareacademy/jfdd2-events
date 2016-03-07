@@ -2,6 +2,7 @@ body {
     background-image: url('./images/tlo.jpg');
     background-size: cover;
 }
+
 .clear {
     clear: both;
 }
@@ -132,86 +133,86 @@ a.linki-zewnętrzne {
     color: black;
 }
 
-ul {
-margin-right: 50px;
+.menu ul {
+    margin-right: 50px;
 }
 
-ul li {
-display: inline-block;
+.menu ul li {
+    display: inline-block;
 
 }
 
-ul li:hover {
-cursor: pointer;
-transform: scale(1.1);
-background-color: rgba(255, 255, 255, 0.3);
+.menu ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
 .menu {
-background-color: rgba(255, 255, 255, 0.9);
-text-align: right;
-line-height: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: right;
+    line-height: 100px;
 }
 
 .menu-el-zewnetrzene-prawy {
-margin-left: 5px;
+    margin-left: 5px;
 }
 
 .menu-el-zewnetrzene-lewy {
-margin-right: 5px;
+    margin-right: 5px;
 }
 
 .menu-el-zewnetrzene-srodek {
-margin: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
 }
 
 .menu a {
-background-color: transparent;
-font-size: 24px;
-color: #142B7F;
+    background-color: transparent;
+    font-size: 24px;
+    color: #142B7F;
 }
 
 .formularz {
-position: absolute;
-bottom: 0;
-right: 0;
-padding: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
 }
 
 .formularz input[type=text],
-.formularz input[type=email]{
-background-color: rgba(255, 255, 255, 0.9);
-color: #142B7F;
-border-radius: 6px;
+.formularz input[type=email] {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #142B7F;
+    border-radius: 6px;
 }
 
 .formularz input[type=submit] {
-background-color: rgba(255, 255, 255, 0.9);
-color: #142B7F;
-font-size: 20px;
-border-radius: 6px;
-width: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #142B7F;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 100px;
 
 }
 
-.formularz input{
-height: 33px;
-width: 210px;
-font-size: 18px;
-padding: 0 5px 0;
+.formularz input {
+    height: 33px;
+    width: 210px;
+    font-size: 18px;
+    padding: 0 5px 0;
 }
 
-input:focus{
-    outline:0;
+input:focus {
+    outline: 0;
 }
 
 .formularz span {
-display: inline-block;
-width: 130px;
-color: #142B7F;
-font-size: 20px;
-font-weight: bold;
+    display: inline-block;
+    width: 130px;
+    color: #142B7F;
+    font-size: 20px;
+    font-weight: bold;
 
 }
 
@@ -231,47 +232,41 @@ font-weight: bold;
     text-shadow: 2px -2px 1px #142B7F;
 }
 
-
 .dodatkowe-funkcjonalnosci {
 
     border: solid;
     border-width: 2px;
-    position:  center;
+    position: center;
     border-color: #142B7F;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.9);
     float: none;
 
-
 }
 
-.marin-dodatkowe-funkcjonalnosci{
+.marin-dodatkowe-funkcjonalnosci {
     margin-left: 90px;
-    margin-right:90px;
+    margin-right: 90px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
-    color:  #142B7F;
+    color: #142B7F;
 }
 
-.menu-footer  {
+.menu-footer {
     font-size: 20px;
     margin-left: 30px;
-    margin-right:30px;
+    margin-right: 30px;
 }
 
-
-
 .copy-right {
-    display:block;
+    display: block;
     font-size: 18px;
     padding: 20px;
 
