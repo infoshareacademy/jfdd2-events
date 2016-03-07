@@ -1,14 +1,12 @@
 body {
     background-image: url('./images/tlo.jpg');
     background-size: cover;
-
 }
-
 .clear {
     clear: both;
 }
 
-.top-menu-a {
+a {
     padding: 0 20px 0 20px;
     font-size: 20px;
     color: #142B7F;
@@ -38,7 +36,6 @@ body {
 }
 
 .funkcje .funkcja {
-    background-color: brown;
     height: 140px;
     width: 40%;
     border: solid;
@@ -136,11 +133,14 @@ ul {
 
 ul li {
     display: inline-block;
+
 }
 
 ul li:hover {
     cursor: pointer;
     transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 .menu {
@@ -168,24 +168,40 @@ ul li:hover {
 }
 
 .formularz {
-    background-color: #7188FF;
     position: absolute;
     bottom: 0;
     right: 0;
     padding: 50px;
 }
 
+.formularz input[type=text],
+.formularz input[type=email]{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #142B7F;
+    border-radius: 6px;
+}
+
+.formularz input[type=submit] {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #142B7F;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 100px;
+
+}
+
 .formularz input{
-    height: 23px;
-    width: 200px;
+    height: 33px;
+    width: 210px;
+    font-size: 18px;
     padding: 0 5px 0;
 
 }
 .formularz span {
     display: inline-block;
-    width: 100px;
+    width: 130px;
     color: #142B7F;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 
 }
