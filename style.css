@@ -235,19 +235,22 @@ font-weight: bold;
 .dodatkowe-funkcjonalnosci {
 
     border: solid;
+    border-left: none;
+    border-right: none;
     border-width: 2px;
     position:  center;
     border-color: #142B7F;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.9);
     float: none;
+    text-align: center;
 
 
 }
 
 .marin-dodatkowe-funkcjonalnosci{
-    margin-left: 90px;
-    margin-right:90px;
+    margin-left: 20px;
+    margin-right:20px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
