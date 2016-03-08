@@ -261,96 +261,7 @@ input:focus {
 
 }
 
-.cinema-marin-dodatkowe-funkcjonalnosci {
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 15px;
-      padding-bottom: 15px;
-      display: inline;
 
-
-  }
-
-.cinema-marin-dodatkowe-funkcjonalnosci :hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #c1c1c1;
-
-
-}
-
-
-.teatr-marin-dodatkowe-funkcjonalnosci {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-bottom: 15px;
-    display: inline;
-}
-
-.teatr-marin-dodatkowe-funkcjonalnosci :hover {
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #30e2de;
-}
-
-.sport-marin-dodatkowe-funkcjonalnosci {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-bottom: 15px;
-    display: inline;
-}
-
-.sport-marin-dodatkowe-funkcjonalnosci :hover {
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #ff6a60;
-}
-
-
-.wakacje-marin-dodatkowe-funkcjonalnosci {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-bottom: 15px;
-    display: inline;
-}
-
-.wakacje-marin-dodatkowe-funkcjonalnosci :hover {
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #e2d531;
-}
-
-
-.muzea-marin-dodatkowe-funkcjonalnosci {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-bottom: 15px;
-    display: inline;
-}
-
-.muzea-marin-dodatkowe-funkcjonalnosci :hover {
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #fdfdb7;
-}
-
-.kluby-marin-dodatkowe-funkcjonalnosci {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-bottom: 15px;
-    display: inline;
-}
-
-.kluby-marin-dodatkowe-funkcjonalnosci :hover {
-    cursor: pointer;
-    transform: scale(1.3);
-    background-color: #ff6a60;
-}
 
 .feature-icon {
     display: inline-block;
@@ -369,8 +280,31 @@ input:focus {
 
 }
 .icon-cinema:hover {
-    background-color: #142B7F;
+    background-color: #fdfdb7;
 }
+
+.icon-teatr:hover {
+    background-color: #ffc8a5;
+}
+
+.icon-sport:hover {
+    background-color: #fdfdb7;
+}
+
+.icon-wakacje:hover {
+    background-color: #d2ffbd;
+}
+
+.icon-muzea:hover {
+    background-color: #afd0ff;
+}
+
+.icon-kluby:hover {
+    background-color: #c4ffe1;
+}
+
+
+
 
 footer {
     background-color: rgba(193, 193, 193, 0.96);
