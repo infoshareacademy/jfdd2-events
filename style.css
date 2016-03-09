@@ -20,6 +20,8 @@ a {
     text-align: center;
     position: relative;
     top: 370px;
+    text-decoration: none;
+    color: black;
 }
 
 .funkcje h1 {
@@ -31,7 +33,7 @@ a {
 }
 
 .funkcje {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
     /*width: 100%;*/
     position: relative;
     float: left;
@@ -48,12 +50,13 @@ main{
     border: solid;
     border-width: 2px;
     border-radius: 10px;
-    cursor: pointer;
     position: absolute;
+    border-color: transparent;
 }
 
 .funkcje .funkcja:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .funkcje .funkcja-kalendarz {
