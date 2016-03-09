@@ -4,7 +4,7 @@
 $(document).ready(function() {
     $('#ciastka').click(function () {
         $('#ciastka').css({
-            margin: -100
+            marginTop: -50
         })
 
 
