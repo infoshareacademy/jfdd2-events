@@ -332,10 +332,10 @@ input:focus {
     font-family: inherit;
     font-size: 20px;
 
-    text-align: left;
     padding-top: 20px;
     border-bottom: 1px solid #142B7F;
     padding-bottom: 20px;
+    text-align: center;
 
 
 }
@@ -344,7 +344,6 @@ input:focus {
     background-color: #afd0ff;
     display: inline-block;
     text-align: justify;
-
     width: 250px;
     vertical-align: top;
     height: 250px;
@@ -354,7 +353,10 @@ input:focus {
 
 }
 
-
+.o-nas h1 {
+    text-align: left;
+    padding-left: 20px;
+}
 
 .o-nas a {
     font-size: 15px;
