@@ -9,30 +9,30 @@ body {
     clear: both;
 }
 
-.funkcja .opis-funkcjonalności {
+/*.funkcja .opis-funkcjonalności {*/
+    /*!*text-align: center;*!*/
+    /*position: relative;*/
+    /*!*top: 370px;*!*/
+    /*text-decoration: none;*/
+    /*color: black;*/
+/*}*/
+
+/*.funkcje h1 {*/
+    /*position: relative;*/
+    /*color: #ffb415;*/
+    /*font-family: Arial sans-serif;*/
+    /*font-size: 45px;*/
     /*text-align: center;*/
-    position: relative;
-    /*top: 370px;*/
-    text-decoration: none;
-    color: black;
-}
+/*}*/
 
-.funkcje h1 {
-    position: relative;
-    color: #ffb415;
-    font-family: Arial sans-serif;
-    font-size: 45px;
-    text-align: center;
-}
-
-.funkcje {
-    background-color: transparent;
-    /*width: 100%;*/
-    position: relative;
-    /*float: left;*/
-    /*left:300px;*/
-    display: inline-block;
-}
+/*.funkcje {*/
+    /*background-color: transparent;*/
+    /*!*width: 100%;*!*/
+    /*position: relative;*/
+    /*!*float: left;*!*/
+    /*!*left:300px;*!*/
+    /*display: inline-block;*/
+/*}*/
 
 main {
     background-color: rgba(255, 255, 255, 0.9);
@@ -48,82 +48,159 @@ main {
     /*border-color: transparent;*/
 /*}*/
 
-.funkcje div:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);
+/*.funkcje div:hover {*/
+    /*transform: scale(1.1);*/
+    /*cursor: pointer;*/
+    /*background-color: rgba(255, 255, 255, 0.5);*/
 
-}
+/*}*/
 
 .funkcje .funkcja-kalendarz {
-    background: url("../jfdd2-events/images/Calendar.png") no-repeat center;
-    background-size: 350px;
-    position: relative;
-    width: 40%;
-    float: left;
-    top: 25px;
-    left: 35px;
-    height: 450px;
-    /*width: 450px;*/
-    border: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    /*background: url("../jfdd2-events/images/Calendar.png") no-repeat center;*/
+    /*background-size: 350px;*/
     /*position: relative;*/
-    border-color: transparent;
+    /*width: 40%;*/
+    /*float: left;*/
+    /*top: 25px;*/
+    /*left: 35px;*/
+    /*height: 450px;*/
+    /*!*width: 450px;*!*/
+    /*border: solid;*/
+    /*border-width: 2px;*/
+    /*border-radius: 10px;*/
+    /*!*position: relative;*!*/
+    /*border-color: transparent;*/
 }
 
 .funkcje .funkcja-bilety {
-    background: url("../jfdd2-events/images/movie6.png") no-repeat center;
-    background-size: 350px;
-    position: relative;
-    width: 40%;
-    float: right;
-    right: 35px;
-    top: 25px;
-    height: 450px;
-    /*width: 450px;*/
-    border: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    /*background: url("../jfdd2-events/images/movie6.png") no-repeat center;*/
+    /*background-size: 350px;*/
     /*position: relative;*/
-    border-color: transparent;
+    /*width: 40%;*/
+    /*float: right;*/
+    /*right: 35px;*/
+    /*top: 25px;*/
+    /*height: 450px;*/
+    /*!*width: 450px;*!*/
+    /*border: solid;*/
+    /*border-width: 2px;*/
+    /*border-radius: 10px;*/
+    /*!*position: relative;*!*/
+    /*border-color: transparent;*/
 }
 
 .funkcje .funkcja-profil {
-    background: url("../jfdd2-events/images/photo.png") no-repeat center;
-    background-size: 350px;
-    position: relative;
-    width: 40%;
-    float: left;
-    left: 35px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 450px;
-    /*width: 450px;*/
-    border: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    /*background: url("../jfdd2-events/images/photo.png") no-repeat center;*/
+    /*background-size: 350px;*/
     /*position: relative;*/
-    border-color: transparent;
+    /*width: 40%;*/
+    /*float: left;*/
+    /*left: 35px;*/
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+    /*height: 450px;*/
+    /*!*width: 450px;*!*/
+    /*border: solid;*/
+    /*border-width: 2px;*/
+    /*border-radius: 10px;*/
+    /*!*position: relative;*!*/
+    /*border-color: transparent;*/
 }
 
 .funkcje .funkcja-mapa {
-    background: url("../jfdd2-events/images/map1.png") no-repeat center;
-    background-size: 350px;
-    position: relative;
-    width: 40%;
-    float: right;
-    right: 35px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 450px;
-    /*width: 450px;*/
-    border: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    /*background: url("../jfdd2-events/images/map1.png") no-repeat center;*/
+    /*background-size: 350px;*/
     /*position: relative;*/
-    border-color: transparent;
+    /*width: 40%;*/
+    /*float: right;*/
+    /*right: 35px;*/
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+    /*height: 450px;*/
+    /*!*width: 450px;*!*/
+    /*border: solid;*/
+    /*border-width: 2px;*/
+    /*border-radius: 10px;*/
+    /*!*position: relative;*!*/
+    /*border-color: transparent;*/
 }
+
+.funkcje {
+    margin: 0 auto;
+    left: 40%;
+    padding-left: 10%;
+}
+
+.funkcje a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    border-color: #142B7F;
+    border-width: 2px;
+    border: solid;
+    margin: 40px;
+}
+
+.funkcje .nazwa-funkcjonalności {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+
+/*.funkcje .opis-funkcjonalności {*/
+    /*text-align: right;*/
+    /*position: absolute;*/
+    /*color: red;*/
+    /*font-size: 15px;*/
+    /*border: solid;*/
+    /*border-color: red;*/
+    /*border-width: 1px;*/
+    /*bottom: 0;*/
+/*!*}*!*/
+
+.opis-kalendarz {
+    bottom: 0;
+    position: absolute;
+    border-radius: 1px;
+    border: solid;
+    border-color: red;
+}
+
+.funkcje .opis-bilety {
+    bottom: 0;
+    position: absolute;
+    border-radius: 1px;
+    border: solid;
+    border-color: red;
+}
+
+.funkcje .opis-profil {
+    bottom: 0;
+    position: absolute;
+    border-radius: 1px;
+    border: solid;
+    border-color: red;
+}
+
+.funkcje .opis-mapa {
+    bottom: 0;
+    position: absolute;
+    border-radius: 1px;
+    border: solid;
+    border-color: red;
+}
+
+
+
+
+
+
+
+
 
 
 .smif {
