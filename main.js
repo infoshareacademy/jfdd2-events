@@ -16,16 +16,17 @@ function checkCookie(cookieNeV) {
         return cookie;
     }).find(function (item) {
         if (item.value === 'jan') {
-            $('#ciastka').css('display', 'none');
+            $('#cookies').css('display', 'none');
         }
     });
 }
 
 $(document).ready(function() {
-    $('#ciastka').click(function() {
+    $('#cookies').click(function() {
         setCookieValue()
-        $(this).css('display', 'none');
-        });
+        $(this).hide();
+
+    });
     checkCookie(document.cookie);
 
 });
