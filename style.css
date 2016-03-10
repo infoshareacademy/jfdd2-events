@@ -46,10 +46,12 @@ a {
     /*left:300px;*/
     display: inline-block;
 }
-main{
+
+main {
     background-color: rgba(255, 255, 255, 0.9);
     /*max-width: 2000px;*/
 }
+
 .funkcje .funkcja {
     height: 450px;
     width: 450px;
@@ -155,11 +157,11 @@ a.linki-zewnętrzne {
     color: black;
 }
 
-#ciastka{
+#cookies {
     background-color: rgba(255, 255, 255, 0.95);
     width: 100%;
     height: 50px;
-    color:#142B7F;
+    color: #142B7F;
     text-align: center;
     line-height: 50px;
 }
@@ -170,6 +172,9 @@ a.linki-zewnętrzne {
 
 .menu ul li {
     display: inline-block;
+    -webkit-transition: background-color 0.4s linear, box-shadow 0.3s linear,border-right 0.3s linear;
+    /*padding: 0 30px 0;*/
+
 
 }
 
@@ -177,6 +182,8 @@ a.linki-zewnętrzne {
     cursor: pointer;
     transform: scale(1.1);
     background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 5px #888888;
+    /*border-right: 8px  solid rgba(255, 255, 255, 0.9);*/
 
 }
 
@@ -204,13 +211,6 @@ a.linki-zewnętrzne {
     color: #142B7F;
 }
 
-/*.formularz {*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*right: 0;*/
-    /*padding: 20px;*/
-/*}*/
-
 .formularz input[type=text],
 .formularz input[type=email] {
     background-color: rgba(255, 255, 255, 0.9);
@@ -229,7 +229,7 @@ a.linki-zewnętrzne {
 
 .formularz input {
     height: 33px;
-    width: 110px;
+    width: 300px;
     font-size: 18px;
     padding: 0 5px 0;
 }
@@ -263,7 +263,6 @@ input:focus {
     text-shadow: 2px -2px 1px #142B7F;
 }
 
-
 .dodatkowe-funkcjonalnosci {
 
     border: solid;
@@ -279,21 +278,19 @@ input:focus {
 
 }
 
-.margines{
+.margines {
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
-.marin-dodatkowe-funkcjonalnosci{
+.marin-dodatkowe-funkcjonalnosci {
     margin-left: 20px;
-    margin-right:20px;
+    margin-right: 20px;
     margin-top: 15px;
     padding-bottom: 15px;
     display: inline;
     transition: background-color 5s 10s;
 }
-
-
 
 .feature-icon {
     display: inline-block;
@@ -305,11 +302,10 @@ input:focus {
     margin: 10px;
 }
 
-.feature-icon :hover{
+.feature-icon :hover {
     cursor: pointer;
     transform: scale(1.3);
 }
-
 
 .icon-cinema:hover {
     background-color: #fdfdb7;
@@ -335,12 +331,10 @@ input:focus {
     background-color: #c4ffe1;
 }
 
-
-
 .o-nas {
 
     background-color: rgba(255, 255, 255, 0.9);
-    color:  #142B7F;
+    color: #142B7F;
     font-family: inherit;
     font-size: 20px;
 
@@ -348,7 +342,6 @@ input:focus {
     border-bottom: 1px solid #142B7F;
     padding-bottom: 20px;
     text-align: center;
-
 
 }
 
@@ -374,47 +367,41 @@ input:focus {
     font-size: 15px;
     color: black;
 
-
 }
+
 footer {
     background-color: rgba(193, 193, 193, 0.96);
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
-    color:  #142B7F;
+    color: #142B7F;
     cursor: pointer;
 
 }
 
-
-
-
-.menu-footer  {
+.menu-footer {
     font-size: 16px;
     margin-left: 30px;
-    margin-right:30px;
+    margin-right: 30px;
     display: inline;
 
 }
+
 .menu-footer a {
     display: inline-block;
     font-size: 16px;
     margin-left: 30px;
-    margin-right:30px;
+    margin-right: 30px;
 
 }
 
-.menu-footer a:hover{
+.menu-footer a:hover {
 
     transform: scale(1.3);
 }
 
-
-
-
-
 .copy-right {
-    display:block;
+    display: block;
     font-size: 15px;
     padding: 20px;
 
