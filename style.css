@@ -62,7 +62,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-right: 175px;
+    margin-left: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -73,7 +73,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-right: 175px;
+    margin-left: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -84,7 +84,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-right: 175px;
+    margin-left: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -95,7 +95,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-right: 175px;
+    margin-left: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -123,6 +123,7 @@ main {
     padding-left: 450px;
     overflow: hidden;
     margin-right: -350px;
+    z-index: 9999;
 }
 
 .smif img{
