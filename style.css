@@ -1,8 +1,8 @@
-#page-wrap {
-    width: 2000px;
-    margin: 0 auto;
-    height: 100%;
-}
+/*#page-wrap {*/
+    /*width: 2000px;*/
+    /*margin: 0 auto;*/
+    /*height: 100%;*/
+/*}*/
 
 body {
     background-image: url('./images/tlo.jpg');
@@ -15,17 +15,17 @@ body {
     clear: both;
 }
 
-a {
-    padding: 0 20px 0 20px;
-    font-size: 20px;
-    color: #142B7F;
+/*a {*/
+    /*padding: 0 20px 0 20px;*/
+    /*font-size: 20px;*/
+    /*color: #142B7F;*/
 
-}
+/*}*/
 
-.funkcja .lewo {
-    text-align: center;
+.funkcja .opis-funkcjonalności {
+    /*text-align: center;*/
     position: relative;
-    top: 370px;
+    /*top: 370px;*/
     text-decoration: none;
     color: black;
 }
@@ -50,17 +50,17 @@ main{
     background-color: rgba(255, 255, 255, 0.9);
     /*max-width: 2000px;*/
 }
-.funkcje .funkcja {
-    height: 450px;
-    width: 450px;
-    border: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    position: absolute;
-    border-color: transparent;
-}
+/*.funkcja {*/
+    /*height: 450px;*/
+    /*width: 450px;*/
+    /*border: solid;*/
+    /*border-width: 2px;*/
+    /*border-radius: 10px;*/
+    /*position: relative;*/
+    /*border-color: transparent;*/
+/*}*/
 
-.funkcje .funkcja:hover {
+.funkcje div:hover {
     transform: scale(1.1);
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.5);
@@ -75,6 +75,13 @@ main{
     float: left;
     top: 25px;
     left: 35px;
+    height: 450px;
+    /*width: 450px;*/
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    /*position: relative;*/
+    border-color: transparent;
 }
 
 .funkcje .funkcja-bilety {
@@ -85,6 +92,13 @@ main{
     float: right;
     right: 35px;
     top: 25px;
+    height: 450px;
+    /*width: 450px;*/
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    /*position: relative;*/
+    border-color: transparent;
 }
 
 .funkcje .funkcja-profil {
@@ -96,6 +110,13 @@ main{
     left: 35px;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 450px;
+    /*width: 450px;*/
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    /*position: relative;*/
+    border-color: transparent;
 }
 
 .funkcje .funkcja-mapa {
@@ -107,53 +128,96 @@ main{
     right: 35px;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 450px;
+    /*width: 450px;*/
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    /*position: relative;*/
+    border-color: transparent;
 }
 
-.smif .funkcja-social-media {
-    float: right;
+
+.smif {
     position: fixed;
-    overflow: hidden;
-    padding-left: 350px;
     right: 0;
+    top: 40%;
+    padding-left: 450px;
+    overflow: hidden;
+    margin-right: -350px;
 }
 
-.smif .rozmiar-ikon {
+.smif img{
     width: 100px;
     height: 100px;
+    vertical-align: middle;
 }
 
-.smif .skala {
-    /*position: absolute;*/
-    width: 100px;
-    height: 100px;
-    background: none;
+.smif a {
+    display: block;
     transition: margin-left 2s;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    width: 450px;
 }
 
-.smif .skala:hover {
-    /*position: absolute;*/
+.smif a:hover {
     margin-left: -350px;
 }
 
-.smif .funkcja-social-media .skala {
-    /*position: relative;*/
-    width: 100px;
-    height: 100px;
-}
+/*.smif .funkcja-social-media {*/
+    /*float: right;*/
+    /*position: fixed;*/
+    /*overflow: hidden;*/
+    /*padding-left: 350px;*/
+    /*right: 0;*/
+/*}*/
 
-a.linki-zewnętrzne {
-    position: absolute;
-    font-size: 35px;
-    border: solid;
-    border-color: transparent;
-    border-width: 35px;
-    margin-left: -94px;
-    margin-top: -3px;
-    border-right-width: 75px;
-    border-left-width: 110px;
-    text-decoration: none;
-    color: black;
-}
+/*.smif .rozmiar-ikon {*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+/*}*/
+
+/*.smif .skala {*/
+    /*!*!*position: absolute;*!*!*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*!*background: none;*!*/
+    /*transition: margin-left 2s;*/
+/*}*/
+
+/*.smif .skala:hover {*/
+    /*!*position: absolute;*!*/
+    /*margin-left: -350px;*/
+
+/*}*/
+
+/*!*.smif .funkcja-social-media .skala {*!*/
+    /*!*!*position: relative;*!*!*/
+    /*!*width: 100px;*!*/
+    /*!*height: 100px;*!*/
+/*!*}*!*/
+
+/*a.linki-zewnętrzne {*/
+    /*!*transition: margin-left 2s;*!*/
+    /*!*float: right;*!*/
+    /*!*position: fixed;*!*/
+    /*!*overflow: hidden;*!*/
+    /*!*padding-left: 350px;*!*/
+    /*!*right: 0;*!*/
+    /*!*height: 300px;*!*/
+    /*!*font-size: 35px;*!*/
+    /*!*border: solid;*!*/
+    /*!*border-color: transparent;*!*/
+    /*!*border-width: 35px;*!*/
+    /*!*margin-left: -94px;*!*/
+    /*!*margin-top: -3px;*!*/
+    /*!*border-right-width: 75px;*!*/
+    /*!*border-left-width: 100px;*!*/
+    /*!*text-decoration: none;*!*/
+    /*!*color: black;*!*/
+/*}*/
 
 #ciastka{
     background-color: rgba(255, 255, 255, 0.95);
