@@ -244,24 +244,19 @@ input:focus {
 }
 
 .sekcja-zajawka {
-    background-color: brown;
-    /*background-image: url('./images/images.jpeg');*/
     background-image: url('./images/zajawka2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     position: relative;
-
-    /*border-bottom: 50px solid rgba(255, 255, 255, 0.9);*/
-    /*border-bottom: 50px outset rgba(255, 255, 255, 0.9);*/
-
 }
+
 .sekcja-zajawka p{
     color: white;
     font-family: inherit;
     font-size: 40px;
     text-align: left;
-    margin: 120px 0 0 200px;
+    padding:120px 0 0 200px;
     text-shadow: 1px -1px 1px #4C2D2B, 1px 1px 1px #4C2D2B;
     transform: rotate(5deg);
 }
