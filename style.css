@@ -5,7 +5,7 @@ body {
 }
 /*dodany został div obejmujący wszytko poniżej zajawki wtedy ładnie strona sie zwija*/
 .out{
-    width: 1400px;
+    width: 1500px;
     margin: auto;
     box-shadow: 5px 0 10px rgba(255, 255, 255, 0.9), -5px 0 10px rgba(255, 255, 255, 0.9);
 
@@ -26,8 +26,6 @@ main {
     cursor: pointer;
     box-shadow: 15px 15px 15px 10px grey;
 }
-
-
 
 .funkcje {
     margin: 0 auto;
@@ -64,7 +62,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    margin-right: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -75,7 +73,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    margin-right: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -86,7 +84,7 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    margin-right: 175px;
     background-color: black;
     border-radius: 10px;
 }
@@ -97,17 +95,17 @@ main {
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    margin-right: 175px;
     background-color: black;
     border-radius: 10px;
 }
 
 .funkcje .kalendarz {
-    background: url("../jfdd2-events/images/calendar%20dobry%20przyciety%201.png") no-repeat center;
+    background: url("../jfdd2-events/images/Calendar-3.png") no-repeat center;
 }
 
 .funkcje .bilety {
-    background: url("../jfdd2-events/images/bilety%201%20dobre.png") no-repeat center;
+    background: url("../jfdd2-events/images/movie6.png") no-repeat center;
 }
 
 .funkcje .profil {
