@@ -275,7 +275,6 @@ input:focus {
     border-width: 1px;
     position: center;
     border-color: #142B7F;
-    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.8);
     float: none;
     text-align: center;
@@ -316,26 +315,32 @@ input:focus {
 
 .icon-cinema:hover {
     background-color: #fdfdb7;
+    cursor: pointer;
 }
 
 .icon-teatr:hover {
     background-color: #ffc8a5;
+    cursor: pointer;
 }
 
 .icon-sport:hover {
     background-color: #fdfdb7;
+    cursor: pointer;
 }
 
 .icon-wakacje:hover {
     background-color: #d2ffbd;
+    cursor: pointer;
 }
 
 .icon-muzea:hover {
     background-color: #afd0ff;
+    cursor: pointer;
 }
 
 .icon-kluby:hover {
     background-color: #c4ffe1;
+    cursor: pointer;
 }
 
 
@@ -346,7 +351,7 @@ input:focus {
     color: rgb(76, 45, 43);
     font-family: inherit;
     font-size: 25px;
-    cursor: pointer;
+
     padding-top: 20px;
     /*border-bottom: 1px solid #142B7F;*/
     padding-bottom: 20px;
@@ -369,17 +374,13 @@ span.contact{
     padding-right: 12px;
     padding-left: 12px;
 
-
 }
 
 
 .o-nas li:hover {
     background-color: rgba(255, 255, 255, 0.5);
-
-}
-
-.o-nas li:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -395,11 +396,6 @@ span.contact{
     color: rgb(76, 45, 43);
 
 }
-
-
-
-
-
 
 
 footer {
