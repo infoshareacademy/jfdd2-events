@@ -98,18 +98,22 @@ main {
 }
 
 .funkcje .kalendarz {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/Calendar-3.png") no-repeat center;
 }
 
 .funkcje .bilety {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/movie6.png") no-repeat center;
 }
 
 .funkcje .profil {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/profil%201.png") no-repeat center;
 }
 
 .funkcje .mapa {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/mapaEuropa.png") no-repeat center;
 }
 
