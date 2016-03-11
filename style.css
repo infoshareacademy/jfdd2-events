@@ -286,11 +286,13 @@ input:focus {
     float: none;
     text-align: center;
 
+
 }
 
 .margines {
     margin-top: 15px;
     margin-bottom: 25px;
+
 }
 
 .marin-dodatkowe-funkcjonalnosci{
@@ -308,6 +310,7 @@ input:focus {
     display: inline-block;
     width: 100px;
     height: 120px;
+    box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8)
 }
 
 .feature-icon img {
@@ -358,7 +361,6 @@ input:focus {
     color: rgb(76, 45, 43);
     font-family: inherit;
     font-size: 25px;
-
     padding-top: 20px;
     /*border-bottom: 1px solid #142B7F;*/
     padding-bottom: 20px;
@@ -380,6 +382,8 @@ span.contact{
     height: 150px;
     padding-right: 12px;
     padding-left: 12px;
+    margin: 15px;
+    box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8)
 
 }
 
@@ -410,14 +414,10 @@ footer {
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
-    cursor: pointer;
     color: rgb(76, 45, 43);
-    box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8);
 
 
 }
-
-
 
 
 .menu-footer  {
@@ -425,6 +425,7 @@ footer {
     margin-left: 30px;
     margin-right:30px;
     display: inline;
+    cursor: pointer;
 
 }
 .menu-footer a {
