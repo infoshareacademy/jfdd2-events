@@ -8,11 +8,8 @@ body {
     width: 1500px;
     margin: auto;
     box-shadow: 5px 0 10px rgba(255, 255, 255, 0.9), -5px 0 10px rgba(255, 255, 255, 0.9);
-
-
-
-
 }
+
 .clear {
     clear: both;
 }
@@ -101,25 +98,29 @@ main {
 }
 
 .funkcje .kalendarz {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/Calendar-3.png") no-repeat center;
 }
 
 .funkcje .bilety {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/movie6.png") no-repeat center;
 }
 
 .funkcje .profil {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/profil%201.png") no-repeat center;
 }
 
 .funkcje .mapa {
+    transition: transform, 0.3s linear;
     background: url("../jfdd2-events/images/mapaEuropa.png") no-repeat center;
 }
 
 .smif {
     position: fixed;
     right: 0;
-    top: 40%;
+    top: 41%;
     padding-left: 450px;
     overflow: hidden;
     margin-right: -350px;
@@ -258,6 +259,7 @@ input:focus {
     padding:120px 0 0 200px;
     text-shadow: 1px -1px 1px #4C2D2B, 1px 1px 1px #4C2D2B;
     transform: rotate(5deg);
+    transition: margin-left 1s linear,transform 1.5s linear;
 }
 .pod-zajawka{
     background-color: rgba(255, 255, 255, 0.85);
