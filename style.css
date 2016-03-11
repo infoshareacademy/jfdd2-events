@@ -258,6 +258,7 @@ input:focus {
     padding:120px 0 0 200px;
     text-shadow: 1px -1px 1px #4C2D2B, 1px 1px 1px #4C2D2B;
     transform: rotate(5deg);
+    transition: margin-left 1s linear,transform 1.5s linear;
 }
 .pod-zajawka{
     background-color: rgba(255, 255, 255, 0.85);
