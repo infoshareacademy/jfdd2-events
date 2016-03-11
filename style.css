@@ -8,11 +8,8 @@ body {
     width: 1500px;
     margin: auto;
     box-shadow: 5px 0 10px rgba(255, 255, 255, 0.9), -5px 0 10px rgba(255, 255, 255, 0.9);
-
-
-
-
 }
+
 .clear {
     clear: both;
 }
@@ -119,7 +116,7 @@ main {
 .smif {
     position: fixed;
     right: 0;
-    top: 40%;
+    top: 41%;
     padding-left: 450px;
     overflow: hidden;
     margin-right: -350px;
