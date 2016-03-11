@@ -22,6 +22,11 @@ function checkCookie(cookieNeV) {
 }
 
 $(document).ready(function() {
+
+   setTimeout(function (){
+       $('.sekcja-zajawka p').css( 'transform', 'scale(1.1)' );
+
+},100);
     $('#cookies').click(function() {
         setCookieValue()
         $(this).hide();
