@@ -17,28 +17,26 @@
     Kliknij w ten pasek jeżeli zgadzasz się na ciasteczka
 </div>
 
-<div class="menu">
+<div class="menu" id="menu">
     <nav>
         <ul>
             <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Kalendarz</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Mapa Gdańska</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Partnerzy</a></li>
-            <li class="menu-el-zewnetrzene-prawy"><a>Kontakt</a></li>
+            <li class="menu-el-zewnetrzene-srodek"><a href="#funkcje">Funkcjonalności</a></li>
+            <li class="menu-el-zewnetrzene-srodek"><a href="#o-nas">O nas</a></li>
+            <li class="menu-el-zewnetrzene-prawy"><a href="#o-nas">Kontakt</a></li>
         </ul>
     </nav>
 </div>
 <div class="clear"></div>
 <header>
     <section class="sekcja-zajawka">
-        <!--<p>Znajdź dla siebie najlepszą imprezę! <br>-->
+        <p>Znajdź dla siebie najlepszą imprezę! <br>
 
-        <!--Zobacz gdzie możesz spedzić wolny czas!</p>-->
+        Zobacz gdzie możesz spedzić wolny czas!</p>
     </section>
     <div class="pod-zajawka"></div>
 
 </header>
-<div class="out">
     <section class="smif">
         <div>
             <a href="http://www.infoshareacademy.com" target="_blank"><span><img src="images/social_facebook_box_blue.png">facebook.com/EGA</span></a>
@@ -54,9 +52,9 @@
 
 
     <main>
-        <section class="funkcje">
+        <section class="funkcje" id="funkcje">
             <a href="http://www.infoshareacademy.com" class="kalendarz">
-                <div>
+                <div >
                     <div class="nazwa-funkcjonalności">Kalendarz</div>
                     <span class="opis-kalendarz">Znajdź i wybierz eventy które Cię interesują. Dokonaj tego przy pomocy naszego kalendarza.</span>
                 </div>
@@ -119,7 +117,7 @@
 
 
     <section>
-        <div class="o-nas">
+        <div class="o-nas" id="o-nas">
             <h1>O nas - Trzeci wymiar</h1>
             <br>
             <ul>
@@ -134,14 +132,12 @@
             <span class="contact">Wypełnij formularz aby skontaktować się z nami</span>
             <form class="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
 
-                <span>Imię:</span><input type="text" name="imię"
-                                         placeholder="Jan"><br><br>
-                <span>Adres e-mail:</span><input type="email" name="nazwisko "
-                                                 placeholder="np. info@infoshare.pl" required><br><br>
-                <span>Telefon:</span><input type="text" name="telefon"
-                                            placeholder="np. 601102203" pattern="[0-9]{9}"><br><br>
-                <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
-                <input type="submit" value="Wyślij">
+            <span>Imię:</span><input type="text" name="imię"><br><br>
+            <span>Adres e-mail:</span><input type="email" name="email "
+                                             placeholder="np. info@infoshare.pl" required><br><br>
+            <span>Telefon:</span><input type="text" name="telefon" placeholder="np. 601102203" pattern="[0-9]{9}" required><br><br>
+            <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
+            <input type="submit" value="Wyślij">
 
             </form>
         </div>
@@ -165,7 +161,7 @@
 
     </footer>
 
-</div>
+
 
 
 </body>

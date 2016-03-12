@@ -4,16 +4,15 @@ body {
     position: relative;
 }
 /*dodany został div obejmujący wszytko poniżej zajawki wtedy ładnie strona sie zwija*/
-.out{
-    /*width: 1500px;*/
-    margin: auto;
-    box-shadow: 5px 0 10px rgba(255, 255, 255, 0.9), -5px 0 10px rgba(255, 255, 255, 0.9);
-}
+
 
 .clear {
     clear: both;
 }
+a{
+    font-family: "Helvetica", "sans-serif";
 
+}
 main {
     background-color: rgba(255, 255, 255, 0.85);
 }
@@ -31,6 +30,7 @@ body.fullWidth {
 .funkcje {
     margin: 0 auto;
     padding-left: 20%;
+    margin-top: 50px;
     /*padding-left: 10%;*/
 }
 
@@ -54,7 +54,7 @@ body.fullWidth {
     text-align: center;
     color: white;
     font-size: 40px;
-    margin-right: 175px;
+    margin-right: 145px;
     margin-top: 15px;
     margin-left: 15px;
     padding: 5px;
@@ -128,7 +128,6 @@ body.fullWidth {
             7px 6px 1px #ccc;
     font-weight: 700;
 }
-
 .funkcje .opis-mapa {
     font-size: 25px;
     color: black;
@@ -216,13 +215,13 @@ body.fullWidth {
 
 }
 
-/*.menu ul {*/
-    /*margin-right: 50px;*/
-/*}*/
+.menu ul {
+    margin-right: 50px;
+}
 
 .menu ul li {
     display: inline-block;
-    transition: background-color 0.4s linear, box-shadow 0.3s linear, border 0.3s linear;
+    transition: background-color 0.4s linear, box-shadow 0.2s linear, border 0.2s linear;
     padding: 0 20px 0;
 
 
@@ -231,16 +230,16 @@ body.fullWidth {
 .menu ul li:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 10px 0 10px rgba(76, 45, 43, 0.8),-10px 0 10px rgba(76, 45, 43, 0.8);
+    box-shadow: 5px 0 7px rgba(60, 119, 159, 0.7),-5px 0 7px rgba(60, 119, 159, 0.7);
 
 
 }
 
 .menu {
-    background-color: rgba(255, 255, 255, 0.9);
     text-align: right;
     line-height: 100px;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: 500;
 }
 
 .menu-el-zewnetrzene-prawy {
@@ -256,24 +255,27 @@ body.fullWidth {
 }
 
 .menu a {
-    background-color: transparent;
     font-size: 24px;
-    color: rgb(76, 45, 43);
+    color: rgb(60, 119, 159);
+    text-decoration: none;
 }
 
 .formularz input[type=text],
 .formularz input[type=email] {
     background-color: rgba(255, 255, 255, 0.9);
-    color: #142B7F;
+    color: rgb(60, 119, 159);
     border-radius: 6px;
+
 }
 
 .formularz input[type=submit] {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(76, 45, 43);
+    color: rgb(60, 119, 159);
     font-size: 20px;
     border-radius: 6px;
     width: 100px;
+    font-family: "Helvetica", "sans-serif";
+
 
 }
 
@@ -283,10 +285,12 @@ body.fullWidth {
 
 .formularz input {
     margin-top: 10px;
-    height: 33px;
-    width: 300px;
+    height: 30px;
+    width: 230px;
     font-size: 18px;
     padding: 0 5px 0;
+    font-family: "Helvetica", "sans-serif";
+
 }
 
 input:focus {
@@ -296,47 +300,42 @@ input:focus {
 .formularz span {
     display: inline-block;
     width: 130px;
-    color: rgb(76, 45, 43);
-    font-size: 20px;
+    color: rgb(60, 119, 159);
+    font-size: 18px;
     font-weight: bold;
+    font-family: "Helvetica", "sans-serif";
+
+
 
 }
 
 .sekcja-zajawka {
-    background-image: url('./images/zajawka2.jpg');
+    background-image: url('./images/tlo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 800px;
     position: relative;
 }
 
 .sekcja-zajawka p{
-    color: white;
-    font-family: inherit;
+    color: rgb(120, 106, 59);
     font-size: 40px;
     text-align: left;
-    width: 1000px;
-    padding:120px 0 0 200px;
-    text-shadow: 1px -1px 1px #4C2D2B, 1px 1px 1px #4C2D2B;
-    transform: rotate(5deg);
-    transition: margin-left 1s linear,transform 1.5s linear;
-}
-.pod-zajawka{
-    background-color: rgba(255, 255, 255, 0.85);
-    width:100%;
-    height: 50px;
-    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.9);
-
+    width: inherit;
+    /*padding:120px 0 0 200px;*/
+    text-shadow: 1px -1px 1px white, 1px 1px 1px white;
+    /*transform: rotate(5deg);*/
+    /*background-color: red;*/
 }
 
 .dodatkowe-funkcjonalnosci {
-    color: rgb(76, 45, 43);
     border: solid;
+    color: rgb(60, 119, 159);
     border-left: none;
     border-right: none;
     border-width: 1px;
     position: center;
-    border-color: #142B7F;
+    border-color: rgb(60, 119, 159);
     background-color: rgba(255, 255, 255, 0.8);
     float: none;
     text-align: center;
@@ -380,10 +379,8 @@ input:focus {
 
 
 .o-nas {
-
     background-color: rgba(255, 255, 255, 0.8);
-    color: rgb(76, 45, 43);
-    font-family: inherit;
+    color: rgb(60, 119, 159);
     font-size: 25px;
     padding-top: 20px;
     /*border-bottom: 1px solid #142B7F;*/
@@ -395,6 +392,8 @@ input:focus {
 span.contact{
     line-height: 50px;
     font-size: 30px;
+    font-family: "Helvetica", "sans-serif";
+
 }
 
 .o-nas li {
@@ -422,13 +421,17 @@ span.contact{
 .o-nas h1 {
     text-align: left;
     padding-left: 20px;
+    font-family: "Helvetica", "sans-serif";
+
 }
 
 
 
 .o-nas a {
     font-size: 15px;
-    color: rgb(76, 45, 43);
+    color: rgb(60, 119, 159);
+    font-family: "Helvetica", "sans-serif";
+
 
 }
 
@@ -438,7 +441,7 @@ footer {
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
-    color: rgb(76, 45, 43);
+    color: rgb(60, 119, 159);
 
 
 }
