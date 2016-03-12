@@ -51,12 +51,13 @@ body.fullWidth {
 .funkcje .nazwa-funkcjonalności {
     border-radius: 10px;
     background-color: black;
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 40px;
-    margin-right: 200px;
+    margin-right: 175px;
     margin-top: 15px;
     margin-left: 15px;
+    padding: 5px;
 }
 
 .opis-kalendarz {
