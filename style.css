@@ -55,6 +55,8 @@ body.fullWidth {
     color: white;
     font-size: 40px;
     margin-right: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .opis-kalendarz {
@@ -68,6 +70,7 @@ body.fullWidth {
     /*background-color: black;*/
     border-radius: 10px;
     margin-bottom: 40px;
+    margin-right: 20px;
     text-shadow:
             1px 0px 1px #ccc, 0px 1px 1px #eee,
             2px 1px 1px #ccc, 1px 2px 1px #eee,
@@ -90,6 +93,7 @@ body.fullWidth {
     /*background-color: black;*/
     border-radius: 10px;
     margin-bottom: 40px;
+    margin-right: 20px;
     text-shadow:
             1px 0px 1px #ccc, 0px 1px 1px #eee,
             2px 1px 1px #ccc, 1px 2px 1px #eee,
@@ -112,6 +116,7 @@ body.fullWidth {
     /*background-color: black;*/
     border-radius: 10px;
     margin-bottom: 40px;
+    margin-right: 20px;
     text-shadow:
             1px 0px 1px #ccc, 0px 1px 1px #eee,
             2px 1px 1px #ccc, 1px 2px 1px #eee,
@@ -134,6 +139,7 @@ body.fullWidth {
     /*background-color: black;*/
     border-radius: 10px;
     margin-bottom: 40px;
+    margin-right: 20px;
     text-shadow:
             1px 0px 1px #ccc, 0px 1px 1px #eee,
             2px 1px 1px #ccc, 1px 2px 1px #eee,
