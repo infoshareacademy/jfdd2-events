@@ -372,42 +372,11 @@ input:focus {
     margin: 10px;
 }
 
-.feature-icon :hover{
+
+.marin-dodatkowe-funkcjonalnosci :hover{
     cursor: pointer;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
-
-
-.icon-cinema:hover {
-    background-color: #fdfdb7;
-    cursor: pointer;
-}
-
-.icon-teatr:hover {
-    background-color: #ffc8a5;
-    cursor: pointer;
-}
-
-.icon-sport:hover {
-    background-color: #fdfdb7;
-    cursor: pointer;
-}
-
-.icon-wakacje:hover {
-    background-color: #d2ffbd;
-    cursor: pointer;
-}
-
-.icon-muzea:hover {
-    background-color: #afd0ff;
-    cursor: pointer;
-}
-
-.icon-kluby:hover {
-    background-color: #c4ffe1;
-    cursor: pointer;
-}
-
 
 
 .o-nas {
