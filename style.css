@@ -249,7 +249,7 @@ body.fullWidth {
     margin-top: 5px;
 }
 
-.formularz input[type=text],
+.formularz input[type=tel],
 .formularz input[type=email] {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
@@ -441,6 +441,10 @@ span.contact{
     font-family: "Helvetica", "sans-serif";
 
 
+}
+.o-nas img{
+    height:90px;
+    width: 80px;
 }
 
 
