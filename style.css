@@ -31,7 +31,6 @@ body.fullWidth {
     margin: 0 auto;
     padding-left: 20%;
     margin-top: 50px;
-    /*padding-left: 10%;*/
 }
 
 .funkcje a {
@@ -50,9 +49,9 @@ body.fullWidth {
 
 .funkcje .nazwa-funkcjonalności {
     border-radius: 10px;
-    background-color: black;
+    /*background-color: black;*/
     text-align: center;
-    color: white;
+    color: transparent;
     font-size: 40px;
     margin-right: 145px;
     margin-top: 15px;
@@ -60,9 +59,68 @@ body.fullWidth {
     padding: 5px;
 }
 
-.opis-kalendarz {
-    font-size: 25px;
+
+
+.kalendarz:hover .opis-kalendarz {
+    background-color: white;
     color: black;
+    text-shadow:
+            1px 0px 1px #ccc, 0px 1px 1px #eee,
+            2px 1px 1px #ccc, 1px 2px 1px #eee,
+            3px 2px 1px #ccc, 2px 3px 1px #eee,
+            4px 3px 1px #ccc, 3px 4px 1px #eee,
+            5px 4px 1px #ccc, 4px 5px 1px #eee,
+            6px 5px 1px #ccc, 5px 6px 1px #eee,
+            7px 6px 1px #ccc;
+}
+
+.bilety:hover .opis-bilety {
+    background-color: white;
+    color: black;
+    text-shadow:
+            1px 0px 1px #ccc, 0px 1px 1px #eee,
+            2px 1px 1px #ccc, 1px 2px 1px #eee,
+            3px 2px 1px #ccc, 2px 3px 1px #eee,
+            4px 3px 1px #ccc, 3px 4px 1px #eee,
+            5px 4px 1px #ccc, 4px 5px 1px #eee,
+            6px 5px 1px #ccc, 5px 6px 1px #eee,
+            7px 6px 1px #ccc;
+}
+
+.profil:hover .opis-profil {
+    background-color: white;
+    color: black;
+    text-shadow:
+            1px 0px 1px #ccc, 0px 1px 1px #eee,
+            2px 1px 1px #ccc, 1px 2px 1px #eee,
+            3px 2px 1px #ccc, 2px 3px 1px #eee,
+            4px 3px 1px #ccc, 3px 4px 1px #eee,
+            5px 4px 1px #ccc, 4px 5px 1px #eee,
+            6px 5px 1px #ccc, 5px 6px 1px #eee,
+            7px 6px 1px #ccc;
+}
+
+.mapa:hover .opis-mapa {
+    background-color: white;
+    color: black;
+    text-shadow:
+            1px 0px 1px #ccc, 0px 1px 1px #eee,
+            2px 1px 1px #ccc, 1px 2px 1px #eee,
+            3px 2px 1px #ccc, 2px 3px 1px #eee,
+            4px 3px 1px #ccc, 3px 4px 1px #eee,
+            5px 4px 1px #ccc, 4px 5px 1px #eee,
+            6px 5px 1px #ccc, 5px 6px 1px #eee,
+            7px 6px 1px #ccc;
+}
+
+.funkcje a:hover .nazwa-funkcjonalności {
+    background-color: black;
+    color: white;
+}
+
+.funkcje .opis-kalendarz {
+    font-size: 25px;
+    color: transparent;
     bottom: 0;
     position: absolute;
     border: solid;
@@ -72,20 +130,12 @@ body.fullWidth {
     border-radius: 10px;
     margin-bottom: 40px;
     margin-right: 20px;
-    text-shadow:
-            1px 0px 1px #ccc, 0px 1px 1px #eee,
-            2px 1px 1px #ccc, 1px 2px 1px #eee,
-            3px 2px 1px #ccc, 2px 3px 1px #eee,
-            4px 3px 1px #ccc, 3px 4px 1px #eee,
-            5px 4px 1px #ccc, 4px 5px 1px #eee,
-            6px 5px 1px #ccc, 5px 6px 1px #eee,
-            7px 6px 1px #ccc;
     font-weight: 700;
 }
 
 .funkcje .opis-bilety {
     font-size: 25px;
-    color: black;
+    color: transparent;
     bottom: 0;
     position: absolute;
     border: solid;
@@ -95,20 +145,12 @@ body.fullWidth {
     border-radius: 10px;
     margin-bottom: 40px;
     margin-right: 20px;
-    text-shadow:
-            1px 0px 1px #ccc, 0px 1px 1px #eee,
-            2px 1px 1px #ccc, 1px 2px 1px #eee,
-            3px 2px 1px #ccc, 2px 3px 1px #eee,
-            4px 3px 1px #ccc, 3px 4px 1px #eee,
-            5px 4px 1px #ccc, 4px 5px 1px #eee,
-            6px 5px 1px #ccc, 5px 6px 1px #eee,
-            7px 6px 1px #ccc;
     font-weight: 700;
 }
 
 .funkcje .opis-profil {
     font-size: 25px;
-    color: black;
+    color: transparent;
     bottom: 0;
     position: absolute;
     border: solid;
@@ -118,19 +160,11 @@ body.fullWidth {
     border-radius: 10px;
     margin-bottom: 40px;
     margin-right: 20px;
-    text-shadow:
-            1px 0px 1px #ccc, 0px 1px 1px #eee,
-            2px 1px 1px #ccc, 1px 2px 1px #eee,
-            3px 2px 1px #ccc, 2px 3px 1px #eee,
-            4px 3px 1px #ccc, 3px 4px 1px #eee,
-            5px 4px 1px #ccc, 4px 5px 1px #eee,
-            6px 5px 1px #ccc, 5px 6px 1px #eee,
-            7px 6px 1px #ccc;
     font-weight: 700;
 }
 .funkcje .opis-mapa {
     font-size: 25px;
-    color: black;
+    color: transparent;
     bottom: 0;
     position: absolute;
     border: solid;
@@ -140,14 +174,6 @@ body.fullWidth {
     border-radius: 10px;
     margin-bottom: 40px;
     margin-right: 20px;
-    text-shadow:
-            1px 0px 1px #ccc, 0px 1px 1px #eee,
-            2px 1px 1px #ccc, 1px 2px 1px #eee,
-            3px 2px 1px #ccc, 2px 3px 1px #eee,
-            4px 3px 1px #ccc, 3px 4px 1px #eee,
-            5px 4px 1px #ccc, 4px 5px 1px #eee,
-            6px 5px 1px #ccc, 5px 6px 1px #eee,
-            7px 6px 1px #ccc;
     font-weight: 700;
 }
 
@@ -177,13 +203,13 @@ body.fullWidth {
     top: 41%;
     /*padding-left: 450px;*/
     overflow: hidden;
-    margin-right: -350px;
+    margin-right: -400px;
     z-index: 9999;
 }
 
 .smif img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
 }
 
