@@ -22,9 +22,9 @@ body.fullWidth {
 }
 
 .funkcje a:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
-    box-shadow: 15px 15px 15px 10px grey;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5 );
 }
 
 .funkcje {
@@ -34,7 +34,6 @@ body.fullWidth {
 }
 
 .funkcje a {
-    background-color: red;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -43,19 +42,19 @@ body.fullWidth {
     border-radius: 15px;
     border-width: 2px;
     border: solid;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.7 );
     margin: 40px;
 }
 
 .funkcje .nazwa-funkcjonalności {
-    border-radius: 10px;
-    /*background-color: black;*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
     text-align: center;
     color: transparent;
     font-size: 40px;
     margin-right: 145px;
     margin-top: 15px;
-    margin-left: 15px;
     padding: 5px;
 }
 
@@ -126,10 +125,11 @@ body.fullWidth {
     border: solid;
     border-color: transparent;
     margin-left: 175px;
-    /*background-color: black;*/
-    border-radius: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
     font-weight: 700;
 }
 
@@ -141,10 +141,11 @@ body.fullWidth {
     border: solid;
     border-color: transparent;
     margin-left: 175px;
-    /*background-color: black;*/
-    border-radius: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
     font-weight: 700;
 }
 
@@ -156,10 +157,11 @@ body.fullWidth {
     border: solid;
     border-color: transparent;
     margin-left: 175px;
-    /*background-color: black;*/
-    border-radius: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
     font-weight: 700;
 }
 .funkcje .opis-mapa {
@@ -170,30 +172,32 @@ body.fullWidth {
     border: solid;
     border-color: transparent;
     margin-left: 175px;
-    /*background-color: black;*/
-    border-radius: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
     font-weight: 700;
 }
 
 .funkcje .kalendarz {
-    transition: transform, 0.3s linear;
+    transition: transform, 0.2s linear;
     background: url("./images/kalendarz%20wersja%20pełna.jpg") no-repeat center;
 }
 
 .funkcje .bilety {
-    transition: transform, 0.3s linear;
+    transition: transform, 0.2s linear;
     background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
 }
 
 .funkcje .profil {
-    transition: transform, 0.3s linear;
-    background: url("./images/profil%20wersja%20pełna.jpg") no-repeat center;
+    transition: transform, 0.2s linear;
+    background: url("./images/profil%20wersja%20pełna.jpg") no-repeat center bottom;
+    background-size: cover;
 }
 
 .funkcje .mapa {
-    transition: transform, 0.3s linear;
+    transition: transform, 0.2s linear;
     background: url("./images/mapa%20wersja%20pełna.jpg") no-repeat center;
 }
 
@@ -236,10 +240,9 @@ body.fullWidth {
     line-height: 50px;
     font-size: 25px;
     text-shadow: 3px 3px 5px rgba(76, 45, 43, 0.9),-3px -3px 5px rgba(76, 45, 43, 0.9);
-
-
-
 }
+
+
 
 .menu ul {
     margin-right: 50px;
@@ -256,8 +259,8 @@ body.fullWidth {
 .menu ul li:hover {
     cursor: pointer;
     transform: scale(1.05);
-    box-shadow: 5px 0 7px rgba(60, 119, 159, 0.7),-5px 0 7px rgba(60, 119, 159, 0.7);
-
+    /*box-shadow: 5px 0 7px rgba(60, 119, 159, 0.7),-5px 0 7px rgba(60, 119, 159, 0.7);*/
+    box-shadow: 5px 0 7px rgba(0, 0, 0, 0.6), -5px 0 7px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -282,21 +285,39 @@ body.fullWidth {
 
 .menu a {
     font-size: 24px;
-    color: rgb(60, 119, 159);
+    /*color: rgb(60, 119, 159);*/
+    color: black;
     text-decoration: none;
+
+
 }
 
-.formularz input[type=text],
+.menu-logo{
+    height:100px;
+    width:150px;
+    margin: 0 0 0 50px;
+    display: inline-block;
+    float: left;
+
+}
+
+.menu-logo img{
+    height:90px;
+    width:140px;
+    margin-top: 5px;
+}
+
+.formularz input[type=tel],
 .formularz input[type=email] {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(60, 119, 159);
+    color: black;
     border-radius: 6px;
 
 }
 
 .formularz input[type=submit] {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(60, 119, 159);
+    color: black;
     font-size: 20px;
     border-radius: 6px;
     width: 100px;
@@ -305,13 +326,9 @@ body.fullWidth {
 
 }
 
-/*header {*/
-    /*width: 100%;*/
-/*}*/
-
 .formularz input {
     margin-top: 10px;
-    height: 30px;
+    height: 25px;
     width: 230px;
     font-size: 18px;
     padding: 0 5px 0;
@@ -326,7 +343,7 @@ input:focus {
 .formularz span {
     display: inline-block;
     width: 130px;
-    color: rgb(60, 119, 159);
+    color: black;
     font-size: 18px;
     font-weight: bold;
     font-family: "Helvetica", "sans-serif";
@@ -341,30 +358,54 @@ input:focus {
     background-size: cover;
     height: 800px;
     position: relative;
+
 }
 
-.sekcja-zajawka p{
-    color: rgb(120, 106, 59);
-    font-size: 40px;
-    text-align: left;
-    width: inherit;
-    /*padding:120px 0 0 200px;*/
-    text-shadow: 1px -1px 1px white, 1px 1px 1px white;
-    /*transform: rotate(5deg);*/
-    /*background-color: red;*/
+.misja-gora{
+    height:100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.misja-gora a{
+    font-family: "Helvetica", "sans-serif";
+    padding:20px;
+    line-height: 100px;
+}
+.misja-dol{
+    height: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.misja-dol {
+    font-family: "Helvetica", "sans-serif";
+    padding: 20px;
+    line-height: 40px;
 }
 
 .dodatkowe-funkcjonalnosci {
     border: solid;
-    color: rgb(60, 119, 159);
     border-left: none;
     border-right: none;
     border-width: 1px;
     position: center;
-    border-color: rgb(60, 119, 159);
+    border-color: rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 0.8);
     float: none;
     text-align: center;
+    margin-top:80px;
 
 
 }
@@ -372,6 +413,7 @@ input:focus {
 .margines {
     margin-top: 15px;
     margin-bottom: 25px;
+
 
 }
 
@@ -390,7 +432,6 @@ input:focus {
     display: inline-block;
     width: 100px;
     height: 120px;
-    box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8)
 }
 
 .feature-icon img {
@@ -400,16 +441,16 @@ input:focus {
 
 .marin-dodatkowe-funkcjonalnosci :hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 
 .o-nas {
     background-color: rgba(255, 255, 255, 0.8);
-    color: rgb(60, 119, 159);
+    color: black;
     font-size: 25px;
+    font-weight: bold;
     padding-top: 20px;
-    /*border-bottom: 1px solid #142B7F;*/
     padding-bottom: 20px;
     text-align: center;
 
@@ -423,25 +464,24 @@ span.contact{
 }
 
 .o-nas li {
+    height: 250px;
     background-color: transparent;
     display: inline-block;
     text-align: justify;
     width: 250px;
     vertical-align: top;
-    height: 150px;
     padding-right: 12px;
     padding-left: 12px;
+    font-weight: 300;
     margin: 15px;
     box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8)
 
 }
-
-
-.o-nas li:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-    cursor: pointer;
+.o-nas span{
+    font-size: 20px;
+    font-weight: bold;
 }
+
 
 
 .o-nas h1 {
@@ -455,10 +495,14 @@ span.contact{
 
 .o-nas a {
     font-size: 15px;
-    color: rgb(60, 119, 159);
+    color: black;
     font-family: "Helvetica", "sans-serif";
 
 
+}
+.o-nas img{
+    height:90px;
+    width: 80px;
 }
 
 
@@ -467,11 +511,9 @@ footer {
     padding-top: 25px;
     padding-bottom: 5px;
     text-align: center;
-    color: rgb(60, 119, 159);
-
+    color: black;
 
 }
-
 
 .menu-footer  {
     font-size: 16px;
@@ -494,14 +536,9 @@ footer {
     transform: scale(1.3);
 }
 
-
-
-
-
 .copy-right {
     display:block;
     font-size: 15px;
     padding: 20px;
-
 }
 

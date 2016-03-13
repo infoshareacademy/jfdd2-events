@@ -2,10 +2,10 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Wydarzenia Gdańka</title>
+    <title>Wydarzenia Gdańska</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/3w.png">
 </head>
 <body>
 
@@ -14,27 +14,30 @@
 
 
 <div id="cookies">
-    Kliknij w ten pasek jeżeli zgadzasz się na ciasteczka
+    Nasza strona korzysta z ciasteczek (ang. cookies) kliknij w pasek, jeżeli się zgadzasz
 </div>
 
+
+
+
+
 <div class="menu" id="menu">
-    <nav>
-        <ul>
-            <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a href="#funkcje">Funkcjonalności</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a href="#o-nas">O nas</a></li>
-            <li class="menu-el-zewnetrzene-prawy"><a href="#o-nas">Kontakt</a></li>
-        </ul>
-    </nav>
+   <div class="menu-logo"><img src="images/3w.png" alt="logo">
+   </div>
+    <ul>
+        <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
+        <li class="menu-el-zewnetrzene-srodek"><a href="#funkcje">Funkcjonalności</a></li>
+        <li class="menu-el-zewnetrzene-srodek"><a href="#o-nas">O nas</a></li>
+        <li class="menu-el-zewnetrzene-prawy"><a href="#o-nas">Kontakt</a></li>
+    </ul>
 </div>
+
 <div class="clear"></div>
 <header>
     <section class="sekcja-zajawka">
-        <p>Znajdź dla siebie najlepszą imprezę! <br>
-
-        Zobacz gdzie możesz spedzić wolny czas!</p>
+    <div class="misja-gora"><a>Kino teatr czy impreza?</a></div>
+    <div class="misja-dol"><p>Znajdź dla siebie najlepszą imprezę!<br>Zobacz gdzie możesz spedzić wolny czas!</p></div>
     </section>
-    <div class="pod-zajawka"></div>
 
 </header>
     <section class="smif">
@@ -122,21 +125,30 @@
             <br>
             <ul>
 
-                <li><a><img src="images/o-nas/piesek.png">Bartek Bartek lorem ipsum lorem ipsum lorem
-                    ipsum</a></li>
-                <li><a><img src="images/o-nas/sowa.png"> Łukasz łukasz lorem ipsum lorem ipsum
-                    lorem ipsum</a></li>
-                <li><a><img src="images/o-nas/kotek.png">Karina Karina lorem ipsum lorem ipsum lorem
-                    lookmo ooo o ofsfsfssfsffrem ipsum</a>
+                <li><a><img src="images/bartlomiej.jpg"> <span>Bartłomiej</span> - absolwent Wyżeszej Szkoły Turystyki i Hotelarstwa
+
+                    Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
+                    Hobby - piłka nożna.
+                    </a></li>
+
+                <li><a><img src="images/lukasz.jpg"> <span>Łukasz</span> - absolwent Politechniki Gdańskiej.
+                    Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
+                    Hobby - jazda na rowerze i wędrówki górskie.
+                    </a></li>
+                <li><a><img src="images/karina.jpg"> <span>Karina</span> - absolwentka Politechniki Koszalińskiej.
+                    Lubi pracę w grupie, koleżeńska. Hobby - jazda na rolkach i długie spacery.
+                    </a>
+
+
 
             </ul>
-            <span class="contact">Wypełnij formularz, aby skontaktować się z nami</span>
-            <form class="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
+            <span class="contact"><span>Wypełnij formularz, aby skontaktować się z nami</span></span>
+            <form class="formularz" id="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
 
-            <span>Imię:</span><input type="text" name="imię"><br><br>
+
             <span>Adres e-mail:</span><input type="email" name="email "
-                                             placeholder="np. info@infoshare.pl" required><br><br>
-            <span>Telefon:</span><input type="text" name="telefon" placeholder="np. 601102203" pattern="[0-9]{9}" required><br><br>
+                                             placeholder="np. info@infoshare.pl" ><br><br>
+            <span>Telefon:</span><input type="tel" name="telefon" placeholder="np. 601102203" pattern="[0-9]{9}" ><br><br>
             <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
             <input type="submit" value="Wyślij">
 
