@@ -262,9 +262,11 @@ body.fullWidth {
     text-decoration: none;
 }
 
-.logo {
-     width: 90%;
+.logo tr {
+    margin-left: 30px;
+
     }
+
 
 .formularz input[type=text],
 .formularz input[type=email] {
