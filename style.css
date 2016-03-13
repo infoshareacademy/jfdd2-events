@@ -215,6 +215,8 @@ body.fullWidth {
 
 }
 
+
+
 .menu ul {
     margin-right: 50px;
 }
@@ -259,6 +261,10 @@ body.fullWidth {
     color: rgb(60, 119, 159);
     text-decoration: none;
 }
+
+.logo {
+     width: 90%;
+    }
 
 .formularz input[type=text],
 .formularz input[type=email] {
@@ -315,19 +321,32 @@ input:focus {
     background-size: cover;
     height: 800px;
     position: relative;
+    color: #2c4078;
 }
 
 .sekcja-zajawka p{
-    color: rgb(120, 106, 59);
-    font-size: 40px;
+    color: #2c4078;
+    font-size: 30px;
     text-align: left;
+    font-family: "Helvetica", "sans-serif";
     width: inherit;
+    padding-top: 25px;
     /*padding:120px 0 0 200px;*/
-    text-shadow: 1px -1px 1px white, 1px 1px 1px white;
+    /*text-shadow: 1px -1px 1px white, 1px 1px 1px white;*/
     /*transform: rotate(5deg);*/
     /*background-color: red;*/
 }
 
+#misja-zajawka {
+    margin-top: 45%;
+    font-family: "Helvetica", "sans-serif";
+    margin-right: 10%;
+    text-align: right;
+    font-size: 30px;
+    color: #2c4078;
+
+
+}
 .dodatkowe-funkcjonalnosci {
     border: solid;
     color: rgb(60, 119, 159);
