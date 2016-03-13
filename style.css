@@ -210,9 +210,6 @@ body.fullWidth {
     line-height: 50px;
     font-size: 25px;
     text-shadow: 3px 3px 5px rgba(76, 45, 43, 0.9),-3px -3px 5px rgba(76, 45, 43, 0.9);
-
-
-
 }
 
 
@@ -232,8 +229,8 @@ body.fullWidth {
 .menu ul li:hover {
     cursor: pointer;
     transform: scale(1.05);
-    box-shadow: 5px 0 7px rgba(60, 119, 159, 0.7),-5px 0 7px rgba(60, 119, 159, 0.7);
-
+    /*box-shadow: 5px 0 7px rgba(60, 119, 159, 0.7),-5px 0 7px rgba(60, 119, 159, 0.7);*/
+    box-shadow: 5px 0 7px rgba(0, 0, 0, 0.6), -5px 0 7px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -258,13 +255,27 @@ body.fullWidth {
 
 .menu a {
     font-size: 24px;
-    color: rgb(60, 119, 159);
+    /*color: rgb(60, 119, 159);*/
+    color: black;
     text-decoration: none;
+
+
 }
 
-.logo {
-     width: 90%;
-    }
+.menu-logo{
+    height:100px;
+    width:150px;
+    margin: 0 0 0 50px;
+    display: inline-block;
+    float: left;
+
+}
+
+.menu-logo img{
+    height:90px;
+    width:140px;
+    margin-top: 5px;
+}
 
 .formularz input[type=text],
 .formularz input[type=email] {
@@ -284,10 +295,6 @@ body.fullWidth {
 
 
 }
-
-/*header {*/
-    /*width: 100%;*/
-/*}*/
 
 .formularz input {
     margin-top: 10px;
@@ -321,32 +328,43 @@ input:focus {
     background-size: cover;
     height: 800px;
     position: relative;
-    color: #2c4078;
+
 }
 
-.sekcja-zajawka p{
-    color: #2c4078;
+.misja-gora{
+    height:100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    top: 70px;
     font-size: 30px;
-    text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.misja-gora a{
     font-family: "Helvetica", "sans-serif";
-    width: inherit;
-    padding-top: 25px;
-    /*padding:120px 0 0 200px;*/
-    /*text-shadow: 1px -1px 1px white, 1px 1px 1px white;*/
-    /*transform: rotate(5deg);*/
-    /*background-color: red;*/
+    padding:20px;
+    line-height: 100px;
+}
+.misja-dol{
+    height: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.misja-dol {
+    font-family: "Helvetica", "sans-serif";
+    padding: 20px;
+    line-height: 40px;
 }
 
-#misja-zajawka {
-    margin-top: 45%;
-    font-family: "Helvetica", "sans-serif";
-    margin-right: 10%;
-    text-align: right;
-    font-size: 30px;
-    color: #2c4078;
-
-
-}
 .dodatkowe-funkcjonalnosci {
     border: solid;
     color: rgb(60, 119, 159);
