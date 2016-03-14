@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     var valid = 0;
     $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() != ""){
+      if ($(this).val() !== ""){
           valid = 1;
       }
     });
