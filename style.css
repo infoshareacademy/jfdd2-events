@@ -143,7 +143,7 @@ body.fullWidth {
 
 .funkcje .kalendarz {
     transition: transform, 0.2s linear;
-    background: url("./images/kalendarz1.jpg") no-repeat center;
+    background: url("./images/events-calendar.jpg") no-repeat center;
     background-size: cover;
 }
 
