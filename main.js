@@ -35,10 +35,12 @@ $(document).ready(function () {
 
     var valid = 0;
     $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() != "") valid = 1;
+      if ($(this).val() != ""){
+        valid = 1;
+      }
     });
 
-    if (valid) {
+    if (valid>0) {
       return true;
     }
     else {
