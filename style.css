@@ -1,5 +1,5 @@
 body {
-    background: url('./images/tlo.jpg') no-repeat fixed bottom;
+    /*background: url('./images/tlo.jpg') no-repeat fixed bottom;*/
     background-size: cover;
     position: relative;
 }
@@ -244,7 +244,7 @@ input:focus {
 }
 
 .sekcja-zajawka {
-    background-image: url('./images/zajawka2.jpg');
+    background-image: url('./images/gdansk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -252,7 +252,7 @@ input:focus {
 }
 
 .sekcja-zajawka p{
-    color: white;
+    color: rgba(17, 10, 12, 0.93);
     font-family: inherit;
     font-size: 40px;
     text-align: left;
