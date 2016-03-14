@@ -61,7 +61,6 @@ body.fullWidth {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-shadow: rgb(71, 71, 71) 3px 5px 2px;
-    transition: opacity 0.5s 0.5s ease;
 }
 
 .bilety:hover .opis-bilety {
@@ -95,6 +94,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-bilety {
@@ -110,6 +110,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-profil {
@@ -125,6 +126,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-mapa {
@@ -140,6 +142,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .kalendarz {
