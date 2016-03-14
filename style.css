@@ -143,7 +143,8 @@ body.fullWidth {
 
 .funkcje .kalendarz {
     transition: transform, 0.2s linear;
-    background: url("./images/kalendarz%20wersja%20pełna.jpg") no-repeat center;
+    background: url("./images/events-calendar.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .funkcje .bilety {
@@ -153,13 +154,14 @@ body.fullWidth {
 
 .funkcje .profil {
     transition: transform, 0.2s linear;
-    background: url("./images/profil%20wersja%20pełna.jpg") no-repeat center bottom;
+    background: url("./images/handshake.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .funkcje .mapa {
     transition: transform, 0.2s linear;
-    background: url("./images/mapa%20wersja%20pełna.jpg") no-repeat center;
+    background: url("./images/mapa2.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .smif {
