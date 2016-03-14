@@ -50,7 +50,8 @@ body.fullWidth {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     text-align: center;
-    color: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     font-size: 40px;
     margin-right: 145px;
     margin-top: 15px;
@@ -81,11 +82,6 @@ body.fullWidth {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-shadow: rgb(71, 71, 71) 3px 5px 2px;
-}
-
-.funkcje a:hover .nazwa-funkcjonalności {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: white;
 }
 
 .funkcje .opis-kalendarz {
@@ -172,7 +168,6 @@ body.fullWidth {
     position: fixed;
     right: 0;
     top: 41%;
-    /*padding-left: 450px;*/
     overflow: hidden;
     margin-right: -400px;
     z-index: 9999;
@@ -186,16 +181,11 @@ body.fullWidth {
 
 .smif a {
     display: block;
-    /*transition: margin-left 2s;*/
     font-size: 30px;
     text-decoration: none;
     color: black;
     width: 450px;
 }
-
-/*.smif a:hover {*/
-    /*margin-left: -270px;*/
-/*}*/
 
 #cookies {
     cursor: pointer;
@@ -208,8 +198,6 @@ body.fullWidth {
     font-size: 25px;
     text-shadow: 3px 3px 5px rgba(76, 45, 43, 0.9),-3px -3px 5px rgba(76, 45, 43, 0.9);
 }
-
-
 
 .menu ul {
     margin-right: 50px;
