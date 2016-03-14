@@ -23,10 +23,7 @@ function checkCookie(cookieNeV) {
 
 $(document).ready(function() {
 
-   setTimeout(function (){
-       $('.sekcja-zajawka p').css( 'transform', 'scale(1.1)' );
 
-},100);
     $('#cookies').click(function() {
         setCookieValue()
         $(this).hide();
@@ -34,4 +31,19 @@ $(document).ready(function() {
     });
     checkCookie(document.cookie);
 
+    $("#formularz").submit(function(){
+
+        var valid=0;
+        $(this).find('input[type=email], input[type=tel]').each(function(){
+            if($(this).val() != "") valid=1;
+        });
+
+        if(valid){
+            return true;
+        }
+        else {
+            alert("Wymagamy podania przynajmniej jednego pola");
+            return false;
+        }
+    });
 });

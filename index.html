@@ -2,10 +2,10 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Wydarzenia Gdańka</title>
+    <title>Wydarzenia Gdańska</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/3w.png">
 </head>
 <body>
 
@@ -14,49 +14,50 @@
 
 
 <div id="cookies">
-    Kliknij w ten pasek jeżeli zgadzasz się na ciasteczka
+    Nasza strona korzysta z ciasteczek (ang. cookies) kliknij w pasek, jeżeli się zgadzasz
 </div>
 
-<div class="menu">
-    <nav>
-        <ul>
-            <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Kalendarz</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Mapa Gdańska</a></li>
-            <li class="menu-el-zewnetrzene-srodek"><a>Partnerzy</a></li>
-            <li class="menu-el-zewnetrzene-prawy"><a>Kontakt</a></li>
-        </ul>
-    </nav>
+
+
+
+
+<div class="menu" id="menu">
+   <div class="menu-logo"><img src="images/3w.png" alt="logo">
+   </div>
+    <ul>
+        <li class="menu-el-zewnetrzene-lewy"><a>Aktualności</a></li>
+        <li class="menu-el-zewnetrzene-srodek"><a href="#funkcje">Funkcjonalności</a></li>
+        <li class="menu-el-zewnetrzene-srodek"><a href="#o-nas">O nas</a></li>
+        <li class="menu-el-zewnetrzene-prawy"><a href="#o-nas">Kontakt</a></li>
+    </ul>
 </div>
+
 <div class="clear"></div>
 <header>
     <section class="sekcja-zajawka">
-        <p>Znajdź dla siebie najlepszą imprezę! <br>
-
-        Zobacz gdzie możesz spedzić wolny czas!</p>
+    <div class="misja-gora"><a>Kino teatr czy impreza?</a></div>
+    <div class="misja-dol"><p>Znajdź dla siebie najlepszą imprezę!<br>Zobacz gdzie możesz spedzić wolny czas!</p></div>
     </section>
-    <div class="pod-zajawka"></div>
 
 </header>
-<div class="out">
     <section class="smif">
         <div>
-            <a href="http://www.infoshareacademy.com"><span><img src="images/social_facebook_box_blue.png">facebook.com/EGA</span></a>
+            <a href="http://www.infoshareacademy.com" target="_blank"><span><img src="images/social_facebook_box_blue.png">facebook.com/EGA</span></a>
         </div>
         <div>
-            <a href="http://www.infoshareacademy.com"><span><img
-                    src="images/Graphics-Vibe-Simple-Rounded-Social-Twitter.png">twitter.com/EGA</span></a>
+            <a href="http://www.infoshareacademy.com" target="_blank"><span><img
+                    src="images/Twitter_icon_logo.png">twitter.com/EGA</span></a>
         </div>
         <div>
-            <a href="http://www.infoshareacademy.com"><span><img src="images/googleplus.png">plus.google.plus/EGA</span></a>
+            <a href="http://www.infoshareacademy.com" target="_blank"><span><img src="images/googleplus.png">plus.google.plus/EGA</span></a>
         </div>
     </section>
 
 
     <main>
-        <section class="funkcje">
+        <section class="funkcje" id="funkcje">
             <a href="http://www.infoshareacademy.com" class="kalendarz">
-                <div>
+                <div >
                     <div class="nazwa-funkcjonalności">Kalendarz</div>
                     <span class="opis-kalendarz">Znajdź i wybierz eventy które Cię interesują. Dokonaj tego przy pomocy naszego kalendarza.</span>
                 </div>
@@ -119,29 +120,37 @@
 
 
     <section>
-        <div class="o-nas">
+        <div class="o-nas" id="o-nas">
             <h1>O nas - Trzeci wymiar</h1>
             <br>
             <ul>
 
-                <li><a><img src="images/dodatkowe-funkcjonalnosci/teatr2.png">Bartek Barteklorem ipsum lorem ipsum lorem
-                    ipsum</a></li>
-                <li><a><img src="images/dodatkowe-funkcjonalnosci/teatr2.png"> Łukasz łukasz lorem ipsum lorem ipsum
-                    lorem ipsum</a></li>
-                <li><a><img src="images/dodatkowe-funkcjonalnosci/mecz2.png">Karina Karina lorem ipsum lorem ipsum lorem
-                    lookmo ooo o ofsfsfssfsffrem ipsum</a></li>
-            </ul>
-            <span class="contact">Wypełnij formularz aby skontaktować się z nami</span>
-            <form class="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
+                <li><a><img src="images/bartlomiej.jpg"> <span>Bartłomiej</span> - absolwent Wyżeszej Szkoły Turystyki i Hotelarstwa
 
-                <span>Imię:</span><input type="text" name="imię"
-                                         placeholder="Jan"><br><br>
-                <span>Adres e-mail:</span><input type="email" name="nazwisko "
-                                                 placeholder="np. info@infoshare.pl" required><br><br>
-                <span>Telefon:</span><input type="text" name="telefon"
-                                            placeholder="np. 601102203" pattern="[0-9]{9}"><br><br>
-                <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
-                <input type="submit" value="Wyślij">
+                    Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
+                    Hobby - piłka nożna.
+                    </a></li>
+
+                <li><a><img src="images/lukasz.jpg"> <span>Łukasz</span> - absolwent Politechniki Gdańskiej.
+                    Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
+                    Hobby - jazda na rowerze i wędrówki górskie.
+                    </a></li>
+                <li><a><img src="images/karina.jpg"> <span>Karina</span> - absolwentka Politechniki Koszalińskiej.
+                    Lubi pracę w grupie, koleżeńska. Hobby - jazda na rolkach i długie spacery.
+                    </a>
+
+
+
+            </ul>
+            <span class="contact"><span>Wypełnij formularz, aby skontaktować się z nami</span></span>
+            <form class="formularz" id="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
+
+
+            <span>Adres e-mail:</span><input type="email" name="email "
+                                             placeholder="np. info@infoshare.pl" ><br><br>
+            <span>Telefon:</span><input type="tel" name="telefon" placeholder="np. 601102203" pattern="[0-9]{9}" ><br><br>
+            <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
+            <input type="submit" value="Wyślij">
 
             </form>
         </div>
@@ -165,7 +174,7 @@
 
     </footer>
 
-</div>
+
 
 
 </body>
