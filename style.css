@@ -212,13 +212,17 @@ a {
     transform: scale(1.05);
     box-shadow: 5px 0 7px rgba(0, 0, 0, 0.6), -5px 0 7px rgba(0, 0, 0, 0.6);
 
+
 }
 
 .menu {
     text-align: right;
+    position: relative;
+    z-index: 1000;
     line-height: 100px;
     font-family: "Helvetica", "sans-serif";
     font-weight: 500;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .menu-el-zewnetrzene-prawy {
