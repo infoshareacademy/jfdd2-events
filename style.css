@@ -87,6 +87,7 @@ a {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-bilety {
@@ -102,6 +103,7 @@ a {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-profil {
@@ -117,6 +119,7 @@ a {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-mapa {
@@ -132,6 +135,7 @@ a {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .kalendarz {
