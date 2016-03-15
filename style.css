@@ -9,15 +9,8 @@ body {
 
 a {
     font-family: "Helvetica", "sans-serif";
+    color: black;
 
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.85);
-}
-
-body.fullWidth {
-    width: 100%;
 }
 
 .funkcje a:hover {
@@ -238,7 +231,6 @@ body.fullWidth {
 
 .menu a {
     font-size: 24px;
-    /*color: rgb(60, 119, 159);*/
     color: black;
     text-decoration: none;
 
@@ -307,12 +299,12 @@ input:focus {
     background-size: cover;
     height: 800px;
     position: relative;
+    color: white;
 
 }
 
 .misja-gora {
     height: 100px;
-    color: white;
     background-color: rgba(0, 0, 0, 0.6);
     display: inline;
     position: absolute;
@@ -323,7 +315,7 @@ input:focus {
 }
 
 .misja-gora a {
-    font-family: "Helvetica", "sans-serif";
+    color: white;
     padding: 20px;
     line-height: 100px;
 }
@@ -336,16 +328,13 @@ input:focus {
     position: absolute;
     bottom: 70px;
     right: 0;
+    padding: 20px;
     font-size: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-.misja-dol {
-    font-family: "Helvetica", "sans-serif";
-    padding: 20px;
     line-height: 40px;
 }
+
 
 .dodatkowe-funkcjonalnosci {
     border: solid;
@@ -393,7 +382,6 @@ input:focus {
 
 .o-nas {
     background-color: rgba(255, 255, 255, 0.8);
-    color: black;
     font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
@@ -438,8 +426,6 @@ span.contact {
 
 .o-nas a {
     font-size: 15px;
-    color: black;
-    font-family: "Helvetica", "sans-serif";
 
 }
 
