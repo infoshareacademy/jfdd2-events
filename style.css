@@ -9,15 +9,8 @@ body {
 
 a {
     font-family: "Helvetica", "sans-serif";
+    color: black;
 
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.85);
-}
-
-body.fullWidth {
-    width: 100%;
 }
 
 .funkcje a:hover {
@@ -94,6 +87,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-bilety {
@@ -109,6 +103,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-profil {
@@ -124,6 +119,7 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .opis-mapa {
@@ -139,11 +135,13 @@ body.fullWidth {
     margin-bottom: 25px;
     padding-left: 20px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 
 .funkcje .kalendarz {
     transition: transform, 0.2s linear;
-    background: url("./images/kalendarz%20wersja%20pełna.jpg") no-repeat center;
+    background: url("./images/events-calendar.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .funkcje .bilety {
@@ -153,13 +151,14 @@ body.fullWidth {
 
 .funkcje .profil {
     transition: transform, 0.2s linear;
-    background: url("./images/profil%20wersja%20pełna.jpg") no-repeat center bottom;
+    background: url("./images/handshake.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .funkcje .mapa {
     transition: transform, 0.2s linear;
-    background: url("./images/mapa%20wersja%20pełna.jpg") no-repeat center;
+    background: url("./images/mapa2.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .smif {
@@ -236,7 +235,6 @@ body.fullWidth {
 
 .menu a {
     font-size: 24px;
-    /*color: rgb(60, 119, 159);*/
     color: black;
     text-decoration: none;
 
@@ -305,12 +303,12 @@ input:focus {
     background-size: cover;
     height: 800px;
     position: relative;
+    color: white;
 
 }
 
 .misja-gora {
     height: 100px;
-    color: white;
     background-color: rgba(0, 0, 0, 0.6);
     display: inline;
     position: absolute;
@@ -321,7 +319,7 @@ input:focus {
 }
 
 .misja-gora a {
-    font-family: "Helvetica", "sans-serif";
+    color: white;
     padding: 20px;
     line-height: 100px;
 }
@@ -334,16 +332,13 @@ input:focus {
     position: absolute;
     bottom: 70px;
     right: 0;
+    padding: 20px;
     font-size: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-.misja-dol {
-    font-family: "Helvetica", "sans-serif";
-    padding: 20px;
     line-height: 40px;
 }
+
 
 .dodatkowe-funkcjonalnosci {
     border: solid;
@@ -391,7 +386,6 @@ input:focus {
 
 .o-nas {
     background-color: rgba(255, 255, 255, 0.8);
-    color: black;
     font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
@@ -436,8 +430,6 @@ span.contact {
 
 .o-nas a {
     font-size: 15px;
-    color: black;
-    font-family: "Helvetica", "sans-serif";
 
 }
 
@@ -445,6 +437,7 @@ span.contact {
     height: 90px;
     width: 80px;
     margin-top: 15px;
+    border-radius: 45px;
 }
 
 footer {
