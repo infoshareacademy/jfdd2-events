@@ -1,3 +1,27 @@
+/* FUNKCJA DO SCROLLOWANIA MENU */
+
+//$(function(){
+//  $(document).on('scroll',function(){
+//    var $this = $(this),
+//      $menu = $('#menu'),
+//      scrl = $this.scrollTop(),
+//      menuHeight = $menu.height();
+//
+//    if( scrl > menuHeight ) {
+//      $('#menu').css({
+//        'position': 'fixed',
+//        'top': 0
+//      });
+//    } else {
+//      $('#menu').css({
+//        'position': 'relative',
+//        'top': menuHeight
+//      });
+//    }
+//  });
+//});
+
+
 /* TABELKA NARYSOWANA 16.03.16 */
 
 
