@@ -1,21 +1,27 @@
+/* TABELKA NARYSOWANA 16.03.16 */
+
+
+
 function tableCreate() {
   var body = document.body,
-  tbl = document.createElement('table');
-  tbl.style.width = '1000px';
+    tbl = document.createElement('table');
+  tbl.style.width = '800px';
+  tbl.style.height = '450px';
   tbl.style.border = '1px solid black';
+  tbl.style.position = 'absolute';
+  tbl.style.left = '100px';
+  tbl.style.zIndex = '9999';
+  tbl.style.top = '400px';
 
-  for(var i = 0; i < 5; i++){
+  for (var i = 0; i < 5; i++) {
     var tr = tbl.insertRow();
-    for(var j = 0; j < 7; j++){
-        if(i === 5)
-        for(j = 0; j < 3; j++){
-        }
-      else {
-          var td = tr.insertCell();
-          td.appendChild(document.createTextNode('Cell'));
-          td.style.border = '1px solid black';
-          if(i == 1 && j == 1);
-        }
+    for (var j = 0; j < 7; j++) {
+      if (i === 4 && j > 2) {
+        break;
+      }
+      var td = tr.insertCell();
+      td.appendChild(document.createTextNode('Cell'));
+      td.style.border = '1px solid black';
     }
   }
   body.appendChild(tbl);
@@ -23,22 +29,7 @@ function tableCreate() {
 tableCreate();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* Created by lukaszpotas on 09.03.16.
+/* Created by lukaszpotas on 09.03.16.
  */
 function setCookieValue() {
   document.cookie = 'imie=jan';
