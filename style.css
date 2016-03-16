@@ -194,16 +194,10 @@ a {
     line-height: 50px;
     font-size: 25px;
     text-shadow: 3px 3px 5px rgba(76, 45, 43, 0.9), -3px -3px 5px rgba(76, 45, 43, 0.9);
-    /*position: absolute;*/
-    /*margin-top: 0;*/
-    /*z-index: 9999;*/
 }
 
 .menu ul {
     margin-right: 50px;
-    float: right;
-    padding: 0 10px 0;
-    overflow: hidden;
 }
 
 .menu ul li {
@@ -218,18 +212,18 @@ a {
     transform: scale(1.05);
     box-shadow: 5px 0 7px rgba(0, 0, 0, 0.6), -5px 0 7px rgba(0, 0, 0, 0.6);
 
+
 }
 
 .menu {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9998;
-
-
+    text-align: right;
+    position: relative;
+    z-index: 1000;
+    line-height: 100px;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: 500;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
 
 .menu-el-zewnetrzene-prawy {
     margin-left: 5px;
@@ -247,9 +241,7 @@ a {
     font-size: 24px;
     color: black;
     text-decoration: none;
-    font-family: "Helvetica", "sans-serif";
-    font-weight: 500;
-    line-height: 100px;
+
 }
 
 .menu-logo {
@@ -316,7 +308,6 @@ input:focus {
     height: 800px;
     position: relative;
     color: white;
-    margin-top: 100px;
 
 }
 
