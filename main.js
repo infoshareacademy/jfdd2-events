@@ -22,10 +22,21 @@ function checkCookie(cookieNeV) {
 }
 
 $(document).ready(function () {
-
+  
+  //zmniejsza wysokosc menu po scrogolwaniu w dol
+  $(window).scroll(function(){
+  var scrollValue = $(window).scrollTop();
+    if(scrollValue > 100){
+    $('#menu').addClass("menu-dol");
+    $('#menu-logo').addClass("menu-logo-dol");
+    } else {
+      $('#menu').removeClass("menu-dol");
+      $('#menu-logo').removeClass("menu-logo-dol");
+    }
+  });
 
   $('#cookies').click(function () {
-    setCookieValue()
+    setCookieValue();
     $(this).hide();
 
   });

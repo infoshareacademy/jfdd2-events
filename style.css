@@ -198,6 +198,8 @@ a {
 
 .menu ul {
     margin-right: 50px;
+    padding: 0 5px;
+    overflow: hidden;
 }
 
 .menu ul li {
@@ -215,14 +217,29 @@ a {
 
 }
 
+.menu a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+
+}
+
 .menu {
     text-align: right;
-    position: relative;
+    position: fixed;
     z-index: 1000;
     line-height: 100px;
     font-family: "Helvetica", "sans-serif";
     font-weight: 500;
     box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.3);
+    width:100%;
+    background-color: white;
+    top:0;
+}
+
+.menu-dol {
+    line-height: 50px;
+    height: 50px;
 }
 
 .menu-el-zewnetrzene-prawy {
@@ -237,12 +254,6 @@ a {
     margin: 0 5px 0 5px;
 }
 
-.menu a {
-    font-size: 24px;
-    color: black;
-    text-decoration: none;
-
-}
 
 .menu-logo {
     height: 100px;
@@ -256,6 +267,12 @@ a {
 .menu-logo img {
     height: 90px;
     width: 140px;
+    margin-top: 5px;
+}
+
+.menu-logo-dol img {
+    height: 45px;
+    width: 70px;
     margin-top: 5px;
 }
 
@@ -308,6 +325,7 @@ input:focus {
     height: 800px;
     position: relative;
     color: white;
+    margin-top: 100px;
 
 }
 
