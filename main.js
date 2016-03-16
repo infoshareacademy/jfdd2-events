@@ -21,31 +21,87 @@ function checkCookie(cookieNeV) {
   });
 }
 
-$(document).ready(function () {
 
 
-  $('#cookies').click(function () {
-    setCookieValue()
-    $(this).hide();
 
-  });
-  checkCookie(document.cookie);
+//document.addEventListener("scroll",function(){
+//  var elementTestowy = document.getElementById('test-pokazywania');
+//  var odlegloscElementuOdPoczatkuDokumentu = elementTestowy.offsetTop;
+//
+//
+//  var wysokoscPrzescrollowanegoDokumentu = window.pageYOffset;
+//  var wysokoscOknaDlaDokumentu = window.innerHeight;
+//
+//  console.log("offsetdokumentu " + wysokoscPrzescrollowanegoDokumentu );
+//  console.log("ysokoscokna " + wysokoscOknaDlaDokumentu);
+//  console.log("polozenieElementu " + odlegloscElementuOdPoczatkuDokumentu);
+//
+//
+//  if (odlegloscElementuOdPoczatkuDokumentu < wysokoscOknaDlaDokumentu + wysokoscPrzescrollowanegoDokumentu) {
+//    console.log('WIDAC')
+//    elementTestowy.classList.remove('test-pokazywania-ukryty');
+//  } else {
+//    console.log('NIE WIDAC')
+//  }
+//
+//});
 
-  $("#formularz").submit(function () {
+var elementy = document.getElementsByClassName('test-pokazywania');
 
-    var valid = 0;
-    $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() !== ""){
-          valid = 1;
-      }
-    });
+document.addEventListener("scroll",function() {
 
-    if (valid>0) {
-      return true;
+  //var odlegloscElementuOdPoczatkuDokumentu = elementTestowy.offsetTop;
+
+  var wysokoscPrzescrollowanegoDokumentu = window.pageYOffset;
+  var wysokoscOknaDlaDokumentu = window.innerHeight;
+
+  for (var i=0; i<elementy.length; i++) {
+
+    if (elementy[i].offsetTop < wysokoscOknaDlaDokumentu + wysokoscPrzescrollowanegoDokumentu) {
+      elementy[i].classList.remove('test-pokazywania-ukryty');
+    } else {
     }
-    else {
-      alert("Wymagamy podania przynajmniej jednego pola");
-      return false;
-    }
-  });
+  }
+
+
+
+
 });
+
+
+//
+//
+//
+//
+//$(document).ready(function () {
+//
+//
+//  $('#cookies').click(function () {
+//    setCookieValue()
+//    $(this).hide();
+//
+//  });
+//  checkCookie(document.cookie);
+//
+//  $("#formularz").submit(function () {
+//
+//    var valid = 0;
+//    $(this).find('input[type=email], input[type=tel]').each(function () {
+//      if ($(this).val() !== ""){
+//          valid = 1;
+//      }
+//    });
+//
+//    if (valid>0) {
+//      return true;
+//    }
+//    else {
+//      alert("Wymagamy podania przynajmniej jednego pola");
+//      return false;
+//    }
+//  });
+//
+//
+//
+//
+//});
