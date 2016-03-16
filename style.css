@@ -74,55 +74,7 @@ a {
     text-shadow: rgb(71, 71, 71) 3px 5px 2px;
 }
 
-.funkcje .opis-kalendarz {
-    font-size: 25px;
-    color: transparent;
-    bottom: 0;
-    position: absolute;
-    border: solid;
-    border-color: transparent;
-    margin-left: 175px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 25px;
-    padding-left: 20px;
-    font-weight: 700;
-    transition: all 0.8s ease;
-}
-
-.funkcje .opis-bilety {
-    font-size: 25px;
-    color: transparent;
-    bottom: 0;
-    position: absolute;
-    border: solid;
-    border-color: transparent;
-    margin-left: 175px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 25px;
-    padding-left: 20px;
-    font-weight: 700;
-    transition: all 0.8s ease;
-}
-
-.funkcje .opis-profil {
-    font-size: 25px;
-    color: transparent;
-    bottom: 0;
-    position: absolute;
-    border: solid;
-    border-color: transparent;
-    margin-left: 175px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 25px;
-    padding-left: 20px;
-    font-weight: 700;
-    transition: all 0.8s ease;
-}
-
-.funkcje .opis-mapa {
+.funkcje .opis-kalendarz, .opis-bilety, .opis-profil, .opis-mapa {
     font-size: 25px;
     color: transparent;
     bottom: 0;
@@ -161,27 +113,17 @@ a {
     background-size: cover;
 }
 
-.smif {
+.social-media {
+    display: block;
     position: fixed;
     right: 0;
     top: 41%;
-    overflow: hidden;
-    margin-right: -400px;
     z-index: 9999;
 }
 
-.smif img {
+.social-media img {
     width: 50px;
     height: 50px;
-    vertical-align: middle;
-}
-
-.smif a {
-    display: block;
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-    width: 450px;
 }
 
 #cookies {
