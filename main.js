@@ -26,7 +26,7 @@ $(document).ready(function () {
   //zmniejsza wysokosc menu po scrogolwaniu w dol
   $(window).scroll(function(){
   var scrollValue = $(window).scrollTop();
-    if(scrollValue > 100){
+    if(scrollValue > 50){
     $('#menu').addClass("menu-dol");
     $('#menu-logo').addClass("menu-logo-dol");
     } else {
