@@ -1,29 +1,18 @@
-/* FUNKCJA DO SCROLLOWANIA MENU */
-
-//$(function(){
-//  $(document).on('scroll',function(){
-//    var $this = $(this),
-//      $menu = $('#menu'),
-//      scrl = $this.scrollTop(),
-//      menuHeight = $menu.height();
-//
-//    if( scrl > menuHeight ) {
-//      $('#menu').css({
-//        'position': 'fixed',
-//        'top': 0
-//      });
-//    } else {
-//      $('#menu').css({
-//        'position': 'relative',
-//        'top': menuHeight
-//      });
-//    }
-//  });
-//});
-
-
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 /* TABELKA NARYSOWANA 16.03.16 */
-
 
 
 function tableCreate() {
