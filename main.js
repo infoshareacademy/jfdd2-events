@@ -27,11 +27,11 @@ $(document).ready(function () {
   $(window).scroll(function(){
   var scrollValue = $(window).scrollTop();
     if(scrollValue > 50){
-    $('#menu').addClass("menu-dol");
-    $('#menu-logo').addClass("menu-logo-dol");
+    $('#menu').addClass("menu-dol ul");
+    $('.menu-logo').addClass("menu-logo-dol");
     } else {
-      $('#menu').removeClass("menu-dol");
-      $('#menu-logo').removeClass("menu-logo-dol");
+      $('#menu').removeClass("menu-dol ul");
+      $('.menu-logo').removeClass("menu-logo-dol");
     }
   });
 
