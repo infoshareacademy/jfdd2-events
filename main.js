@@ -65,10 +65,21 @@ function checkCookie(cookieNeV) {
 }
 
 $(document).ready(function () {
-
+  
+  //zmniejsza wysokosc menu po scrogolwaniu w dol
+  $(window).scroll(function(){
+  var scrollValue = $(window).scrollTop();
+    if(scrollValue > 50){
+    $('#menu').addClass("menu-dol ul");
+    $('.menu-logo').addClass("menu-logo-dol");
+    } else {
+      $('#menu').removeClass("menu-dol ul");
+      $('.menu-logo').removeClass("menu-logo-dol");
+    }
+  });
 
   $('#cookies').click(function () {
-    setCookieValue()
+    setCookieValue();
     $(this).hide();
 
   });
@@ -78,10 +89,12 @@ $(document).ready(function () {
 
     var valid = 0;
     $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() != "") valid = 1;
+      if ($(this).val() !== ""){
+          valid = 1;
+      }
     });
 
-    if (valid) {
+    if (valid>0) {
       return true;
     }
     else {
