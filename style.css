@@ -90,6 +90,7 @@ a {
     transition: all 0.8s ease;
 }
 
+
 .funkcje .opis-bilety {
     font-size: 25px;
     color: transparent;
@@ -139,18 +140,18 @@ a {
 }
 
 .funkcje .kalendarz {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/events-calendar.jpg") no-repeat center;
     background-size: cover;
 }
 
 .funkcje .bilety {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
 }
 
 .funkcje .profil {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/handshake.jpg") no-repeat center bottom;
     background-size: cover;
 }
@@ -479,5 +480,24 @@ footer {
     display: block;
     font-size: 15px;
     padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*##################TEST*/
+
+.test-pokazywania {
+    opacity: 1;
+    transition: opacity 0.8s linear;
+}
+
+.test-pokazywania.test-pokazywania-ukryty {
+    opacity: 0;
 }
 
