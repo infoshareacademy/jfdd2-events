@@ -22,7 +22,7 @@ function checkCookie(cookieNeV) {
 }
 
 
-var elementy = document.getElementsByClassName('test-pokazywania');
+var elementy = document.getElementsByClassName('animacja-ikon');
 
 
 $(document).ready(function () {
@@ -36,7 +36,7 @@ $(document).ready(function () {
       for ( var i = 0 ; i < elementy.length ; i++ ) {
 
         if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
-          elementy[i].classList.remove('test-pokazywania-ukryty');
+          elementy[i].classList.remove('animacja-ikon-ukryty');
         }
 
       }

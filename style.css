@@ -484,20 +484,18 @@ footer {
 
 
 
+/*##################animacja*/
 
-
-
-
-
-
-/*##################TEST*/
-
-.test-pokazywania {
+.animacja-ikon {
     opacity: 1;
-    transition: opacity 0.8s linear;
+    padding-top: 1px;
+    transition: opacity 2.5s linear;
 }
 
-.test-pokazywania.test-pokazywania-ukryty {
+
+
+.animacja-ikon.animacja-ikon-ukryty {
+    padding-top:50px;
     opacity: 0;
 }
 
