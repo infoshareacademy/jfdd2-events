@@ -28,34 +28,39 @@ function createCalendarBoard(sizex, sizey, lastRow){
 
 
 function showEventWithVariableTime(timeoutValue) {
-  var prevEventCells = 0;
+  console.log(timeoutValue);
+// zaczynamy od setTimeouta który wywoływany jest ze zmiennym opoznieniem
+//opoznienie zalezy od ilosci elementów z klasą event znajdującą sie na planszy
   var timeoutID = setTimeout(function timeout() {
 
+//tworzona tablica z elementami bez klasy eventCells
     var $emptyCells = $('td:not(.eventCells)');
-//
-//debugger;
-//
-//    prevEventCells = currentEventCells;
-
-
-    console.log('poprzednie event cells ' + prevEventCells);
-    var currentEventCells = $('td.eventCells');
     var numberOfEmptyCells = $emptyCells.length;
-    console.log(numberOfEmptyCells);
-    var numberOfEventCells = currentEventCells.length;
-    console.log('aktualne event cells' + numberOfEventCells);
+
+//tworzona tablica z elementami z klasą eventCells
+    var $eventCells = $('td.eventCells');
+    var numberOfEventCells = $eventCells.length;
+
+//mechanizm losowania ktory decyduje ktorej komorce zmienic klase
     var randomFloat = Math.random() * numberOfEmptyCells;
-    var randomNumberOfCell = Math.round(randomFloat) ;
+    var randomNumberOfCell = Math.round(randomFloat);
+
+//zmiana klasy dla wylosowanego elementu
     $emptyCells.eq(randomNumberOfCell).addClass('eventCells');
-    timeoutValue -= 100;
+
+//zdefiniowana tablica do zmiany opoznien wywolania funkcji
+    var timeoutValuesArr = [800, 750, 700, 650, 600, 550, 500, 450, 400, 350];
+    timeoutValue = timeoutValuesArr[numberOfEventCells];
+
+//anulacja funkcji settimeout
     clearTimeout(timeoutID);
 
-    if(timeoutValue !== 100){
+//dopoki opoznienie nie jest rowne 350 ms to wywołuj na nowo funkcje
+//podchodzi juz trochę pod algorytm konca gry ale musiałem to zdefiniowac
+    if(timeoutValue !== 350){
       showEventWithVariableTime(timeoutValue);
     }else {
-      console.log('Game Over');
     }
-
   }, timeoutValue)
 }
 
@@ -70,8 +75,14 @@ $(document).ready(function () {
   var lastRow = 3;
   $('.calendarBoardOn').empty().append(createCalendarBoard(sizex, sizey, lastRow));
 
-  var timeoutValue = 1300;
+//wstepne opoznienie po rozpoczeciu gry
+  var timeoutValue = 1000;
   showEventWithVariableTime(timeoutValue);
+
+//zmiana usuniecie klasy eventsCells po kliknieciu na komorke
+    $('td').click(function(){
+      $(this).removeClass('eventCells');
+    });
 
 
 });
