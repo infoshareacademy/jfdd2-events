@@ -1,12 +1,27 @@
+var timerid; //Used to fire scroll function once after scrolling is done.
+$(document).ready(function(){
+    $("#menu a").click(function(e){
+        e.preventDefault();
+        $("#menu a").removeClass('active1');
+        var id = $(this).attr("href").substring(1);
+        $("body").animate({
+            'scrollTop': $("section#" + id).offset().top
+        });
+    });
+    $("body").scrollTop(1); //forcing window scroll to execute on page load
+    $(window).scroll(function(){
+        clearTimeout(timerid);
+        timerid = setTimeout(checkactivelink, 50);
+    });
 
-$(window).scroll(function(){
-var scrollValue = $(window).scrollTop();
-console.log(scrollValue);
-  var funkcjeValue = $(".funkcje").offset().top;
-  if(scrollValue > 950){
-    $("#funkcje").addClass('active1');
-
-  }else
-    $("#funkcje").removeClass('active1');
-  console.log(funkcjeValue);
-})
+    function checkactivelink()
+    {
+        $("section").each(function(){
+            if($("body").scrollTop() >= $(this).offset().top)
+            {
+                $("#menu a").removeClass('active1');
+                $("#menu a[href=#" + $(this).attr("id") + "]").addClass('active1');
+            }
+        });
+    }
+});
