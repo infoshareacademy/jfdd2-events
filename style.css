@@ -311,9 +311,9 @@ input:focus {
 }
 
 .parallaxy{
-    background: url('./images/image-paralaxy-teatr.JPG');
+    background: url('./images/image-paralaxy-teatr.JPG') fixed;
     background-size: cover;
-    background: url("./images/handshake.jpg") no-repeat center bottom;
+    background-position: center center;
     height: 400px;
 
 
@@ -364,8 +364,6 @@ input:focus {
 
 
 .dodatkowe-funkcjonalnosci {
-    /*background: url('./images/image-paralaxy-teatr.JPG') no-repeat, bottom;*/
-    /*background-size: cover;*/
     border: solid;
     border-left: none;
     border-right: none;
