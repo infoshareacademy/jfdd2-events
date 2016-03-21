@@ -202,7 +202,7 @@ a {
 }
 
 .menu{
-    background-color: white;
+    /*background-color: white;*/
     width: 100% ;
     position: fixed;
     z-index: 9998;
@@ -523,4 +523,8 @@ footer {
 .active {
     background-color: rgba(0,0,0,0.6);
     color: #fff;
+}
+
+a.active1 {
+    background-color: red;
 }
