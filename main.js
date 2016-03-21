@@ -64,6 +64,30 @@ function checkCookie(cookieNeV) {
   });
 }
 
+
+var elementy = document.getElementsByClassName('animacja-ikon');
+
+
+$(document).ready(function () {
+
+  $(document).scroll(function () {
+
+    var scrollViewportuOdGory = $(document).scrollTop();
+    var wysokoscViewportu = window.innerHeight;
+
+
+      for ( var i = 0 ; i < elementy.length ; i++ ) {
+
+        if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
+          elementy[i].classList.remove('animacja-ikon-ukryty');
+        }
+
+      }
+
+  })
+})
+
+
 $(document).ready(function () {
   
   //zmniejsza wysokosc menu po scrogolwaniu w dol
@@ -89,12 +113,12 @@ $(document).ready(function () {
 
     var valid = 0;
     $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() !== ""){
-          valid = 1;
+      if ($(this).val() !== "") {
+        valid = 1;
       }
     });
 
-    if (valid>0) {
+    if (valid > 0) {
       return true;
     }
     else {
@@ -102,4 +126,6 @@ $(document).ready(function () {
       return false;
     }
   });
+
+
 });
