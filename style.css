@@ -140,25 +140,25 @@ a {
 }
 
 .funkcje .kalendarz {
-    /*transition: transform, 0.2s linear;*/
-    background: url("./images/events-calendar.jpg") no-repeat center;
+    transition: transform, 0.2s linear;
+    background: url("images/funkcjonalnosci/image-calendar.jpg") no-repeat center;
     background-size: cover;
 }
 
 .funkcje .bilety {
-    /*transition: transform, 0.2s linear;*/
-    background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
+    transition: transform, 0.2s linear;
+    background: url("./images/funkcjonalnosci/image-bilety.jpg") no-repeat center;
 }
 
 .funkcje .profil {
-    /*transition: transform, 0.2s linear;*/
-    background: url("./images/handshake.jpg") no-repeat center bottom;
+    transition: transform, 0.2s linear;
+    background: url("images/funkcjonalnosci/image-profil.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .funkcje .mapa {
     transition: transform, 0.2s linear;
-    background: url("./images/mapa2.jpg") no-repeat center;
+    background: url("images/funkcjonalnosci/image-mapa.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -251,7 +251,7 @@ a {
 }
 .menu-logo{
     margin-left: 100px;
-    background: url("./images/3w.png") no-repeat;
+    background: url("images/main-page/image-logo.png") no-repeat;
     background-size: cover;
     width: 130px;
     height: 100px;
@@ -311,16 +311,17 @@ input:focus {
 }
 
 .parallaxy{
-    background: url('./images/image-paralaxy-teatr.JPG');
+    background: url('images/main-page/image-parallaxy.jpg') fixed;
     background-size: cover;
-    background: url("./images/handshake.jpg") no-repeat center bottom;
+    background-position: center center;
     height: 400px;
+    margin-top: 100px;
 
 
 }
 
 .sekcja-zajawka {
-    background-image: url('./images/tlo.jpg');
+    background-image: url('images/main-page/image-stadion-tlo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -364,8 +365,6 @@ input:focus {
 
 
 .dodatkowe-funkcjonalnosci {
-    /*background: url('./images/image-paralaxy-teatr.JPG') no-repeat, bottom;*/
-    /*background-size: cover;*/
     border: solid;
     border-left: none;
     border-right: none;
@@ -375,7 +374,7 @@ input:focus {
     background-color: rgba(255, 255, 255, 0.8);
     float: none;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
 
 }
 
@@ -493,7 +492,7 @@ footer {
 
 .menu-footer a:hover {
 
-    transform: scale(1.3);
+    transform: scale(1.05);
 }
 
 .copy-right {
