@@ -90,6 +90,7 @@ a {
     transition: all 0.8s ease;
 }
 
+
 .funkcje .opis-bilety {
     font-size: 25px;
     color: transparent;
@@ -139,18 +140,18 @@ a {
 }
 
 .funkcje .kalendarz {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/events-calendar.jpg") no-repeat center;
     background-size: cover;
 }
 
 .funkcje .bilety {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
 }
 
 .funkcje .profil {
-    transition: transform, 0.2s linear;
+    /*transition: transform, 0.2s linear;*/
     background: url("./images/handshake.jpg") no-repeat center bottom;
     background-size: cover;
 }
@@ -267,9 +268,6 @@ a {
 
 
 
-ion: height 0.2s linear, width 0.2s linear;*!*/
-/*}*/
-
 .formularz input[type=tel],
 .formularz input[type=email] {
     background-color: rgba(255, 255, 255, 0.9);
@@ -309,6 +307,15 @@ input:focus {
     font-size: 18px;
     font-weight: bold;
     font-family: "Helvetica", "sans-serif";
+
+}
+
+.parallaxy{
+    background: url('./images/image-paralaxy-teatr.JPG');
+    background-size: cover;
+    background: url("./images/handshake.jpg") no-repeat center bottom;
+    height: 400px;
+
 
 }
 
@@ -357,6 +364,8 @@ input:focus {
 
 
 .dodatkowe-funkcjonalnosci {
+    /*background: url('./images/image-paralaxy-teatr.JPG') no-repeat, bottom;*/
+    /*background-size: cover;*/
     border: solid;
     border-left: none;
     border-right: none;
@@ -492,6 +501,24 @@ footer {
     font-size: 15px;
     padding: 20px;
 }
+
+
+
+/*##################animacja*/
+
+.animacja-ikon {
+    opacity: 1;
+    padding-top: 1px;
+    transition: opacity 2.5s linear;
+}
+
+
+
+.animacja-ikon.animacja-ikon-ukryty {
+    padding-top:50px;
+    opacity: 0;
+}
+
 
 .active {
     background-color: rgba(0,0,0,0.6);

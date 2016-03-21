@@ -18,9 +18,33 @@ function checkCookie(cookieNeV) {
   });
 }
 
+
+var elementy = document.getElementsByClassName('animacja-ikon');
+
+
+$(document).ready(function () {
+
+  $(document).scroll(function () {
+
+    var scrollViewportuOdGory = $(document).scrollTop();
+    var wysokoscViewportu = window.innerHeight;
+
+
+      for ( var i = 0 ; i < elementy.length ; i++ ) {
+
+        if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
+          elementy[i].classList.remove('animacja-ikon-ukryty');
+        }
+
+      }
+
+  })
+})
+
+
 $(document).ready(function () {
   
-  //zmniejsza wysokosc menu po scrogolwaniu w dol
+//zmniejszanie wysokosci menu po scrogolwaniu w dol
   $(window).scroll(function(){
   var scrollValue = $(window).scrollTop();
     if(scrollValue > 50){
@@ -31,29 +55,32 @@ $(document).ready(function () {
       $('.menu-logo').removeClass("menu-logo-dol");
     }
   });
-
+//wpisanie ciasteczka po kliknknieciu w diva
   $('#cookies').click(function () {
     setCookieValue();
     $(this).hide();
 
   });
-  checkCookie(document.cookie);
 
-  $("#formularz").submit(function () {
+//sprawdzanie czy ciasteczko zostalo wpisane
+checkCookie(document.cookie);
 
-    var valid = 0;
-    $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() !== ""){
-          valid = 1;
-      }
-    });
+//walidacja formularza
+$("#formularz").submit(function () {
 
-    if (valid>0) {
-      return true;
-    }
-    else {
-      alert("Wymagamy podania przynajmniej jednego pola");
-      return false;
+  var valid = 0;
+  $(this).find('input[type=email], input[type=tel]').each(function () {
+    if ($(this).val() !== "") {
+      valid = 1;
     }
   });
+
+  if (valid > 0) {
+    return true;
+  }
+  else {
+    alert("Wymagamy podania przynajmniej jednego pola");
+    return false;
+  }
+});
 });

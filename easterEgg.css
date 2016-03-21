@@ -26,3 +26,12 @@
     border-spacing: 2px;
 }
 
+.emptyCells{
+    background-color: white;
+}
+
+.eventCells{
+    background-color: green;
+
+}
+
