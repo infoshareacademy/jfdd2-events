@@ -2,14 +2,16 @@
 //         funkcja rysujaca tabele                        //
 //********************************************************//
 //zmienic w ten sposób ze jako argument funkcji podaje sie liczbe dni
-function createCalendarBoard(sizex, sizey, lastRow){
+function createCalendarBoard(sizex, sizey, lastRow) {
 
   var $table = $('<table>');
 
-  for(var y=0; y < sizey; y++){
+  for (var y = 0; y < sizey; y++) {
     var $tr = $('<tr>');
-    for(var x=0; x < sizex; x++){
-      if(y === 4){sizex = lastRow;}
+    for (var x = 0; x < sizex; x++) {
+      if (y === 4) {
+        sizex = lastRow;
+      }
       var $td = $('<td>');
 
       $td.addClass('cellProperties');
@@ -27,8 +29,9 @@ function createCalendarBoard(sizex, sizey, lastRow){
 //********************************************************//
 
 
+
 function showEventWithVariableTime(timeoutValue) {
-  console.log(timeoutValue);
+  //console.log(timeoutValue);
 // zaczynamy od setTimeouta który wywoływany jest ze zmiennym opoznieniem
 //opoznienie zalezy od ilosci elementów z klasą event znajdującą sie na planszy
   var timeoutID = setTimeout(function timeout() {
@@ -57,33 +60,62 @@ function showEventWithVariableTime(timeoutValue) {
 
 //dopoki opoznienie nie jest rowne 350 ms to wywołuj na nowo funkcje
 //podchodzi juz trochę pod algorytm konca gry ale musiałem to zdefiniowac
-    if(timeoutValue !== 350){
+    if (timeoutValue !== 350) {
       showEventWithVariableTime(timeoutValue);
-    }else {
+    } else {
+      //console.log('computer wins - show proper message');
     }
+
+    checkForEndGame();
+
   }, timeoutValue)
 }
 
 
-
-
 $(document).ready(function () {
-  $('.menu-logo').click(function(){
+  $('.menu-logo').click(function () {
     $('#calendarBoard').toggleClass('calendarBoardOn');
-  var sizey = 5;
-  var sizex = 7;
-  var lastRow = 3;
-  $('.calendarBoardOn').empty().append(createCalendarBoard(sizex, sizey, lastRow));
+    var sizey = 5;
+    var sizex = 7;
+    var lastRow = 3;
+    $('.calendarBoardOn').empty().append(createCalendarBoard(sizex, sizey, lastRow));
 
 //wstepne opoznienie po rozpoczeciu gry
-  var timeoutValue = 1000;
-  showEventWithVariableTime(timeoutValue);
+    var timeoutValue = 1000;
+    showEventWithVariableTime(timeoutValue);
 
 //zmiana usuniecie klasy eventsCells po kliknieciu na komorke
-    $('td').click(function(){
+    $('td').click(function () {
+
       $(this).removeClass('eventCells');
+
+      checkForEndGame();
+
     });
 
 
+  });
 });
-});
+
+//algorytm konca gry
+
+function checkForEndGame() {
+  var activeEvents = $('td.eventCells');
+
+  if (activeEvents.length == 0){
+
+    console.log('player wins!');
+
+  } else if (activeEvents.length >= 10) {
+
+    console.log('computer wins =(');
+
+  }
+}
+//function alert() {
+//  alert('koniec gry-wygrał użytkownik');
+//}
+//dokcument.getElementById('alert');
+//click = function () {
+//  oknoAlert()
+//}
