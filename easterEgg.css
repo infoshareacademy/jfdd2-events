@@ -1,0 +1,37 @@
+
+.cellProperties{
+    height: 150px;
+    width: 150px;
+    margin: 12px;
+    background-color: blue;
+}
+
+.calendarBoardOff{
+
+}
+.calendarBoardOn{
+    height: auto;
+    width: auto;
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    bottom: 50px;
+    z-index: 9999;
+}
+#calendarBoard table {
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.emptyCells{
+    background-color: white;
+}
+
+.eventCells{
+    background-color: green;
+
+}
+
