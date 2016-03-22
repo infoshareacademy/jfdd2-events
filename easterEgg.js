@@ -43,7 +43,7 @@ function showEventWithVariableTime(timeoutValue) {
 
 //mechanizm losowania ktory decyduje ktorej komorce zmienic klase
     var randomFloat = Math.random() * numberOfEmptyCells;
-    var randomNumberOfCell = Math.round(randomFloat);
+    var randomNumberOfCell = Math.floor(randomFloat);
 
 //zmiana klasy dla wylosowanego elementu
     $emptyCells.eq(randomNumberOfCell).addClass('eventCells');
@@ -68,8 +68,12 @@ function showEventWithVariableTime(timeoutValue) {
 
 
 $(document).ready(function () {
+
+  $('#calendarBoard').hide();
+
   $('.menu-logo').click(function(){
-    $('#calendarBoard').toggleClass('calendarBoardOn');
+    $('#calendarBoard').show().addClass('calendarBoardOn');
+
   var sizey = 5;
   var sizex = 7;
   var lastRow = 3;
@@ -83,7 +87,9 @@ $(document).ready(function () {
     $('td').click(function(){
       $(this).removeClass('eventCells');
     });
-
+    $('.sekcja-zajawka').click(function(){
+      $('#calendarBoard').hide();
+    });
 
 });
 });
