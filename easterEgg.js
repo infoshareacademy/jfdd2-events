@@ -1,4 +1,9 @@
 
+//function createButton() {
+//  var $button = $('<button>');
+//  return $button;
+//}
+
 
 //********************************************************//
 //         funkcja rysujaca tabele                        //
