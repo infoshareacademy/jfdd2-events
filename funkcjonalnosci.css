@@ -1,0 +1,148 @@
+.funkcje a:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.funkcje {
+    margin: 0 auto;
+    padding-left: 20%;
+    margin-top: 50px;
+}
+
+.funkcje a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    border-width: 2px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.7);
+    margin: 40px;
+}
+
+.funkcje .nazwa-funkcjonalności {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 40px;
+    margin-right: 145px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.kalendarz:hover .opis-kalendarz {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+.bilety:hover .opis-bilety {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+.profil:hover .opis-profil {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+.mapa:hover .opis-mapa {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+.funkcje .opis-kalendarz {
+    font-size: 25px;
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    border: solid;
+    border-color: transparent;
+    margin-left: 175px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+
+
+.funkcje .opis-bilety {
+    font-size: 25px;
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    border: solid;
+    border-color: transparent;
+    margin-left: 175px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+
+.funkcje .opis-profil {
+    font-size: 25px;
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    border: solid;
+    border-color: transparent;
+    margin-left: 175px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+
+.funkcje .opis-mapa {
+    font-size: 25px;
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    border: solid;
+    border-color: transparent;
+    margin-left: 175px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+
+.funkcje .kalendarz {
+    /*transition: transform, 0.2s linear;*/
+    background: url("./images/events-calendar.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.funkcje .bilety {
+    /*transition: transform, 0.2s linear;*/
+    background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
+}
+
+.funkcje .profil {
+    /*transition: transform, 0.2s linear;*/
+    background: url("./images/handshake.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.funkcje .mapa {
+    transition: transform, 0.2s linear;
+    background: url("./images/mapa2.jpg") no-repeat center;
+    background-size: cover;
+}
