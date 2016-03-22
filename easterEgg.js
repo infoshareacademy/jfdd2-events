@@ -1,3 +1,5 @@
+
+
 //********************************************************//
 //         funkcja rysujaca tabele                        //
 //********************************************************//
@@ -46,7 +48,7 @@ function showEventWithVariableTime(timeoutValue) {
 
 //mechanizm losowania ktory decyduje ktorej komorce zmienic klase
     var randomFloat = Math.random() * numberOfEmptyCells;
-    var randomNumberOfCell = Math.round(randomFloat);
+    var randomNumberOfCell = Math.floor(randomFloat);
 
 //zmiana klasy dla wylosowanego elementu
     $emptyCells.eq(randomNumberOfCell).addClass('eventCells');
@@ -78,7 +80,7 @@ $(document).ready(function () {
     var sizey = 5;
     var sizex = 7;
     var lastRow = 3;
-    $('.calendarBoardOn').empty().append(createCalendarBoard(sizex, sizey, lastRow));
+    $('.calendarBoardOn').empty().append(createCalendarBoard(sizex, sizey, lastRow)).append(createButton());
 
 //wstepne opoznienie po rozpoczeciu gry
     var timeoutValue = 1000;
@@ -103,19 +105,12 @@ function checkForEndGame() {
   var activeEvents = $('td.eventCells');
 
   if (activeEvents.length == 0){
-
+    alert('Wygrałeś !!! Gratulacje');
     console.log('player wins!');
 
   } else if (activeEvents.length >= 10) {
-
+   alert('Przegrałeś!!!');
     console.log('computer wins =(');
 
   }
 }
-//function alert() {
-//  alert('koniec gry-wygrał użytkownik');
-//}
-//dokcument.getElementById('alert');
-//click = function () {
-//  oknoAlert()
-//}
