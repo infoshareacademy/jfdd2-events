@@ -26,8 +26,7 @@
 .menu-dol ul li{
     height: 50px;
     line-height:50px;
-    transition: height 0.2s linear, line-height 0.3s linear;
-
+    transition: background-color 0.4s linear, box-shadow 0.2s linear, border 0.2s linear,height 0.2s linear, line-height 0.3s linear;
 }
 
 
@@ -36,7 +35,6 @@
     transform: scale(1.05);
     box-shadow: 5px 0 7px rgba(0, 0, 0, 0.6), -5px 0 7px rgba(0, 0, 0, 0.6);
 }
-
 
 
 .menu ul li a{
@@ -48,7 +46,7 @@
 }
 .menu-logo{
     margin-left: 100px;
-    background: url("./images/3w.png") no-repeat;
+    background: url("./images/main-page/image-logo.png") no-repeat;
     background-size: cover;
     width: 130px;
     height: 100px;

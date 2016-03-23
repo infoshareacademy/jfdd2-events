@@ -126,23 +126,23 @@
 
 .funkcje .kalendarz {
     /*transition: transform, 0.2s linear;*/
-    background: url("./images/events-calendar.jpg") no-repeat center;
+    background: url("./images/funkcjonalnosci/image-calendar.jpg") no-repeat center;
     background-size: cover;
 }
 
 .funkcje .bilety {
     /*transition: transform, 0.2s linear;*/
-    background: url("./images/leo%20richie%20na%20bilecie.jpg") no-repeat center;
+    background: url("./images/funkcjonalnosci/image-bilety.jpg") no-repeat center;
 }
 
 .funkcje .profil {
     /*transition: transform, 0.2s linear;*/
-    background: url("./images/handshake.jpg") no-repeat center bottom;
+    background: url("./images/funkcjonalnosci/image-profil.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .funkcje .mapa {
     transition: transform, 0.2s linear;
-    background: url("./images/mapa2.jpg") no-repeat center;
+    background: url("./images/funkcjonalnosci/image-mapa.jpg") no-repeat center;
     background-size: cover;
 }
