@@ -33,7 +33,7 @@ $(document).ready(function () {
       for ( var i = 0 ; i < elementy.length ; i++ ) {
 
         if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
-          elementy[i].classList.remove('animacja-ikon-ukryty');
+            elementy[i].classList.remove('animacja-ikon-ukryty');
         }
 
       }

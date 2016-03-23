@@ -146,3 +146,15 @@
     background: url("./images/funkcjonalnosci/image-mapa.jpg") no-repeat center;
     background-size: cover;
 }
+
+.nazwa-funkcjonalności-podstrona {
+    hight:100%;
+    white:100%;
+    font-size: 18px;
+    background-color: gainsboro;
+    /*visibility: hidden;*/
+
+}
+.nazwa-funkcjonalności-podstrona h1 {
+    font-size: 25px;
+}
