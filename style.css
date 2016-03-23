@@ -61,3 +61,7 @@ a {
 a.active1 {
     background-color: red;
 }
+
+.angielski {
+    display: none;
+}
