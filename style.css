@@ -32,8 +32,9 @@ a {
 
 
 .parallaxy{
+    margin-top: 80px;;
     background: url('./images/main-page/image-parallaxy.jpg') no-repeat fixed bottom;
-    /*background-size: cover;*/
+    background-size: cover;
     height: 400px;
 }
 
