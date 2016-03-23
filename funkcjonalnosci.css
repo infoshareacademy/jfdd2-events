@@ -151,10 +151,13 @@
     hight:100%;
     white:100%;
     font-size: 18px;
+    padding-bottom: 25px;
     background-color: gainsboro;
     /*visibility: hidden;*/
 
 }
 .nazwa-funkcjonalności-podstrona h1 {
     font-size: 25px;
+    padding-bottom: 25px;
+    padd
 }
