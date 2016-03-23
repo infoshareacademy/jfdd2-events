@@ -1,0 +1,42 @@
+.sekcja-zajawka {
+    background-image: url('./images/tlo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.misja-gora {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.misja-gora a {
+    color: white;
+    padding: 20px;
+    line-height: 100px;
+}
+
+.misja-dol {
+    height: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    padding: 20px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 40px;
+}

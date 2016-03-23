@@ -1,23 +1,27 @@
-var przycisk1 = $('.przycisk1');
-var przycisk2 = $('.przycisk2');
-var przycisk3 = $('.przycisk3');
-var logo = $('.logo');
-$(window).scroll(function(){
-  var scroll = $(window).scrollTop();
+var timerid; //Used to fire scroll function once after scrolling is done.
+$(document).ready(function(){
+    $("#menu a").click(function(e){
+        e.preventDefault();
+        $("#menu a").removeClass('active1');
+        var id = $(this).attr("href").substring(1);
+        $("body").animate({
+            'scrollTop': $("section#" + id).offset().top
+        });
+    });
+    $("body").scrollTop(1); //forcing window scroll to execute on page load
+    $(window).scroll(function(){
+        clearTimeout(timerid);
+        timerid = setTimeout(checkactivelink, 50);
+    });
 
-  if (scroll >=350 && scroll <=800) {
-    przycisk1.removeClass('przyciskDol').addClass('przyciskX');
-  }else {
-    przycisk1.removeClass('przyciskX').addClass('przycisk');
-  }
-  if(scroll >= 850 && scroll <1280) {
-    przycisk2.removeClass('przyciskDol').addClass('przyciskX')
-  }else {
-    przycisk2.removeClass('przyciskX').addClass('przycisk')
-  }
-  if(scroll>1250) {
-    przycisk3.removeClass('przyciskDol').addClass('przyciskX')
-  }else {
-    przycisk3.removeClass('przyciskX').addClass('przycisk')
-  }
+    function checkactivelink()
+    {
+        $("section").each(function(){
+            if($("body").scrollTop() >= $(this).offset().top)
+            {
+                $("#menu a").removeClass('active1');
+                $("#menu a[href=#" + $(this).attr("id") + "]").addClass('active1');
+            }
+        });
+    }
 });

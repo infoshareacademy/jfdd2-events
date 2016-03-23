@@ -1,0 +1,22 @@
+.smif {
+    position: fixed;
+    right: 0;
+    top: 41%;
+    overflow: hidden;
+    margin-right: -400px;
+    z-index: 9999;
+}
+
+.smif img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.smif a {
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    width: 450px;
+}
