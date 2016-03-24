@@ -95,3 +95,14 @@ $(function () {
     $('.funkcje').hide();
   });
 });
+
+$(function () {
+  $('.animacja-ikon').click(function (event) {
+    event.preventDefault();
+    if ($(this).hasClass('bilety')) {
+      $('.funkcjonalnosci-podstrony .bilety').show();
+    }
+    $('.funkcje').hide();
+  });
+});
+
