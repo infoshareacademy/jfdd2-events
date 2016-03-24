@@ -30,7 +30,7 @@ input:focus {
     outline: 0;
 }
 
-.formularz span {
+#formularz span {
     display: inline-block;
     width: 130px;
     color: black;
@@ -38,4 +38,14 @@ input:focus {
     font-weight: bold;
     font-family: "Helvetica", "sans-serif";
 
+}
+.contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact span.title-form{
+    display: block;
+    font-size: 25px;
+    margin: 40px 0 40px;
 }
