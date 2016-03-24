@@ -152,12 +152,28 @@
     white:100%;
     font-size: 18px;
     padding-bottom: 25px;
+    padding-left: 25px;
     background-color: gainsboro;
-    /*visibility: hidden;*/
+    display: none;
+}
+
+.nazwa-funkcjonalności-podstrona :hover {
+    hight:100%;
+    white:100%;
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    background-color: gainsboro;
 
 }
+
+
 .nazwa-funkcjonalności-podstrona h1 {
     font-size: 25px;
     padding-bottom: 25px;
-    padd
+    padding-left: 25px;
+
+}
+.podstrona-kalendarz {
+    text-align: left;
 }

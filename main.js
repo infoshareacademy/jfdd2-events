@@ -30,26 +30,26 @@ $(document).ready(function () {
     var wysokoscViewportu = window.innerHeight;
 
 
-      for ( var i = 0 ; i < elementy.length ; i++ ) {
+    for (var i = 0; i < elementy.length; i++) {
 
-        if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
-            elementy[i].classList.remove('animacja-ikon-ukryty');
-        }
-
+      if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
+        elementy[i].classList.remove('animacja-ikon-ukryty');
       }
 
+    }
+
   })
-})
+});
 
 
 $(document).ready(function () {
-  
+
 //zmniejszanie wysokosci menu po scrogolwaniu w dol
-  $(window).scroll(function(){
-  var scrollValue = $(window).scrollTop();
-    if(scrollValue > 50){
-    $('#menu').addClass("menu-dol ul");
-    $('.menu-logo').addClass("menu-logo-dol");
+  $(window).scroll(function () {
+    var scrollValue = $(window).scrollTop();
+    if (scrollValue > 50) {
+      $('#menu').addClass("menu-dol ul");
+      $('.menu-logo').addClass("menu-logo-dol");
     } else {
       $('#menu').removeClass("menu-dol ul");
       $('.menu-logo').removeClass("menu-logo-dol");
@@ -63,24 +63,35 @@ $(document).ready(function () {
   });
 
 //sprawdzanie czy ciasteczko zostalo wpisane
-checkCookie(document.cookie);
+  checkCookie(document.cookie);
 
 //walidacja formularza
-$("#formularz").submit(function () {
+  $("#formularz").submit(function () {
 
-  var valid = 0;
-  $(this).find('input[type=email], input[type=tel]').each(function () {
-    if ($(this).val() !== "") {
-      valid = 1;
+    var valid = 0;
+    $(this).find('input[type=email], input[type=tel]').each(function () {
+      if ($(this).val() !== "") {
+        valid = 1;
+      }
+    });
+
+    if (valid > 0) {
+      return true;
+    }
+    else {
+      alert("Wymagamy podania przynajmniej jednego pola");
+      return false;
     }
   });
-
-  if (valid > 0) {
-    return true;
-  }
-  else {
-    alert("Wymagamy podania przynajmniej jednego pola");
-    return false;
-  }
 });
+
+$(function () {
+  $('.animacja-ikon').click(function (event) {
+    event.preventDefault();
+    if ($(this).hasClass('kalendarz')) {
+      $('.funkcjonalnosci-podstrony .kalendarz').show();
+    }
+
+    $('.funkcje').hide();
+  });
 });
