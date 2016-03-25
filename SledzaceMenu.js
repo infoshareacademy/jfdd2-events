@@ -11,7 +11,7 @@ $(document).ready(function(){
     $("body").scrollTop(1); //forcing window scroll to execute on page load
     $(window).scroll(function(){
         clearTimeout(timerid);
-        timerid = setTimeout(checkactivelink, 50);
+        timerid = setTimeout(checkactivelink, 1);
     });
 
     function checkactivelink()
