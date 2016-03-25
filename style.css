@@ -32,8 +32,9 @@ a {
 
 
 .parallaxy{
+    margin-top: 80px;;
     background: url('./images/main-page/image-parallaxy.jpg') no-repeat fixed bottom;
-    /*background-size: cover;*/
+    background-size: cover;
     height: 400px;
 }
 
@@ -59,7 +60,7 @@ a {
 }
 
 a.active1 {
-    background-color: red;
+    background-color: #ff0000;
 }
 
 .angielski {

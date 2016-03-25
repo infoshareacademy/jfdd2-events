@@ -4,7 +4,7 @@ $(document).ready(function () {
     var scrollValue = $(window).scrollTop();
     var $image = $('.parallaxy');
     var positonOfParallaxyContainer = $image.offset().top;
-    var value = (positonOfParallaxyContainer - scrollValue) * 0.5;
+    var value = (positonOfParallaxyContainer - scrollValue) * 0.3;
 
     $image.css('background-position', 'center ' + value + 'px')
 
