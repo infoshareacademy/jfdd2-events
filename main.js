@@ -122,7 +122,15 @@ $(function () {
     if ($(this).hasClass('mapa')) {
       $('.funkcjonalnosci-podstrony .mapa').show();
     }
-    $('funkcje').hide()
+    $('.funkcje').hide()
   });
 
+});
+
+$(function () {
+  $('.buttom-podstrony').click(function () {
+    $('.funkcjonalnosci-podstrony').hide();
+
+    $('.funkcje').show();
+  });
 });
