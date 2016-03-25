@@ -21,6 +21,18 @@ function createCalendarBoard(sizex, sizey, lastRow) {
     }
     $table.append($tr);
   }
+  score = 0;
+  //zmiana usuniecie klasy eventsCells po kliknieciu na komorke
+  $('td', $table).click(function () {
+    if($(this).hasClass('eventCells')){
+      score++;
+    }
+    $(this).removeClass('eventCells').css('background-image', 'none');
+
+    $('#score').html('Ilosc punktow: ' + score);
+
+    checkForEndGame();
+  });
   return $table;
 }
 
@@ -62,7 +74,7 @@ function showEventWithVariableTime(timeoutValue) {
 
 
 //zdefiniowana tablica do zmiany opoznien wywolania funkcji
-    var timeoutValuesArr = [700, 700, 700, 650, 600, 550, 500, 450, 400, 350];
+    var timeoutValuesArr = [650, 500, 550, 500, 450, 400, 400, 380, 360, 350];
     timeoutValue = timeoutValuesArr[numberOfEventCells];
 
 //anulacja funkcji settimeout
@@ -75,55 +87,13 @@ function showEventWithVariableTime(timeoutValue) {
     } else {
 
 
-    };
+    }
 
     checkForEndGame();
 
   }, timeoutValue)
 }
 
-
-$(document).ready(function () {
-  $('#calendarBoard').hide();
-
-  $('.menu-logo').click(function () {
-    $('#calendarBoard').show().addClass('calendarBoardOn');
-
-    var sizey = 5;
-    var sizex = 7;
-    var lastRow = 3;
-    var score = 0;
-    var timeoutID;
-
-    $('.game').empty().append(createCalendarBoard(sizex, sizey, lastRow));
-
-    $('#score').append(score);
-//wstepne opoznienie po rozpoczeciu gry
-    var timeoutValue = 1000;
-    showEventWithVariableTime(timeoutValue);
-
-//zmiana usuniecie klasy eventsCells po kliknieciu na komorke
-    $('td').click(function () {
-      if($(this).hasClass('eventCells')){
-        score++;
-      }
-      $(this).removeClass('eventCells').css('background-image', 'none');
-
-
-
-      $('#score').html('Ilosc punktow: ' + score);
-
-      checkForEndGame();
-    });
-        $('.sekcja-zajawka').click(function(){
-      $('#calendarBoard').hide();
-
-
-    });
-
-
-  });
-});
 
 //algorytm konca gry
 
@@ -140,3 +110,47 @@ function checkForEndGame() {
     clearTimeout(timeoutID);
   }
 }
+
+var timeoutID;
+$(document).ready(function () {
+  $('#calendarBoard').hide();
+
+  $('.menu-logo').click(function () {
+    $('#calendarBoard').show().addClass('calendarBoardOn');
+
+    var sizey = 5;
+    var sizex = 7;
+    var lastRow = 3;
+    var score = 0;
+
+
+    $('.game').empty().append(createCalendarBoard(sizex, sizey, lastRow));
+
+    $('#score').append(score);
+//wstepne opoznienie po rozpoczeciu gry
+    var timeoutValue = 1000;
+    showEventWithVariableTime(timeoutValue);
+
+    //reset gry
+    $('.reset').click(function (){
+      clearTimeout(timeoutID);
+      $('#score').html('Ilosc punktow: ' + score);
+      $('.game').empty().append(createCalendarBoard(sizex, sizey, lastRow));
+      $('#game-over').empty('<a>');
+      showEventWithVariableTime(timeoutValue);
+      console.log(timeoutID);
+    });
+//zakonczenie gry/ wylaczenie diva
+    $('.end').click(function(){
+      clearTimeout(timeoutID);
+      $('#score').html('Ilosc punktow: ' + score);
+      $('#game-over').empty('<a>');
+      $('#calendarBoard').hide('slow');
+
+
+
+    });
+
+
+  });
+});
