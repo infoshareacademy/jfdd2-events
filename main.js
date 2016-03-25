@@ -106,3 +106,12 @@ $(function () {
   });
 });
 
+$(function () {
+  $('animacja-ikon').click(function (event) {
+    event.preventDefault();
+    if ($(this.hasClass('profil')) {
+      $('.funkcjonalnosci-podstrony.profil').show();
+    }
+    $('.funkcje').hide();
+  });
+});
