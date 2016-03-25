@@ -129,7 +129,7 @@ $(function () {
 
 $(function () {
   $('.buttom-podstrony').click(function () {
-    $('.funkcjonalnosci-podstrony').hide();
+    $('.funkcjonalnosci-podstrony > div').hide();
 
     $('.funkcje').show();
   });
