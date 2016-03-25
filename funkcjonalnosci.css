@@ -147,24 +147,21 @@
     background-size: cover;
 }
 
-.nazwa-funkcjonalności-podstrona {
-    hight:100%;
-    white:100%;
+.nazwa-funkcjonalnosci-podstrona {
     font-size: 18px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-top: 25px;
+    padding: 25px;
     background-color: gainsboro;
+    float: right;
     display: none;
+}
+.nazwa-funkcjonalnosci-podstrona img {
+    margin-right:200px ;
 }
 
 
-.nazwa-funkcjonalności-podstrona h1 {
+.nazwa-funkcjonalnosci-podstrona h1 {
     font-size: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
 
-}
-.kalendarz-podstrona-zdjecie {
-    position:relative;
-}
+

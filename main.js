@@ -107,20 +107,20 @@ $(function () {
 });
 
 $(function () {
-  $('animacja-ikon').click(function (event) {
+  $('.animacja-ikon').click(function (event) {
     event.preventDefault();
     if ($(this).hasClass('profil')) {
-      $('.funkcjonalnosci-podstrony.profil').show();
+      $('.funkcjonalnosci-podstrony .profil').show();
     }
     $('.funkcje').hide();
   });
 });
 
 $(function () {
-  $('animacja-ikon').click(function (event) {
+  $('.animacja-ikon').click(function (event) {
     event.preventDefault();
     if ($(this).hasClass('mapa')) {
-      $('.funkcjonalnosci-podstrony.mapa').show();
+      $('.funkcjonalnosci-podstrony .mapa').show();
     }
     $('funkcje').hide()
   });
