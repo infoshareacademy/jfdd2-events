@@ -88,43 +88,31 @@ $(document).ready(function () {
 $(function () {
   $('.animacja-ikon').click(function (event) {
     event.preventDefault();
+
+    var $target;
+
     if ($(this).hasClass('kalendarz')) {
-      $('.funkcjonalnosci-podstrony .kalendarz').show();
+      $target = $('.funkcjonalnosci-podstrony .kalendarz');
     }
 
-    $('.funkcje').hide();
-  });
-});
-
-$(function () {
-  $('.animacja-ikon').click(function (event) {
-    event.preventDefault();
     if ($(this).hasClass('bilety')) {
-      $('.funkcjonalnosci-podstrony .bilety').show();
+      $target = $('.funkcjonalnosci-podstrony .bilety');
     }
-    $('.funkcje').hide();
-  });
-});
 
-$(function () {
-  $('.animacja-ikon').click(function (event) {
-    event.preventDefault();
     if ($(this).hasClass('profil')) {
-      $('.funkcjonalnosci-podstrony .profil').show();
+      $target = $('.funkcjonalnosci-podstrony .profil');
     }
-    $('.funkcje').hide();
-  });
-});
 
-$(function () {
-  $('.animacja-ikon').click(function (event) {
-    event.preventDefault();
     if ($(this).hasClass('mapa')) {
-      $('.funkcjonalnosci-podstrony .mapa').show();
+      $target = $('.funkcjonalnosci-podstrony .mapa');
     }
-    $('.funkcje').hide()
-  });
 
+    $target.show();
+    $('.funkcje').hide();
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top - 50
+    }, 900, 'swing');
+  });
 });
 
 $(function () {
