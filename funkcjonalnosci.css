@@ -155,7 +155,9 @@
     display: none;
 }
 .nazwa-funkcjonalnosci-podstrona img {
-    margin-right:200px ;
+    margin-right:25px ;
+    float: left;
+    margin-left: 25px;
 }
 
 
@@ -164,4 +166,4 @@
     padding-bottom: 25px;
     padding-left: 25px;
 
-
+}
