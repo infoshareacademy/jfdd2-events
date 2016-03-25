@@ -28,15 +28,17 @@
 
 .game{
     background-color: white;
-    /*background-color: rgba(76, 45, 43, 0.7);*/
-
     height: 100%;
+    width: 68%;
+    float: left;
 
 }
 
 .info{
     background-color: white;
     height: 100%;
+    width: 30%;
+    float: right;
     border-left: solid rgba(76, 45, 43, 0.9) 5px;
 }
 
