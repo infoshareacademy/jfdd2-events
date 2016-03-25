@@ -1,0 +1,144 @@
+.dodatkowe-funkcjonalnosci {
+    /*background: url('./images/image-paralaxy-teatr.JPG') no-repeat, bottom;*/
+    /*background-size: cover;*/
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    position: center;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    float: none;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.margines {
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+
+}
+
+.margines img {
+    width: 90px;
+    height: 90px;
+}
+
+.marin-dodatkowe-funkcjonalnosci {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: inline;
+
+}
+
+.feature-icon {
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+}
+
+.feature-icon img {
+    margin: 10px;
+}
+
+.marin-dodatkowe-funkcjonalnosci :hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.o-nas {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+span.contact {
+    line-height: 50px;
+    font-size: 30px;
+    font-family: "Helvetica", "sans-serif";
+
+}
+
+.o-nas li {
+    height: 300px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: left;
+    width: 250px;
+    vertical-align: top;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: 300;
+    margin: 15px;
+    box-shadow: 5px 0 10px rgba(193, 193, 193, 0.75), -5px 0 10px rgba(193, 193, 193, 0.8)
+
+}
+
+.o-nas span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.o-nas h1 {
+    text-align: left;
+    padding-left: 20px;
+    font-family: "Helvetica", "sans-serif";
+
+}
+
+.o-nas a {
+    font-size: 15px;
+
+}
+
+.o-nas img {
+    height: 90px;
+    width: 80px;
+    margin-top: 15px;
+    border-radius: 45px;
+}
+
+footer {
+    background-color: rgba(193, 193, 193, 0.75);
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+
+}
+
+.menu-footer {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline;
+    cursor: pointer;
+
+}
+
+.menu-footer a {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.menu-footer a:hover {
+
+    transform: scale(1.3);
+}
+
+.copy-right {
+    display: block;
+    font-size: 15px;
+    padding: 20px;
+}

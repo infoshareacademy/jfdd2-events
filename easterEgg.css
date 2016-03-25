@@ -1,0 +1,88 @@
+.cellProperties{
+    height: 20%;
+    width: 14%;
+    margin: 12px;
+    background-color: rgba(76, 45, 43, 0.8);
+}
+
+.calendarBoardOff{
+
+}
+.calendarBoardOn{
+    background-color: white;
+    border: solid rgba(76, 45, 43, 0.9) 15px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 9999;
+}
+#calendarBoard table {
+    width: 95%;
+    height: 90%;
+    margin: 2% auto auto 2%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.game{
+    background-color: white;
+    height: 100%;
+    width: 68%;
+    float: left;
+
+}
+
+.reset ,.end {
+    background-color: white;
+    height: 10%;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    color: rgba(76, 45, 43, 0.9);
+    border: solid rgba(76, 45, 43, 0.9) 5px;
+    text-align: center;
+}
+
+.reset, .end a{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.reset{
+    bottom:15%;
+}
+.end{
+    bottom:1%;
+
+}
+
+.info{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    float: right;
+    border-left: solid rgba(76, 45, 43, 0.9) 5px;
+    position: relative;
+}
+
+.info a{
+    color: rgba(76, 45, 43, 0.95);
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.emptyCells{
+    background-color: white;
+}
+
+.eventCells{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+

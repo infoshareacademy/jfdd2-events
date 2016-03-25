@@ -1,6 +1,3 @@
-/**
- * Created by lukaszpotas on 09.03.16.
- */
 function setCookieValue() {
   document.cookie = 'imie=jan';
 }
@@ -21,31 +18,107 @@ function checkCookie(cookieNeV) {
   });
 }
 
+
+var elementy = document.getElementsByClassName('animacja-ikon');
+
+
 $(document).ready(function () {
 
+  $(document).scroll(function () {
 
+    var scrollViewportuOdGory = $(document).scrollTop();
+    var wysokoscViewportu = window.innerHeight;
+
+
+    for (var i = 0; i < elementy.length; i++) {
+
+      if (scrollViewportuOdGory + wysokoscViewportu > elementy[i].offsetTop) {
+        elementy[i].classList.remove('animacja-ikon-ukryty');
+      }
+
+    }
+
+  })
+});
+
+
+$(document).ready(function () {
+
+//zmniejszanie wysokosci menu po scrogolwaniu w dol
+  $(window).scroll(function () {
+    var scrollValue = $(window).scrollTop();
+    if (scrollValue > 50) {
+      $('#menu').addClass("menu-dol ul");
+      $('.menu-logo').addClass("menu-logo-dol");
+    } else {
+      $('#menu').removeClass("menu-dol ul");
+      $('.menu-logo').removeClass("menu-logo-dol");
+    }
+  });
+//wpisanie ciasteczka po kliknknieciu w diva
   $('#cookies').click(function () {
-    setCookieValue()
+    setCookieValue();
     $(this).hide();
 
   });
+
+//sprawdzanie czy ciasteczko zostalo wpisane
   checkCookie(document.cookie);
 
+//walidacja formularza
   $("#formularz").submit(function () {
 
     var valid = 0;
     $(this).find('input[type=email], input[type=tel]').each(function () {
-      if ($(this).val() !== ""){
-          valid = 1;
+      if ($(this).val() !== "") {
+        valid = 1;
       }
     });
 
-    if (valid>0) {
+    if (valid > 0) {
       return true;
     }
     else {
       alert("Wymagamy podania przynajmniej jednego pola");
       return false;
     }
+  });
+});
+
+$(function () {
+  $('.animacja-ikon').click(function (event) {
+    event.preventDefault();
+
+    var $target;
+
+    if ($(this).hasClass('kalendarz')) {
+      $target = $('.funkcjonalnosci-podstrony .kalendarz');
+    }
+
+    if ($(this).hasClass('bilety')) {
+      $target = $('.funkcjonalnosci-podstrony .bilety');
+    }
+
+    if ($(this).hasClass('profil')) {
+      $target = $('.funkcjonalnosci-podstrony .profil');
+    }
+
+    if ($(this).hasClass('mapa')) {
+      $target = $('.funkcjonalnosci-podstrony .mapa');
+    }
+
+    $target.show();
+    $('.funkcje').hide();
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top - 50
+    }, 900, 'swing');
+  });
+});
+
+$(function () {
+  $('.buttom-podstrony').click(function () {
+    $('.funkcjonalnosci-podstrony > div').hide();
+
+    $('.funkcje').show();
   });
 });
