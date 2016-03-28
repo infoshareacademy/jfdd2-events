@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Wydarzenia Gdańska</title>
+    <title>Wydarzenia Gdańska<span class="angielski">Events of Gdansk</span></title>
     <!--<link rel="stylesheet" href="bootstrap/bootstrap.min.css">-->
     <!--<link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">-->
     <link rel="stylesheet" href="reset.css">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="formularz.css">
     <link rel="stylesheet" href="sekcjaZajawka.css">
     <link rel="stylesheet" href="footerSekcjaONas.css">
+    <link rel="stylesheet" href="languageswitch.css">
 </head>
 <body>
 
@@ -24,6 +25,7 @@
 <script src="SledzaceMenu.js"></script>
 <script src="plynneMenu.js"></script>
 <script src="parallaxyEffect.js"></script>
+<script src="languageswitch.js"></script>
 <!--<script src="JQuery.js"></script>-->
 
 
@@ -38,25 +40,29 @@
 
 <div class="menu" id="menu">
     <div class="cookies" id="cookies">
-        <a>Nasza strona korzysta z ciasteczek (ang. cookies) kliknij w pasek, jeżeli się zgadzasz</a>
+        <a><span class="polski">Nasza strona korzysta z ciasteczek kliknij w pasek, jeżeli się zgadzasz</span></a>
+        <a><span class="angielski">Our web page supports cookies, click on the strip if you agree to our terms of usage</span></a>
     </div>
     <div class="menu-logo"></div>
     <nav>
         <ul>
-            <li><a href="#funkcje">Funkcjonalności</a></li>
-            <li><a href="#o-nas">O nas</a></li>
-            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="#funkcje"><span class="polski">Funkcjonalności</span><span class="angielski">Functionalities</span></a></li>
+            <li><a href="#o-nas"><span class="polski">O nas</span><span class="angielski">About us</span></a></li>
+            <li><a href="#contact"><span class="polski">Kontakt</span><span class="angielski">Contact</span></a></li>
         </ul>
     </nav>
     <div class="clear"></div>
 </div>
 
+<section class="languageswitch">
+    <img src="./images/main-page/ukflag.png" src2="./images/main-page/Flag_of_Poland.png" id="languageswitchbutton">
+</section>
 
 <header>
 
     <section class="sekcja-zajawka">
-        <div class="misja-gora animacja-ikon animacja-ikon-ukryty"><a>Kino teatr czy impreza?</a></div>
-        <div class="misja-dol"><p>Znajdź dla siebie najlepszą imprezę!<br>Zobacz gdzie możesz spedzić wolny czas!</p>
+        <div class="misja-gora"><a><span class="polski">Kino teatr czy impreza?</span><span class="angielski">Cinema theatre or a party?</span></a></div>
+        <div class="misja-dol"><p><span class="polski">Znajdź dla siebie najlepszą imprezę!</span><span class="angielski">Find the best event for yourself!</span><br><span class="polski">Zobacz gdzie możesz spedzić wolny czas!</span><span class="angielski">See for yourself where you can spend your free time!</span></p>
         </div>
     </section>
 
@@ -79,16 +85,16 @@
     <section class="funkcje target" id="funkcje">
         <a href="http://www.infoshareacademy.com" target="_blank" class="animacja-ikon animacja-ikon-ukryty kalendarz">
             <div>
-                <div class="nazwa-funkcjonalności">Kalendarz</div>
-                <span class="opis-kalendarz">Znajdź i wybierz eventy które Cię interesują. Dokonaj tego przy pomocy naszego kalendarza.</span>
+                <div class="nazwa-funkcjonalności"><span class="polski">Kalendarz</span><span class="angielski">Calendar</span></div>
+                <span class="opis-kalendarz"><span class="polski">Znajdź i wybierz eventy które Cię interesują. Dokonaj tego przy pomocy naszego kalendarza.</span><span class="angielski">Find and pick those events that particularly interest you. Do it with the help of our calendar.</span></span>
             </div>
 
         </a>
 
         <a href="http://www.infoshareacademy.com" target="_blank" class="animacja-ikon animacja-ikon-ukryty bilety">
             <div>
-                <div class="nazwa-funkcjonalności">Bilety i zaproszenia</div>
-                <span class="opis-bilety">Zdobądź lub zarezerwuj wybrane wejściówki korzystając z naszego search engine.</span>
+                <div class="nazwa-funkcjonalności"><span class="polski">Bilety i zaproszenia</span><span class="angielski">Tickets and invitations</span></div>
+                <span class="opis-bilety"><span class="polski">Zdobądź lub zarezerwuj wybrane wejściówki korzystając z naszego search engine.</span><span class="angielski">Make reservations or pick up invitations using our search engine.</span></span>
             </div>
         </a>
 
@@ -96,16 +102,16 @@
 
         <a href="http://www.infoshareacademy.com" target="_blank" class="animacja-ikon animacja-ikon-ukryty profil">
             <div>
-                <div class="nazwa-funkcjonalności">Stwórz profil</div>
-                <span class="opis-profil">Utwórz własny profil w naszym serwisie. Nie opuść żadnej ważnej daty i bądź na bieżąco.</span>
+                <div class="nazwa-funkcjonalności"><span class="polski">Stwórz profil</span><span class="angielski">Create profile</span></div>
+                <span class="opis-profil"><span class="polski">Utwórz własny profil w naszym serwisie. Nie opuść żadnej ważnej daty i bądź na bieżąco.</span><span class="angielski">Create your very own profile on our site. Don't miss any important date and stay updated for days to come.</span></span>
             </div>
 
         </a>
 
         <a href="http://www.infoshareacademy.com" class="animacja-ikon animacja-ikon-ukryty mapa">
             <div>
-                <div class="nazwa-funkcjonalności">Moja droga na event</div>
-                <span class="opis-mapa">Interaktywna mapa stworzy dla Ciebie plan podróży z każdego miejsca w Polsce i Europie.</span>
+                <div class="nazwa-funkcjonalności"><span class="polski">Moja droga na event</span><span class="angielski">My route to an event</span></div>
+                <span class="opis-mapa"><span class="polski">Interaktywna mapa stworzy dla Ciebie plan podróży z każdego miejsca w Polsce i Europie.</span><span class="angielski">Our interactive map will create for you a travel schedule from any place in Poland or Europe.</span></span>
             </div>
         </a>
 
@@ -211,12 +217,12 @@
 <section class="parallaxy">
 
 </section>
-<section class="dodatkowe-funkcjonalnosci animacja-ikon animacja-ikon-ukryty">
+<section class="dodatkowe-funkcjonalnosci">
     <nav>
         <ul>
-            <div class="margines" id="ukryj-dodatkowe-funkcjonalnosci">
+            <div class="margines">
                 <li class="marin-dodatkowe-funkcjonalnosci"><a class="feature-icon "><img
-                        src="images/dodatkowe-funkcjonalnosci/icon-cinema.png">Kino</a></li>
+                        src="images/dodatkowe-funkcjonalnosci/icon-cinema.png"><span class="polski">Kino</span><span class="angielski">Cinema</span></a></li>
                 <li class="marin-dodatkowe-funkcjonalnosci"><a class="feature-icon icon-teatr"><img
                         src="images/dodatkowe-funkcjonalnosci/icon-theatre.png">Teatr</a></li>
                 <li class="marin-dodatkowe-funkcjonalnosci"><a class="feature-icon icon-sport"><img
@@ -236,43 +242,36 @@
 
 
 <section class="o-nas target" id="o-nas">
-    <div id="ukryj-o-nas">
-        <h1>O nas - Trzeci wymiar</h1>
+    <div>
+        <h1><span class="polski">O nas - Trzeci wymiar</span><span class="angielski">About us - Third Dimension</span></h1>
         <br>
         <ul>
 
-            <li class="animacja-ikon animacja-ikon-ukryty" ><a><img src="images/O-nas/bartlomiej.jpg"> <span>Bartłomiej</span> - absolwent Wyżeszej Szkoły Turystyki i
-                Hotelarstwa
-
-                Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
-                Hobby - piłka nożna.
+            <li class="animacja-ikon animacja-ikon-ukryty" ><a><img src="images/O-nas/bartlomiej.jpg"> <span class="polski">Bartłomiej</span><span class="angielski">Bartlomiej</span><span class="polski"> - absolwent Wyższej Szkoły Turystyki i Hotelarstwa.Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.Hobby - piłka nożna.</span><span class="angielski"> - College graduate Persistent in reaching his goals, friendly, likes teamwork.Hobby - football in all forms.</span>
             </a></li>
 
-            <li class="animacja-ikon animacja-ikon-ukryty"><a><img src="images/O-nas/lukasz.jpg"> <span>Łukasz</span> - absolwent Politechniki Gdańskiej.
-                Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.
-                Hobby - jazda na rowerze i wędrówki górskie.
+            <li class="animacja-ikon animacja-ikon-ukryty"><a><img src="images/O-nas/lukasz.jpg"> <span class="polski">Łukasz</span><span class="angielski">Lucas</span><span class="polski"> - absolwent Politechniki Gdańskiej.Wytrwały w dążeniu do osiągniecia celu,koleżeński lubi pracę w grupie.Hobby - jazda na rowerze i wędrówki górskie.</span><span class="angielski"> - College graduate.Persistent in reaching his goals, friendly, likes teamwork.Hobby - cycling and trekking.</span>
             </a></li>
-            <li class="animacja-ikon animacja-ikon-ukryty"><a><img src="images/O-nas/karina.jpg"> <span>Karina</span> - absolwentka Politechniki Koszalińskiej.
-                Lubi pracę w grupie, koleżeńska. Hobby - jazda na rolkach i długie spacery.
+            <li class="animacja-ikon animacja-ikon-ukryty"><a><img src="images/O-nas/karina.jpg"> <span class="polski">Karina</span><span class="angielski">Karina</span><span class="polski"> - absolwentka Politechniki Koszalińskiej.Lubi pracę w grupie, koleżeńska.Hobby - jazda na rolkach i długie spacery.</span><span class="angielski"> - College graduate.Persistent in reaching her goals.Likes teamwork, insanely friendly.Hobby - rollerblading and long walks.</span>
             </a>
 
 
         </ul>
     </div>
     </section>
-    <section class="contact target animacja-ikon animacja-ikon-ukryty" id="contact">
+    <section class="contact target" id="contact">
     <div>
         <span class="title-form">Wypełnij formularz, aby skontaktować się z nami</span>
 
         <form class="formularz" id="formularz" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
 
 
-            <span>Adres e-mail:</span><input type="email" name="email "
+            E-mail:<input type="email" name="email "
                                              placeholder="np. info@infoshare.pl"><br><br>
-            <span>Telefon:</span><input type="tel" name="telefon" placeholder="np. 601102203"
+            Phone:<input type="tel" name="telefon" placeholder="np. 601102203"
                                         pattern="[0-9]{9}"><br><br>
             <input type="hidden" name="receiver" value="pot.lukas@gmail.com">
-            <input type="submit" value="Wyślij">
+            <input type="submit" value="Send">
 
         </form>
     </div>
@@ -283,15 +282,15 @@
     <section class="menu-footer">
         <nav>
             <ul class="menu-footer">
-                <li id="footer-reklama-lewy" class="menu-footer"><a>Reklama</a></li>
-                <li id="footer-srodek" class="menu-footer"><a>Polityka prywatności</a></li>
-                <li id="footer-srodek-praca" class="menu-footer"><a>Praca</a></li>
-                <li id="footer-logowanie-prawy" class="menu-footer"><a>Logowanie</a></li>
+                <li id="footer-reklama-lewy" class="menu-footer"><a><span class="polski">Reklama</span><span class="angielski">Advertising</span></a></li>
+                <li id="footer-srodek" class="menu-footer"><a><span class="polski">Polityka prywatności</span><span class="angielski">Privacy Policy</span></a></li>
+                <li id="footer-srodek-praca" class="menu-footer"><a><span class="polski">Praca</span><span class="angielski">Jobs</span></a></li>
+                <li id="footer-logowanie-prawy" class="menu-footer"><a><span class="polski">Logowanie</span><span class="angielski">Logging in</span></a></li>
             </ul>
         </nav>
     </section>
     <br>
-    <span class="copy-right"> © 2016 Trzeci Wymiar</span>
+    <span class="copy-right"><span class="polski"> © 2016 Trzeci Wymiar</span><span class="angielski"> © 2016 Third Dimension</span></span>
 
 
 </footer>

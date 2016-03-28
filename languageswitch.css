@@ -1,0 +1,11 @@
+.languageswitch {
+    z-index: 9999;
+    position: fixed;
+    top: 200px;
+    right: 0;
+}
+
+.languageswitch img {
+    width: 50px;
+    height: 50px;
+}

@@ -68,10 +68,10 @@ span.contact {
 }
 
 .o-nas li {
-    height: 250px;
+    height: 300px;
     background-color: transparent;
     display: inline-block;
-    text-align: justify;
+    text-align: left;
     width: 250px;
     vertical-align: top;
     padding-right: 12px;
