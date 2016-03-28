@@ -18,7 +18,6 @@ function checkCookie(cookieNeV) {
   });
 }
 
-
 var elementy = document.getElementsByClassName('animacja-ikon');
 
 
@@ -85,6 +84,21 @@ $(document).ready(function () {
   });
 });
 
+
+function ukryj()
+{
+  var ukryj = document.getElementById("ukryj-o-nas");
+  ukryj.hidden = true;
+  ukryj = document.getElementById("ukryj-dodatkowe-funkcjonalnosci");
+  ukryj.hidden = true;
+}
+
+function pokarz() {
+  var divonas = document.getElementById("ukryj-o-nas");
+  divonas.hidden = false;
+  divonas = document.getElementById("ukryj-dodatkowe-funkcjonalnosci");
+  divonas.hidden = false;
+}
 $(function () {
   $('.animacja-ikon').click(function (event) {
     event.preventDefault();
@@ -93,18 +107,23 @@ $(function () {
 
     if ($(this).hasClass('kalendarz')) {
       $target = $('.funkcjonalnosci-podstrony .kalendarz');
+
+      ukryj();
     }
 
     if ($(this).hasClass('bilety')) {
       $target = $('.funkcjonalnosci-podstrony .bilety');
+      ukryj();
     }
 
     if ($(this).hasClass('profil')) {
       $target = $('.funkcjonalnosci-podstrony .profil');
+      ukryj();
     }
 
     if ($(this).hasClass('mapa')) {
       $target = $('.funkcjonalnosci-podstrony .mapa');
+      ukryj();
     }
 
     $target.show();
@@ -117,6 +136,7 @@ $(function () {
 
 $(function () {
   $('.buttom-podstrony').click(function () {
+   pokarz();
     $('.funkcjonalnosci-podstrony > div').hide();
 
     $('.funkcje').show();
