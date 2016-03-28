@@ -6,8 +6,9 @@
 
 .funkcje {
     margin: 0 auto;
-    padding-left: 20%;
+    /*padding-left: 20%;*/
     margin-top: 50px;
+    text-align: center;
 }
 
 .funkcje a {
@@ -66,7 +67,7 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    /*margin-left: 175px;*/
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
@@ -83,7 +84,7 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    /*margin-left: 175px;*/
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
@@ -99,7 +100,7 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    /*margin-left: 175px;*/
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
@@ -115,7 +116,7 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    margin-left: 175px;
+    /*margin-left: 175px;*/
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
