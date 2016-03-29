@@ -36,24 +36,35 @@
 
 .reset ,.end {
     background-color: white;
-    height: 10%;
+    height: 100px;
     position: absolute;
     left: 20px;
     right: 20px;
     color: rgba(76, 45, 43, 0.9);
     border: solid rgba(76, 45, 43, 0.9) 5px;
     text-align: center;
+    cursor: pointer;
 }
 
-.reset, .end a{
-    display: inline-block;
+.info .reset a {
+    margin: 0;
+    display: block;
     font-size: 30px;
-    line-height: 100%;
+    line-height: 100px;
+}
+.info .end a{
+    margin: 0;
+    display: block;
+    font-size: 30px;
+    line-height: 100px;
 }
 
 .reset{
     bottom:15%;
+
 }
+
+
 .end{
     bottom:1%;
 

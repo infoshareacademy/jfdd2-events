@@ -29,7 +29,7 @@ function createCalendarBoard(sizex, sizey, lastRow) {
     }
     $(this).removeClass('eventCells').css('background-image', 'none');
 
-    $('#score').html('Ilosc punktow: ' + score);
+    $('#score').html(' Ilość punktów: ' + score);
 
     checkForEndGame();
   });
@@ -102,11 +102,11 @@ function checkForEndGame() {
   console.log(activeEvents.length);
 
   if (activeEvents.length == 0){
-    $('#game-over').append('<a>', 'Brawo! Wygrałeś!');
+    $('#game-over').empty().append('<a>', ' Brawo! Wygrałeś!');
     clearTimeout(timeoutID);
 
   } else if (activeEvents.length >= 10) {
-    $('#game-over').append('<a>', 'Przegrałeś!');
+    $('#game-over').empty().append('<a>', ' Przegrałeś!');
     clearTimeout(timeoutID);
   }
 }
@@ -126,7 +126,7 @@ $(document).ready(function () {
 
     $('.game').empty().append(createCalendarBoard(sizex, sizey, lastRow));
 
-    $('#score').append(score);
+    $('#score').html(' Ilość punktów: ' + score);
 //wstepne opoznienie po rozpoczeciu gry
     var timeoutValue = 1000;
     showEventWithVariableTime(timeoutValue);
@@ -134,7 +134,7 @@ $(document).ready(function () {
     //reset gry
     $('.reset').click(function (){
       clearTimeout(timeoutID);
-      $('#score').html('Ilosc punktow: ' + score);
+      $('#score').html(' Ilość punktów: ' + score);
       $('.game').empty().append(createCalendarBoard(sizex, sizey, lastRow));
       $('#game-over').empty('<a>');
       showEventWithVariableTime(timeoutValue);
@@ -143,7 +143,7 @@ $(document).ready(function () {
 //zakonczenie gry/ wylaczenie diva
     $('.end').click(function(){
       clearTimeout(timeoutID);
-      $('#score').html('Ilosc punktow: ' + score);
+      $('#score').html(' Ilość punktów: ' + score);
       $('#game-over').empty('<a>');
       $('#calendarBoard').hide('slow');
 
