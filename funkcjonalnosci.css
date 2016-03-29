@@ -67,13 +67,13 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    /*margin-left: 175px;*/
+    text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
-    padding-left: 20px;
     font-weight: 700;
     transition: all 0.8s ease;
+    margin-left: -200px;
 }
 
 
@@ -84,13 +84,13 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    /*margin-left: 175px;*/
+    text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
-    padding-left: 20px;
     font-weight: 700;
     transition: all 0.8s ease;
+    margin-left: -200px;
 }
 
 .funkcje .opis-profil {
@@ -100,13 +100,13 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    /*margin-left: 175px;*/
+    text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
-    padding-left: 20px;
     font-weight: 700;
     transition: all 0.8s ease;
+    margin-left: -200px;
 }
 
 .funkcje .opis-mapa {
@@ -116,13 +116,13 @@
     position: absolute;
     border: solid;
     border-color: transparent;
-    /*margin-left: 175px;*/
+    text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 25px;
-    padding-left: 20px;
     font-weight: 700;
     transition: all 0.8s ease;
+    margin-left: -200px;
 }
 
 .funkcje .kalendarz {
