@@ -1,0 +1,7 @@
+.pusty {
+    height: 750px;
+}
+
+.bar:before {
+    content: " ";
+}
