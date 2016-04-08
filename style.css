@@ -60,5 +60,9 @@ a {
 }
 
 a.active1 {
-    background-color: #ff0000;
+    background-color: lightgrey;
+}
+
+.angielski {
+    display: none;
 }

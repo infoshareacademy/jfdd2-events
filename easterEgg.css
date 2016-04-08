@@ -36,24 +36,35 @@
 
 .reset ,.end {
     background-color: white;
-    height: 10%;
+    height: 100px;
     position: absolute;
     left: 20px;
     right: 20px;
     color: rgba(76, 45, 43, 0.9);
     border: solid rgba(76, 45, 43, 0.9) 5px;
     text-align: center;
+    cursor: pointer;
 }
 
-.reset, .end a{
-    display: inline-block;
+.info .reset a {
+    margin: 0;
+    display: block;
     font-size: 30px;
-    line-height: 100%;
+    line-height: 100px;
+}
+.info .end a{
+    margin: 0;
+    display: block;
+    font-size: 30px;
+    line-height: 100px;
 }
 
 .reset{
     bottom:15%;
+
 }
+
+
 .end{
     bottom:1%;
 
@@ -86,3 +97,46 @@
     background-repeat: no-repeat;
 }
 
+.chooseLevel{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.level1, .level2, .level3{
+    border: solid rgba(76, 45, 43, 0.9) 5px;
+    display: inline-block;
+    width: 28%;
+    margin: 1.3%;
+    height: 56%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.level1 a, .level2 a, .level3 a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.level1{
+background-color: green;
+
+}
+
+.level2{
+    background-color: orange;
+
+}
+.level3{
+    background-color: red;
+
+}
+#score{
+    margin-top: 200px;
+}
+.level1Click, .level2Click, .level3Click{
+    background-color: white;
+
+}
