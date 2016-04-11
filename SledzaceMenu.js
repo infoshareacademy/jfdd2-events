@@ -1,6 +1,6 @@
 var timerid; //Used to fire scroll function once after scrolling is done.
 $(document).ready(function(){
-    $("#menu a").click(function(e){
+    $('#menu a[href^="#"]').click(function(e){
         e.preventDefault();
         $("#menu a").removeClass('active1');
         var id = $(this).attr("href").substring(1);
