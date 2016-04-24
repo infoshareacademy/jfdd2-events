@@ -1,5 +1,6 @@
 var timerid; //Used to fire scroll function once after scrolling is done.
-$(document).ready(function(){
+
+ $(document).ready(function(){
     $('#menu a[href^="#"]').click(function(e){
         e.preventDefault();
         $("#menu a").removeClass('active1');
@@ -25,3 +26,4 @@ $(document).ready(function(){
         });
     }
 });
+
